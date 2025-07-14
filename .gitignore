@@ -1,0 +1,12 @@
+incorrect_predictions/
+tiles/
+Data/
+*.tif
+*.tiff
+*.png
+*.csv
+*.txt
+*.pkl
+*.npz
+*.joblib
+*.pth
