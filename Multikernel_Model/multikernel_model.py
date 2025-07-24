@@ -35,7 +35,7 @@ class MultiKernelConv1d(nn.Module):
         return F.relu(x_cat)
 
 class FocalLoss(nn.Module):
-    def __init__(self, alpha = 2, gamma=2.0, reduction='mean'):
+    def __init__(self, alpha = 1, gamma=2.0, reduction='mean'):
         super(FocalLoss, self).__init__()
         self.alpha = alpha  # weight for class 1 (disturbance)
         self.gamma = gamma  # focusing parameter
