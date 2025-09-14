@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
+from torchvision.ops import sigmoid_focal_loss
 
 class TemporalDropout(nn.Module):
     def __init__(self, dropout_rate=0.3):
@@ -34,8 +35,10 @@ class MultiKernelConv1d(nn.Module):
         x_cat = self.norm(x_cat.permute(0, 2, 1)).permute(0, 2, 1)
         return F.relu(x_cat)
 
+### check again!
+##BCE with weights for validation --> as good as FocalLoss?
 class FocalLoss(nn.Module):
-    def __init__(self, alpha = 1, gamma=2.0, reduction='mean'):
+    def __init__(self, alpha = 0.25, gamma=4.0, reduction='mean'):
         super(FocalLoss, self).__init__()
         self.alpha = alpha  # weight for class 1 (disturbance)
         self.gamma = gamma  # focusing parameter
@@ -47,11 +50,30 @@ class FocalLoss(nn.Module):
 
         # Convert logits to probabilities
         pt = torch.exp(-BCE_loss)  # pt is the probability of correct prediction
+        alpha_t = torch.where(targets == 1, self.alpha, 1 - self.alpha)
 
         # Compute focal loss
-        loss = self.alpha * (1 - pt) ** self.gamma * BCE_loss
+        #loss = self.alpha * (1 - pt) ** self.gamma * BCE_loss
+        loss = alpha_t *(1 - pt) ** self.gamma * BCE_loss
+
 
         return loss.mean() if self.reduction == 'mean' else loss.sum()
+
+class TorchvisionFocalLoss(nn.Module):
+    def __init__(self, alpha=0.25, gamma=2.0, reduction='mean'):
+        super().__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+        self.reduction = reduction
+    
+    def forward(self, inputs, targets):
+        return sigmoid_focal_loss(
+            inputs, 
+            targets, 
+            alpha=self.alpha, 
+            gamma=self.gamma, 
+            reduction=self.reduction
+        )
 
 class TemporalSelfAttention(nn.Module):
     def __init__(self, embed_dim):
@@ -85,7 +107,7 @@ class AlbasUNet(nn.Module):
 
         # Multi-kernel convs output 3x channels
         self.dropout = TemporalDropout(dropout_rate=0.2)
-        self.conv1 = MultiKernelConv1d(in_channels=6, out_channels=n_ch1)  # Outputs 16*3=48 channels
+        self.conv1 = MultiKernelConv1d(in_channels=8, out_channels=n_ch1)  # 8 features: RED, SW1, SW2, NBR, NDVI, TCG, TCW, DIn
         self.pool1 = nn.AvgPool1d(kernel_size=2)
 
         self.conv2 = MultiKernelConv1d(in_channels=48, out_channels=n_ch2)  # Outputs 32*3=96 channels
