@@ -156,3 +156,19 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
 
         # Model selection based on AUPRC at target timestep
         current_metric = val_auprc if config.select_by == "auprc" else -val_loss
+        is_better = (config.select_by == "auprc" and (val_auprc == val_auprc) and current_metric > best_metric) or \
+                    (config.select_by == "loss"  and current_metric > best_metric)
+        
+        if is_better:
+            best_metric = current_metric
+            best_epoch = epoch + 1
+            torch.save({
+                "epoch": best_epoch,
+                "model_state_dict": model.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "val_loss": val_loss,
+                "val_auprc": val_auprc
+            }, config.checkpoint_path)
+
+        return history, {"best_epoch": best_epoch, "best_metric": best_metric,
+                "ckpt_path": config.checkpoint_path, "select_by": config.select_by}
