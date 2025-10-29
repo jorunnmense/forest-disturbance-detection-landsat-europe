@@ -31,7 +31,7 @@ def train_epoch_full_supervision(model, train_loader, optimizer, device, loss_fn
     all_labels = torch.cat(all_labels).numpy()
 
     # Flatten for overall F1
-    preds_all = (all_probs.flatten() > 0.5).astype(int)
+    preds_all = (all_probs.flatten() > config.classification_threshold).astype(int)
     train_f1_all = f1_score(all_labels.flatten(), preds_all, average='binary', zero_division=0)
     train_acc = accuracy_score(all_labels.flatten(), preds_all)
 
@@ -47,7 +47,7 @@ def train_epoch_full_supervision(model, train_loader, optimizer, device, loss_fn
 
     train_f1_target = f1_score(
         all_labels[:, target_pos],
-        (all_probs[:, target_pos] > 0.5).astype(int),
+        (all_probs[:, target_pos] > config.classification_threshold).astype(int),
         zero_division=0
     )
 
@@ -101,7 +101,7 @@ def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
     # Overall F1 across all positions
     all_probs_flat = torch.cat(val_probs_all).numpy().flatten()
     all_labels_flat = torch.cat(val_labels_all).numpy().flatten()
-    val_f1_all = f1_score(all_labels_flat, (all_probs_flat > 0.5).astype(int),
+    val_f1_all = f1_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int),
                            average='binary', zero_division=0)
 
     # Target timestep metrics
@@ -169,6 +169,5 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
                 "val_loss": val_loss,
                 "val_auprc": val_auprc
             }, config.checkpoint_path)
-
-        return history, {"best_epoch": best_epoch, "best_metric": best_metric,
+    return history, {"best_epoch": best_epoch, "best_metric": best_metric,
                 "ckpt_path": config.checkpoint_path, "select_by": config.select_by}

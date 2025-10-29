@@ -10,7 +10,7 @@ Main components:
 - data_preprocessing: Data loading, windowing, normalization
 - models: Neural network architectures (U-Net, attention, multi-kernel conv)
 - losses: Loss functions (Focal Loss)
-- training: Training loops (single position and full supervision)
+- training full supervision: Training loops (single position and full supervision)
 - evaluation: Metrics, threshold selection, visualization
 - utils: Helper functions (seed setting, split inspection)
 """
@@ -28,32 +28,27 @@ from .data_preprocessing import (
 )
 
 # ============== Models ==============
+# ============== Models ==============
 from .models import (
     SmallUNet1D,
     MultiKernelConv1d,
     TemporalSelfAttention,
-    TemporalDropout
+    TemporalDropout,
+    TemporalCNN,
+    get_model
 )
 
 # ============== Loss Functions ==============
 from .losses import FocalLoss
 
 # ============== Training ==============
-from .training import (
-    train_model,
-    train_and_select_best,
-    make_target_mask,
-    safe_to_device
-)
 
 # Optional: full supervision training
-try:
-    from .training_full_supervision import (
-        train_model_full_supervision,
-        train_and_select_best_full_supervision
-    )
-except ImportError:
-    pass  # Full supervision module is optional
+from .training_full_supervision import (
+    train_epoch_full_supervision,
+    validate_epoch_full_supervision,
+    train_full_supervision_with_selection)
+
 
 # ============== Evaluation ==============
 from .evaluation import (
@@ -66,7 +61,9 @@ from .evaluation import (
     plot_history,
     plot_precision_recall_curve,
     plot_f1_vs_threshold,
-    plot_confusion_matrix
+    plot_confusion_matrix,
+    make_target_mask,
+    safe_to_device
 )
 
 # ============== Utilities ==============
@@ -89,6 +86,8 @@ __all__ = [
     'MultiKernelConv1d',
     'TemporalSelfAttention',
     'TemporalDropout',
+    'TemporalCNN',
+    'get_model',
     
     # Loss
     'FocalLoss',

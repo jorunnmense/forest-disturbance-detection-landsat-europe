@@ -36,11 +36,31 @@ class Config:
         self.num_workers = 4
         self.pin_memory = False
         self.persistent_workers = False
+
+        # Add this section to your Config class in config.py
+
+        # ============== CLASSIFICATION THRESHOLD ==============
+        # Probability threshold for binary classification decisions
+        self.classification_threshold = 0.5  # Default threshold
+
+        # Threshold selection method: "fixed", "f1_optimal", "precision_optimal", "recall_optimal"
+        self.threshold_selection_method = "f1_optimal"
+
+        # For fixed threshold mode, specify the exact value
+        self.fixed_threshold = 0.5
+
+        # For optimal threshold selection, specify which metric to optimize
+        self.threshold_optimization_metric = "f1"  # "f1", "precision", "recall"
         
         # ============== MODEL ARCHITECTURE ==============
-        self.base_channels = 16
-        self.dropout_rate = 0.2
-        self.temporal_dropout_rate = 0.2
+
+        # Model selection: "SmallUNet1D", "TemporalCNN"
+        self.model_name = "TemporalCNN"
+        
+        # TemporalCNN parameters
+        self.base_channels = 24 # before: 16
+        self.dropout_rate = 0.0
+        self.temporal_dropout_rate = 0.0
         
         # Normalization: 'bn' (BatchNorm), 'ln' (LayerNorm via GroupNorm), 'gn8' (GroupNorm)
         # Use 'ln' for small batch sizes (<16), 'bn' for larger batches

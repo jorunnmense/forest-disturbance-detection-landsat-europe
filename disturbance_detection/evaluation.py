@@ -8,7 +8,64 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import (accuracy_score, precision_score, recall_score, f1_score,
                             confusion_matrix, classification_report, 
                             precision_recall_curve, average_precision_score)
-from .training import make_target_mask
+
+
+def make_target_mask(m: torch.Tensor, mode: str = "last") -> torch.Tensor:
+    """
+    Build a 1-hot mask over time per sample using the valid length inferred from m (1=valid, 0=pad).
+    
+    Supported modes:
+      - "center": floor(center) within the valid part
+      - "last": last valid step
+      - "second_last": second-to-last valid step (clamped to 0 if length==1)
+      - "idx:<int>": fixed index; negatives mean from the end (e.g., idx:-1 == last)
+    
+    Args:
+        m: Mask tensor (B, T) where 1=valid timestep, 0=padding
+        mode: Target position mode
+        
+    Returns:
+        Target mask (B, T) with 1 at supervised position, 0 elsewhere
+    """
+    B, T = m.shape
+    lens = m.sum(dim=1).long().clamp(min=1)  # valid lengths per sample
+
+    if mode == "center":
+        idx = lens // 2
+    elif mode == "last":
+        idx = lens - 1
+    elif mode == "second_last":
+        idx = (lens - 2).clamp(min=0)
+    elif mode.startswith("idx:"):
+        k = int(mode.split(":", 1)[1])
+        # support negative indexing from the end
+        idx = torch.where(torch.tensor(k >= 0, device=m.device), torch.full_like(lens, k), lens + k)
+        idx = idx.clamp(min=0, max=lens - 1)
+    else:
+        raise ValueError("mode must be 'center', 'last', 'second_last', or 'idx:<int>'")
+
+    tm = torch.zeros_like(m)
+    tm[torch.arange(B, device=m.device), idx] = 1.0
+    return tm
+
+
+def safe_to_device(module, device):
+    """
+    Safely move module to device with fallback to CPU on CUDA errors.
+    
+    Args:
+        module: PyTorch module to move
+        device: Target device
+        
+    Returns:
+        Module on device (or CPU if device failed)
+    """
+    try:
+        return module.to(device)
+    except RuntimeError as e:
+        print("[WARN] CUDA issue, falling back to CPU:", e)
+        torch.cuda.empty_cache()
+        return module.to("cpu")
 
 
 @torch.no_grad()
