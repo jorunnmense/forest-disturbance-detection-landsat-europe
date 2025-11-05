@@ -21,7 +21,7 @@ class Config:
         self.max_train_path = "/home/ubuntu/work/saved_data/landsat_disturbance_detection/clean_1D_U_Net/deep_disturbance/disturbance_detection/max_train_w5_back_bands_indices_v5_results.npy"
         
         # ============== DATA PREPARATION ==============
-        self.window_size = 5
+        self.window_size = 7
         self.max_window = 5
         self.batch_size = 64
         self.seed = 42
@@ -30,7 +30,7 @@ class Config:
         self.features_mode = "bands"
         
         # Target position for supervision: "last", "center", "second_last", "idx:<int>"
-        self.target_mode = "last"
+        self.target_mode = "second_last"
         
         # DataLoader settings
         self.num_workers = 4
@@ -59,7 +59,7 @@ class Config:
         
         # TemporalCNN parameters
         self.base_channels = 24 # before: 16
-        self.dropout_rate = 0.0
+        self.dropout_rate = 0.3 # before: 0.3
         self.temporal_dropout_rate = 0.0
         
         # Normalization: 'bn' (BatchNorm), 'ln' (LayerNorm via GroupNorm), 'gn8' (GroupNorm)
@@ -69,11 +69,16 @@ class Config:
         # Kernel sizes for multi-scale convolutions
         self.kernel_sizes_small = (1, 3, 5)
         self.kernel_sizes_big = (3, 5, 7)
+
+        self.kernel_sizes_input_30_small = (3,7,11)
+        self.kernel_sizes_input_30_big = (5,9,13)
         
         # ============== TRAINING ==============
         self.num_epochs = 30
-        self.learning_rate = 1e-4
-        self.weight_decay = 1e-2  # for AdamW
+        self.learning_rate = 3e-4 #1e-4
+        self.weight_decay = 1e-4 #1e-2  # for AdamW
+        self.scheduler_patience = 3
+        self.scheduler_factor = 0.5
         
         # Optimizer settings (AdamW)
         self.betas = (0.9, 0.999)

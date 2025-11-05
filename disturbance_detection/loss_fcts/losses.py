@@ -60,3 +60,42 @@ class FocalLoss(nn.Module):
             return loss.sum()
         else:
             raise ValueError(f"Invalid reduction mode: {self.reduction}")
+
+
+class AsymmetricFocalLoss(nn.Module):
+    def __init__(self, alpha=0.25, gamma_pos=2.0, gamma_neg=1.0, reduction='mean'):
+        """
+        Args:
+            alpha: Weight for positive class
+            gamma_pos: Focusing parameter for positive class (disturbances)
+            gamma_neg: Focusing parameter for negative class (undisturbed)
+        """
+        super().__init__()
+        self.alpha = alpha
+        self.gamma_pos = gamma_pos
+        self.gamma_neg = gamma_neg
+        self.reduction = reduction
+    
+    def forward(self, logits, targets):
+        """
+        Args:
+            logits: Raw model outputs (B, T)
+            targets: Ground truth labels (B, T)
+        """
+        probs = torch.sigmoid(logits)
+        
+        # Positive class loss (disturbances)
+        pos_loss = -self.alpha * ((1 - probs) ** self.gamma_pos) * torch.log(probs + 1e-8)
+        
+        # Negative class loss (undisturbed)
+        neg_loss = -(1 - self.alpha) * (probs ** self.gamma_neg) * torch.log(1 - probs + 1e-8)
+        
+        # Combine based on targets
+        loss = targets * pos_loss + (1 - targets) * neg_loss
+        
+        if self.reduction == 'mean':
+            return loss.mean()
+        elif self.reduction == 'sum':
+            return loss.sum()
+        else:
+            return loss

@@ -35,11 +35,12 @@ from .models import (
     TemporalSelfAttention,
     TemporalDropout,
     TemporalCNN,
-    get_model
+    get_model,
+    MediumUNet1D
 )
 
 # ============== Loss Functions ==============
-from .losses import FocalLoss
+from .loss_fcts import FocalLoss
 
 # ============== Training ==============
 
@@ -88,6 +89,7 @@ __all__ = [
     'TemporalDropout',
     'TemporalCNN',
     'get_model',
+    'MediumUNet1D',
     
     # Loss
     'FocalLoss',

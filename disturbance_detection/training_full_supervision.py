@@ -1,6 +1,21 @@
 import torch
 import numpy as np
-from sklearn.metrics import f1_score, average_precision_score, precision_recall_curve, accuracy_score
+from sklearn.metrics import f1_score, average_precision_score, precision_recall_curve, accuracy_score, precision_score, recall_score
+from torch.optim.lr_scheduler import ReduceLROnPlateau
+
+def get_target_position(config, sequence_length):
+    """
+    Get the target position based on the config.
+    """
+    if config.target_mode == "last":
+        target = -1
+    elif config.target_mode == "second_last":
+        target = -2
+    elif config.target_mode == "center":
+        target = sequence_length // 2
+    else:
+        target = -1
+    return target
 
 
 def train_epoch_full_supervision(model, train_loader, optimizer, device, loss_fn, config):
@@ -34,22 +49,21 @@ def train_epoch_full_supervision(model, train_loader, optimizer, device, loss_fn
     preds_all = (all_probs.flatten() > config.classification_threshold).astype(int)
     train_f1_all = f1_score(all_labels.flatten(), preds_all, average='binary', zero_division=0)
     train_acc = accuracy_score(all_labels.flatten(), preds_all)
+    train_precision = precision_score(all_labels.flatten(), preds_all, zero_division=0)
+    train_recall = recall_score(all_labels.flatten(), preds_all, zero_division=0)
 
     # Target timestep F1
-    if config.target_mode == "last":
-        target_pos = -1
-    elif config.target_mode == "second_last":
-        target_pos = -2
-    elif config.target_mode == "center":
-        target_pos = all_labels.shape[1] // 2
-    else:
-        target_pos = -1
+    #target_pos = get_target_position(config, all_labels.shape[1])
+    target_pos = get_target_position(config, config.window_size)
 
     train_f1_target = f1_score(
         all_labels[:, target_pos],
         (all_probs[:, target_pos] > config.classification_threshold).astype(int),
         zero_division=0
     )
+
+    train_precision_target = precision_score(all_labels[:, target_pos], (all_probs[:, target_pos] > config.classification_threshold).astype(int), zero_division=0)
+    train_recall_target = recall_score(all_labels[:, target_pos], (all_probs[:, target_pos] > config.classification_threshold).astype(int), zero_division=0)
 
     avg_loss = total_loss / len(train_loader)
     return avg_loss, train_acc, train_f1_all, train_f1_target
@@ -68,18 +82,12 @@ def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
     val_loss = 0.0
     val_probs_all, val_labels_all = [], []
     val_probs_target, val_labels_target = [], []
+    eps = 1e-8
 
     # Determine target timestep index from first batch
-    sample_y = next(iter(val_loader))[1]
-    T = sample_y.shape[1]
-    if config.target_mode == "last":
-        target_pos = -1
-    elif config.target_mode == "second_last":
-        target_pos = -2
-    elif config.target_mode == "center":
-        target_pos = T // 2
-    else:
-        target_pos = -1
+    #sample_y = next(iter(val_loader))[1]
+    #T = sample_y.shape[1]
+    target_pos = get_target_position(config, config.window_size)
 
     with torch.no_grad():
         for x, y, _ in val_loader:  # ignore mask
@@ -103,6 +111,8 @@ def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
     all_labels_flat = torch.cat(val_labels_all).numpy().flatten()
     val_f1_all = f1_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int),
                            average='binary', zero_division=0)
+    val_recall_all = recall_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int), zero_division=0)                       
+    val_precision = precision_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int), zero_division=0)
 
     # Target timestep metrics
     y_true_target = torch.cat(val_labels_target).numpy().astype(int) if val_labels_target else np.array([])
@@ -111,7 +121,7 @@ def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
     if y_true_target.size and len(np.unique(y_true_target)) == 2:
         val_auprc = average_precision_score(y_true_target, y_prob_target)
         precision, recall, thresholds = precision_recall_curve(y_true_target, y_prob_target)
-        f1_curve = 2 * precision * recall / (precision + recall + 1e-8)
+        f1_curve = 2 * precision * recall / (precision + recall + eps)
         val_f1_target_best = float(np.nanmax(f1_curve[1:])) if f1_curve.size > 1 else 0.0
     else:
         val_auprc = np.nan
@@ -125,8 +135,11 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
     """
     Full training loop with model selection based on target timestep AUPRC.
     """
+
+    scheduler = ReduceLROnPlateau(optimizer, mode='max', factor= config.scheduler_factor, patience = config.scheduler_patience, verbose=True)
     best_metric = -np.inf
     best_epoch = -1
+    best_f1_target = 0.0
     history = {
         "train_loss": [], "train_f1_all": [], "train_f1_target": [],
         "val_loss": [], "val_f1_all": [], "val_f1_target": [], "val_auprc": []
@@ -140,6 +153,11 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
         val_loss, val_f1_all, val_f1_target, val_auprc = validate_epoch_full_supervision(
             model, val_loader, device, loss_fn, config
         )
+
+         # Step scheduler based on AUPRC
+        if not np.isnan(val_auprc):
+            scheduler.step(val_auprc)
+        current_lr = optimizer.param_groups[0]['lr']
 
         # Log metrics
         history["train_loss"].append(train_loss)
@@ -155,13 +173,20 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
               f"ValLoss {val_loss:.4f} | ValF1(all) {val_f1_all:.4f} | ValF1* {val_f1_target:.4f} | ValAUPRC {val_auprc:.4f}")
 
         # Model selection based on AUPRC at target timestep
-        current_metric = val_auprc if config.select_by == "auprc" else -val_loss
+        '''current_metric = val_auprc if config.select_by == "auprc" else -val_loss
         is_better = (config.select_by == "auprc" and (val_auprc == val_auprc) and current_metric > best_metric) or \
-                    (config.select_by == "loss"  and current_metric > best_metric)
-        
+                    (config.select_by == "loss"  and current_metric > best_metric)'''
+
+
+        current_metric = val_auprc if config.select_by == "auprc" else -val_loss
+
+        is_valid_metric = not np.isnan(current_metric)
+        is_better = is_valid_metric and current_metric > best_metric
+
         if is_better:
             best_metric = current_metric
             best_epoch = epoch + 1
+            best_f1_target = val_f1_target
             torch.save({
                 "epoch": best_epoch,
                 "model_state_dict": model.state_dict(),
@@ -169,5 +194,13 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
                 "val_loss": val_loss,
                 "val_auprc": val_auprc
             }, config.checkpoint_path)
-    return history, {"best_epoch": best_epoch, "best_metric": best_metric,
-                "ckpt_path": config.checkpoint_path, "select_by": config.select_by}
+
+    summary = {
+        "best_epoch": best_epoch,
+        "best_metric": best_metric,
+        "best_f1_target": best_f1_target,
+        "ckpt_path": config.checkpoint_path,
+        "select_by": config.select_by
+    }
+            
+    return history, summary

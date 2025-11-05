@@ -16,8 +16,12 @@ from .TempCNN import TemporalCNN
 # Import model selection
 from .selection import get_model
 
+# Import from model_30.py
+from .model_30 import MediumUNet1D
+
 __all__ = [
     'SmallUNet1D',
+    'MediumUNet1D',
     'MultiKernelConv1d',
     'TemporalSelfAttention',
     'TemporalDropout',

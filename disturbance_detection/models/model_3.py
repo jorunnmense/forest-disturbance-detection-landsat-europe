@@ -125,18 +125,18 @@ class SmallUNet1D(nn.Module):
         #self.tdrop = TemporalDropout(tdrop_rate)
 
         # Choose kernel sizes (can be made conditional on expected time series length)
-        #ks1 = kernel_sizes_small
-        #ks2 = kernel_sizes_small
+        ks1 = kernel_sizes_small
+        ks2 = kernel_sizes_small
 
         # ---- Encoder ----
         # Level 1: in_channels -> base*len(ks1) channels after concat
         self.enc1 = MultiKernelConv1d(in_channels, base, p_drop=p_drop, 
-                                      kernel_sizes=kernel_sizes_small, norm=norm)  # -> (B, 3*base, T)
+                                      kernel_sizes=ks1, norm=norm)  # -> (B, 3*base, T)
         self.pool1 = nn.AvgPool1d(2, ceil_mode=True)
 
         # Level 2: 3*base -> 2*base*len(ks2) channels after concat
         self.enc2 = MultiKernelConv1d(3*base, 2*base, p_drop=p_drop, 
-                                      kernel_sizes=kernel_sizes_small, norm=norm)  # -> (B, 6*base, T/2)
+                                      kernel_sizes=ks2, norm=norm)  # -> (B, 6*base, T/2)
         self.pool2 = nn.AvgPool1d(2, ceil_mode=True)
 
         # ---- Bottleneck ----
