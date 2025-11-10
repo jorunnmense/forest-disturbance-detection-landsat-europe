@@ -1,18 +1,59 @@
-# Deep Disturbance Detection
+# Forest Disturbance Detection with 1D U-Net
 
-Requirements:
 Python Version: 3.12.3
 
-(report seeds?)
+## Overview
+Detection of Disturbances in around 34 (?) years of Landsat Data with a 1D U-Net for continental Europe. Different Tests for different window sizes, tested against the TempCNN by Perbet et al. We further test the performance of different landsat bands as well as computed vegetational indices.
 
-efficientnet-pytorch        0.7.1
-geopandas                   1.0.1
-numpy                       1.26.3
-pandas                      2.2.2
-pytorch-lightning           2.4.0
-segmentation-models-pytorch 0.3.4
-torch                       2.4.1+cu124
-torchaudio                  2.4.1+cu124
-torchgeo                    0.6.0
-torchmetrics                1.4.2
-torchvision                 0.19.1+cu124
+## Installation
+```bash
+pip install -r requirements.txt
+```
+
+## Quick Start
+```python
+# Example usage code
+```
+
+## Project Structure
+
+deep_disturbance/
+│
+├── README.md
+├── changes_not_tested.md
+├── best_model.pt
+├── data_splits.npz
+├── test_modular_training.ipynb
+├── Train_multikernel_5_smallUnet_last.ipynb
+│
+├── disturbance_detection/                          # Main Python package
+│   ├── __init__.py                                 # Package initialization & exports
+│   ├── config.py                                   # Configuration management
+│   ├── data_preprocessing.py                       # Data loading & windowing
+│   ├── evaluation.py                               # Metrics & visualization
+│   ├── training_full_supervision.py                # Training loops
+│   ├── utils.py                                    # Helper functions (seed, etc.)
+│   │
+│   ├── min_train_w5_back_bands_indices_v5_results.npy
+│   ├── max_train_w5_back_bands_indices_v5_results.npy
+│   │
+│   ├── models/                                     # Neural network architectures
+│   │   ├── __init__.py
+│   │   ├── models.py                               # SmallUNet1D, MultiKernel, Attention
+│   │   ├── model_30.py                             # MediumUNet1D
+│   │   ├── model_3.py                              # Additional model variants
+│   │   ├── TempCNN.py                              # TemporalCNN architecture
+│   │   └── selection.py                            # get_model() factory function
+│   │
+│   └── loss_fcts/                                  # Loss functions
+│       ├── __init__.py
+│       └── losses.py                               # FocalLoss implementation
+│
+└── Data/                                           # Dataset directory
+    ├── new_class2_v5_seed42_uids_w5_v5_results.npz
+    │
+    ├── Training/                                   # Training datasets (CSV files)
+    ├── Validation/
+    ├── Test/
+    └── Final/
+

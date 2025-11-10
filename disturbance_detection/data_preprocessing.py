@@ -137,13 +137,13 @@ def prepare_data(df, config):
             seq_y = label[i:i+config.window_size]                     # [W]
             mask  = np.ones(config.window_size, dtype=np.float32)     # timestep mask (1=real)
 
-            # pad to max_window with NaN for features, 0 for labels, 0 for mask
+            '''# pad to max_window with NaN for features, 0 for labels, 0 for mask
             pad_len = config.max_window - config.window_size
             if pad_len > 0:
                 seq_x = np.pad(seq_x, ((0,pad_len),(0,0)), mode='constant', constant_values=np.nan)
                 seq_y = np.pad(seq_y, (0,pad_len),          mode='constant', constant_values=0.0)
                 mask  = np.pad(mask,  (0,pad_len),          mode='constant', constant_values=0.0)
-
+'''
             add_sample(uid, seq_x, seq_y, mask)
 
     # stack per split

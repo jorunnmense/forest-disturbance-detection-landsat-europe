@@ -4,6 +4,7 @@ Easy model selection.
 from .models import SmallUNet1D, MultiKernelConv1d, TemporalSelfAttention, TemporalDropout
 from .TempCNN import TemporalCNN
 from .model_30 import MediumUNet1D
+from .model_3 import TinyUNet1D
 
 
 def get_model(config):
@@ -55,8 +56,17 @@ def get_model(config):
             kernel_sizes_big=config.kernel_sizes_input_30_big,
         )
     
+    elif config.model_name == "TinyUNet1D":
+        model = TinyUNet1D(
+            in_channels=num_features,
+            base =config.base_channels,
+            p_drop=config.dropout_rate,
+            norm=config.norm_type,
+        kernel_sizes_small=config.kernel_sizes_tiny
+        )
+    
     else:
         raise ValueError(f"Unknown model: {config.model_name}. "
-                        f"Available: 'SmallUNet1D', 'TemporalCNN'")
+                        f"Available: 'SmallUNet1D', 'TinyUNet1D', 'TemporalCNN', 'UNet30', 'MediumUNet1D'")
     
     return model

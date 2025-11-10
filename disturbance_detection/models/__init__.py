@@ -19,6 +19,9 @@ from .selection import get_model
 # Import from model_30.py
 from .model_30 import MediumUNet1D
 
+# Import from model_3.py
+from .model_3 import TinyUNet1D
+
 __all__ = [
     'SmallUNet1D',
     'MediumUNet1D',
@@ -26,5 +29,6 @@ __all__ = [
     'TemporalSelfAttention',
     'TemporalDropout',
     'TemporalCNN',
-    'get_model'
+    'get_model',
+    'TinyUNet1D'
 ]

@@ -36,7 +36,8 @@ from .models import (
     TemporalDropout,
     TemporalCNN,
     get_model,
-    MediumUNet1D
+    MediumUNet1D,
+    TinyUNet1D
 )
 
 # ============== Loss Functions ==============
@@ -90,6 +91,7 @@ __all__ = [
     'TemporalCNN',
     'get_model',
     'MediumUNet1D',
+    'TinyUNet1D',
     
     # Loss
     'FocalLoss',

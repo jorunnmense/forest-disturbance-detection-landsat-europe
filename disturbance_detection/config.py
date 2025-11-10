@@ -22,7 +22,7 @@ class Config:
         
         # ============== DATA PREPARATION ==============
         self.window_size = 7
-        self.max_window = 5
+        #self.max_window = 5
         self.batch_size = 64
         self.seed = 42
         
@@ -69,6 +69,7 @@ class Config:
         # Kernel sizes for multi-scale convolutions
         self.kernel_sizes_small = (1, 3, 5)
         self.kernel_sizes_big = (3, 5, 7)
+        self.kernel_sizes_tiny = (1, 3)
 
         self.kernel_sizes_input_30_small = (3,7,11)
         self.kernel_sizes_input_30_big = (5,9,13)
