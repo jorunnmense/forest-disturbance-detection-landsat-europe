@@ -74,6 +74,10 @@ from .utils import (
     print_split_balances
 )
 
+# ============== Test Cases ==============
+# from .test_cases import test_case_1
+# (basically just write the function name instead of test_case_1)
+
 # ============== Convenience Exports ==============
 __all__ = [
     # Config
@@ -121,4 +125,7 @@ __all__ = [
     # Utils
     'set_seed',
     'print_split_balances',
+
+    #Test cases
+    # 'test_case_1',  
 ]
