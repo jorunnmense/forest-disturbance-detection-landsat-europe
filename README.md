@@ -27,7 +27,7 @@ deep_disturbance/
 ├── Train_multikernel_5_smallUnet_last.ipynb
 │
 ├── disturbance_detection/                          # Main Python package
-│   ├── __init__.py                                 # Package initialization & exports
+│   ├── __init__.py                                 # Package initialization & 
 │   ├── config.py                                   # Configuration management
 │   ├── data_preprocessing.py                       # Data loading & windowing
 │   ├── evaluation.py                               # Metrics & visualization
@@ -39,7 +39,7 @@ deep_disturbance/
 │   │
 │   ├── models/                                     # Neural network architectures
 │   │   ├── __init__.py
-│   │   ├── models.py                               # SmallUNet1D, MultiKernel, Attention
+│   │   ├── models.py                               # SmallUNet1D, MultiKernel, 
 │   │   ├── model_30.py                             # MediumUNet1D
 │   │   ├── model_3.py                              # Additional model variants
 │   │   ├── TempCNN.py                              # TemporalCNN architecture

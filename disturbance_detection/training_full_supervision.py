@@ -66,7 +66,7 @@ def train_epoch_full_supervision(model, train_loader, optimizer, device, loss_fn
     train_recall_target = recall_score(all_labels[:, target_pos], (all_probs[:, target_pos] > config.classification_threshold).astype(int), zero_division=0)
 
     avg_loss = total_loss / len(train_loader)
-    return avg_loss, train_acc, train_f1_all, train_f1_target
+    return avg_loss, train_acc, train_f1_all, train_f1_target, train_precision, train_recall
 
 
 def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
@@ -112,11 +112,14 @@ def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
     val_f1_all = f1_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int),
                            average='binary', zero_division=0)
     val_recall_all = recall_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int), zero_division=0)                       
-    val_precision = precision_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int), zero_division=0)
+    val_precision_all = precision_score(all_labels_flat, (all_probs_flat > config.classification_threshold).astype(int), zero_division=0)
 
     # Target timestep metrics
     y_true_target = torch.cat(val_labels_target).numpy().astype(int) if val_labels_target else np.array([])
     y_prob_target = torch.cat(val_probs_target).numpy() if val_probs_target else np.array([])
+
+    val_recall = recall_score(y_true_target, (y_prob_target > config.classification_threshold).astype(int), zero_division=0)
+    val_precision = precision_score(y_true_target, (y_prob_target > config.classification_threshold).astype(int), zero_division=0)
 
     if y_true_target.size and len(np.unique(y_true_target)) == 2:
         val_auprc = average_precision_score(y_true_target, y_prob_target)
@@ -127,7 +130,7 @@ def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
         val_auprc = np.nan
         val_f1_target_best = 0.0
 
-    return val_loss, val_f1_all, val_f1_target_best, val_auprc
+    return val_loss, val_f1_all, val_f1_target_best, val_auprc, val_precision, val_recall
 
 
 
@@ -142,15 +145,17 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
     best_f1_target = 0.0
     history = {
         "train_loss": [], "train_f1_all": [], "train_f1_target": [],
-        "val_loss": [], "val_f1_all": [], "val_f1_target": [], "val_auprc": []
+        "val_loss": [], "val_f1_all": [], "val_f1_target": [], "val_auprc": [],
+        "train_precision": [], "train_recall": [],
+        "val_precision": [], "val_recall": []
     }
 
     for epoch in range(config.num_epochs):
-        train_loss, train_acc, train_f1_all, train_f1_target = train_epoch_full_supervision(
+        train_loss, train_acc, train_f1_all, train_f1_target, train_precision, train_recall = train_epoch_full_supervision(
             model, train_loader, optimizer, device, loss_fn, config
         )
 
-        val_loss, val_f1_all, val_f1_target, val_auprc = validate_epoch_full_supervision(
+        val_loss, val_f1_all, val_f1_target, val_auprc, val_precision, val_recall = validate_epoch_full_supervision(
             model, val_loader, device, loss_fn, config
         )
 
@@ -161,16 +166,20 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
 
         # Log metrics
         history["train_loss"].append(train_loss)
+        history["train_precision"].append(train_precision)
+        history["train_recall"].append(train_recall)
         history["train_f1_all"].append(train_f1_all)
         history["train_f1_target"].append(train_f1_target)
         history["val_loss"].append(val_loss)
         history["val_f1_all"].append(val_f1_all)
         history["val_f1_target"].append(val_f1_target)
         history["val_auprc"].append(val_auprc)
+        history["val_precision"].append(val_precision)
+        history["val_recall"].append(val_recall)
 
         print(f"Epoch {epoch+1:02d} | TrainLoss {train_loss:.4f} | "
-              f"TrainF1(all) {train_f1_all:.4f} | TrainF1(target) {train_f1_target:.4f} | "
-              f"ValLoss {val_loss:.4f} | ValF1(all) {val_f1_all:.4f} | ValF1* {val_f1_target:.4f} | ValAUPRC {val_auprc:.4f}")
+              f"TrainF1(all) {train_f1_all:.4f} | TrainF1(target) {train_f1_target:.4f} | TrainPrecision {train_precision:.4f} | TrainRecall {train_recall:.4f} | " 
+              f"ValLoss {val_loss:.4f} | ValF1(all) {val_f1_all:.4f} | ValF1* {val_f1_target:.4f} | ValAUPRC {val_auprc:.4f} | ValPrecision {val_precision:.4f} | ValRecall {val_recall:.4f}")
 
         # Model selection based on AUPRC at target timestep
         '''current_metric = val_auprc if config.select_by == "auprc" else -val_loss

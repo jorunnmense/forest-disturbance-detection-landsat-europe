@@ -6,6 +6,13 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+def get_valid_kernel_sizes(kernel_sizes, input_length):
+    """ Filter kernel sizes based on input length to avoid padding issues.
+    kernel shout not be bigger than the input length.
+    """
+    return tuple(k for k in kernel_sizes if k <= input_length)
+
+
 
 class TemporalDropout(nn.Module):
     """

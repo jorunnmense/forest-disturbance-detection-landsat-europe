@@ -27,10 +27,10 @@ class Config:
         self.seed = 42
         
         # Feature selection: "bands", "indices", "bands_indices", "prev8"
-        self.features_mode = "bands"
+        self.features_mode = "bands_indices"
         
         # Target position for supervision: "last", "center", "second_last", "idx:<int>"
-        self.target_mode = "second_last"
+        self.target_mode = "last"
         
         # DataLoader settings
         self.num_workers = 4

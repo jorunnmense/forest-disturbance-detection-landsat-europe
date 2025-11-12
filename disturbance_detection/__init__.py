@@ -68,6 +68,10 @@ from .evaluation import (
     safe_to_device
 )
 
+from .evaluations import (
+    CaptumEvaluator
+)
+
 # ============== Utilities ==============
 from .utils import (
     set_seed,
@@ -121,6 +125,7 @@ __all__ = [
     'plot_precision_recall_curve',
     'plot_f1_vs_threshold',
     'plot_confusion_matrix',
+    'CaptumEvaluator',
     
     # Utils
     'set_seed',
