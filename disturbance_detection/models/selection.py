@@ -1,11 +1,12 @@
 """
 Easy model selection.
 """
-from .models import SmallUNet1D, MultiKernelConv1d, TemporalSelfAttention, TemporalDropout
+from .UNet_1D_W3 import UNet_1D_W3
 from .TempCNN import TemporalCNN
-from .model_30 import MediumUNet1D
-from .model_3 import TinyUNet1D
-
+from .UNet_1D_W5to7 import UNet_1D_W5to7
+from .UNet_1D_W5to7_MultiLevel_Attention import UNet_1D_W5to7_MultiLevel_Attention
+from .UNet_1D_W30 import UNet_1D_W30
+from .components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout
 
 def get_model(config):
     """
@@ -19,8 +20,8 @@ def get_model(config):
     """
     num_features = config.get_num_features()
     
-    if config.model_name == "SmallUNet1D":
-        model = SmallUNet1D(
+    if config.model_name == "UNet_1D_W5to7":
+        model = UNet_1D_W5to7(
             in_channels=num_features,
             base =config.base_channels,
             tdrop_rate=config.temporal_dropout_rate,
@@ -38,35 +39,44 @@ def get_model(config):
             dropout=config.dropout_rate
         )
 
-    elif config.model_name == "UNet30":
-        model = SmallUNet1D(
+    elif config.model_name == "UNet_1D_W30":
+        model = UNet_1D_W30(
             in_channels=num_features,
             base =config.base_channels,
             tdrop_rate=config.temporal_dropout_rate,
             kernel_sizes_small=config.kernel_sizes_input_30_small,
             kernel_sizes_big=config.kernel_sizes_input_30_big,
         )
+    
+    elif config.model_name == "UNet_1D_W3":
+        model = UNet_1D_W3(
+            in_channels=num_features,
+            base =config.base_channels,
+            p_drop=config.dropout_rate,
+            norm=config.norm_type,
+        kernel_sizes_small=config.kernel_sizes_small,
+        )
+    
+    elif config.model_name == "UNet_1D_W5to7_MultiLevel_Attention":
+        model = UNet_1D_W5to7_MultiLevel_Attention(
+            in_channels=num_features,
+            base =config.base_channels,
+            p_drop=config.dropout_rate,
+            norm=config.norm_type,
+            kernel_sizes_small=config.kernel_sizes_small,
+            kernel_sizes_big=config.kernel_sizes_big,
+        )
+    else:
+        raise ValueError(f"Unknown model: {config.model_name}. "
+                        f"Available: 'SmallUNet1D', 'TinyUNet1D', 'TemporalCNN', 'UNet30', 'MediumUNet1D'")
+    
+    return model
 
-    elif config.model_name == "MediumUNet1D":
+    '''elif config.model_name == "MediumUNet1D":
         model = MediumUNet1D(
             in_channels=num_features,
             base = 12,
             tdrop_rate=config.temporal_dropout_rate,
             kernel_sizes_small=config.kernel_sizes_input_30_small,
             kernel_sizes_big=config.kernel_sizes_input_30_big,
-        )
-    
-    elif config.model_name == "TinyUNet1D":
-        model = TinyUNet1D(
-            in_channels=num_features,
-            base =config.base_channels,
-            p_drop=config.dropout_rate,
-            norm=config.norm_type,
-        kernel_sizes_small=config.kernel_sizes_tiny
-        )
-    
-    else:
-        raise ValueError(f"Unknown model: {config.model_name}. "
-                        f"Available: 'SmallUNet1D', 'TinyUNet1D', 'TemporalCNN', 'UNet30', 'MediumUNet1D'")
-    
-    return model
+        )'''

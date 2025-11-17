@@ -1,0 +1,31 @@
+[2025-11-13 13:49:05] Best F1 (target): 0.8436
+[2025-11-13 13:49:05] Final epoch metrics:
+[2025-11-13 13:49:05]   Train Loss: 0.0006
+[2025-11-13 13:49:05]   Train F1 (all): 0.7934
+[2025-11-13 13:49:05]   Train F1 (target): 0.7991
+[2025-11-13 13:49:05]   Val Loss: 0.0007
+[2025-11-13 13:49:05]   Val F1 (all): 0.8018
+[2025-11-13 13:49:05]   Val F1 (target): 0.8436
+[2025-11-13 13:49:05]   Val AUPRC: 0.8814
+[2025-11-13 13:49:05] Progress: 35/56 completed
+[2025-11-13 13:49:05] Elapsed time: 997.9 minutes
+[2025-11-13 13:49:05] Estimated remaining time: 598.7 minutes
+[2025-11-13 13:49:05]
+>>> EXPERIMENT 36/56 <<<
+[2025-11-13 13:49:05]
+============================================================
+[2025-11-13 13:49:05] EXPERIMENT: alpha=0.7, gamma=2.0
+[2025-11-13 13:49:05] ============================================================
+[2025-11-13 13:49:05] Model: SmallUNet1D
+[2025-11-13 13:49:05]   Total parameters: 125,929
+[2025-11-13 13:49:05]   Trainable parameters: 125,929
+[2025-11-13 13:49:05] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 13:49:05] Loss: FocalLoss (alpha=0.7, gamma=2.0)
+[2025-11-13 13:49:05] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose
+ parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+
+
+
+

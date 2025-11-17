@@ -30,14 +30,16 @@ from .data_preprocessing import (
 # ============== Models ==============
 # ============== Models ==============
 from .models import (
-    SmallUNet1D,
+    UNet_1D_W5to7,
     MultiKernelConv1d,
     TemporalSelfAttention,
     TemporalDropout,
     TemporalCNN,
     get_model,
-    MediumUNet1D,
-    TinyUNet1D
+    UNet_1D_W5to7_MultiLevel_Attention,
+    UNet_1D_W3,
+    UNet_1D_W30,
+    get_valid_kernel_sizes
 )
 
 # ============== Loss Functions ==============
@@ -53,7 +55,7 @@ from .training_full_supervision import (
 
 
 # ============== Evaluation ==============
-from .evaluation import (
+from .evaluations import (
     collect_probs,
     pick_threshold_by_f1,
     eval_at_threshold,
@@ -92,15 +94,17 @@ __all__ = [
     'make_or_load_uid_splits',
     
     # Models
-    'SmallUNet1D',
+    'UNet_1D_W5to7',
     'MultiKernelConv1d',
     'TemporalSelfAttention',
     'TemporalDropout',
     'TemporalCNN',
     'get_model',
-    'MediumUNet1D',
-    'TinyUNet1D',
-    
+    'UNet_1D_W30',
+    'UNet_1D_W3',
+    'UNet_1D_W5to7_MultiLevel_Attention',
+    'get_valid_kernel_sizes',
+
     # Loss
     'FocalLoss',
     
@@ -126,7 +130,11 @@ __all__ = [
     'plot_f1_vs_threshold',
     'plot_confusion_matrix',
     'CaptumEvaluator',
-    
+    'make_target_mask',
+    'safe_to_device',
+    'count_supervised_positives',
+    'collect_probs',
+
     # Utils
     'set_seed',
     'print_split_balances',

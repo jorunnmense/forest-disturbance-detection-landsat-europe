@@ -1,0 +1,1310 @@
+Epoch 06 | TrainLoss 0.0007 | TrainF1(all) 0.7663 | TrainF1(target) 0.7784 | TrainPrecision 0.7556 | TrainRecall 0.7773 | ValLoss 0.0007 | ValF1(all) 0.7937 | ValF1* 0.8352 | ValAUPRC 0.8560 | ValPrecision 0.7537 | ValRecall 0.8270
+Epoch 07 | TrainLoss 0.0007 | TrainF1(all) 0.7661 | TrainF1(target) 0.7726 | TrainPrecision 0.7556 | TrainRecall 0.7770 | ValLoss 0.0007 | ValF1(all) 0.7815 | ValF1* 0.8242 | ValAUPRC 0.8557 | ValPrecision 0.8021 | ValRecall 0.8108
+Epoch 08 | TrainLoss 0.0007 | TrainF1(all) 0.7696 | TrainF1(target) 0.7893 | TrainPrecision 0.7583 | TrainRecall 0.7813 | ValLoss 0.0007 | ValF1(all) 0.7849 | ValF1* 0.8162 | ValAUPRC 0.8607 | ValPrecision 0.8304 | ValRecall 0.7676
+Epoch 09 | TrainLoss 0.0007 | TrainF1(all) 0.7741 | TrainF1(target) 0.7821 | TrainPrecision 0.7630 | TrainRecall 0.7855 | ValLoss 0.0007 | ValF1(all) 0.7907 | ValF1* 0.8301 | ValAUPRC 0.8644 | ValPrecision 0.7416 | ValRecall 0.8378
+Epoch 10 | TrainLoss 0.0007 | TrainF1(all) 0.7727 | TrainF1(target) 0.7889 | TrainPrecision 0.7645 | TrainRecall 0.7811 | ValLoss 0.0007 | ValF1(all) 0.7782 | ValF1* 0.8198 | ValAUPRC 0.8593 | ValPrecision 0.7072 | ValRecall 0.8486
+Epoch 11 | TrainLoss 0.0007 | TrainF1(all) 0.7764 | TrainF1(target) 0.7784 | TrainPrecision 0.7631 | TrainRecall 0.7902 | ValLoss 0.0007 | ValF1(all) 0.7948 | ValF1* 0.8232 | ValAUPRC 0.8621 | ValPrecision 0.7876 | ValRecall 0.8216
+Epoch 12 | TrainLoss 0.0007 | TrainF1(all) 0.7773 | TrainF1(target) 0.7865 | TrainPrecision 0.7638 | TrainRecall 0.7912 | ValLoss 0.0007 | ValF1(all) 0.7831 | ValF1* 0.8219 | ValAUPRC 0.8643 | ValPrecision 0.7240 | ValRecall 0.8649
+Epoch 13 | TrainLoss 0.0007 | TrainF1(all) 0.7785 | TrainF1(target) 0.7934 | TrainPrecision 0.7674 | TrainRecall 0.7899 | ValLoss 0.0007 | ValF1(all) 0.7880 | ValF1* 0.8261 | ValAUPRC 0.8703 | ValPrecision 0.7488 | ValRecall 0.8541
+Epoch 14 | TrainLoss 0.0007 | TrainF1(all) 0.7788 | TrainF1(target) 0.7848 | TrainPrecision 0.7659 | TrainRecall 0.7920 | ValLoss 0.0007 | ValF1(all) 0.7910 | ValF1* 0.8264 | ValAUPRC 0.8697 | ValPrecision 0.7215 | ValRecall 0.8541
+Epoch 15 | TrainLoss 0.0007 | TrainF1(all) 0.7826 | TrainF1(target) 0.7852 | TrainPrecision 0.7707 | TrainRecall 0.7948 | ValLoss 0.0007 | ValF1(all) 0.7982 | ValF1* 0.8152 | ValAUPRC 0.8667 | ValPrecision 0.7897 | ValRecall 0.8324
+Epoch 16 | TrainLoss 0.0007 | TrainF1(all) 0.7821 | TrainF1(target) 0.7932 | TrainPrecision 0.7727 | TrainRecall 0.7918 | ValLoss 0.0007 | ValF1(all) 0.7908 | ValF1* 0.8211 | ValAUPRC 0.8681 | ValPrecision 0.7327 | ValRecall 0.8595
+Epoch 17 | TrainLoss 0.0007 | TrainF1(all) 0.7841 | TrainF1(target) 0.7915 | TrainPrecision 0.7715 | TrainRecall 0.7972 | ValLoss 0.0007 | ValF1(all) 0.7884 | ValF1* 0.8155 | ValAUPRC 0.8597 | ValPrecision 0.8132 | ValRecall 0.8000
+Epoch 18 | TrainLoss 0.0006 | TrainF1(all) 0.7929 | TrainF1(target) 0.8068 | TrainPrecision 0.7802 | TrainRecall 0.8060 | ValLoss 0.0007 | ValF1(all) 0.7996 | ValF1* 0.8201 | ValAUPRC 0.8702 | ValPrecision 0.7610 | ValRecall 0.8432
+Epoch 19 | TrainLoss 0.0006 | TrainF1(all) 0.7892 | TrainF1(target) 0.8060 | TrainPrecision 0.7768 | TrainRecall 0.8020 | ValLoss 0.0007 | ValF1(all) 0.7989 | ValF1* 0.8245 | ValAUPRC 0.8741 | ValPrecision 0.7990 | ValRecall 0.8378
+Epoch 20 | TrainLoss 0.0006 | TrainF1(all) 0.7897 | TrainF1(target) 0.8044 | TrainPrecision 0.7742 | TrainRecall 0.8059 | ValLoss 0.0007 | ValF1(all) 0.7948 | ValF1* 0.8251 | ValAUPRC 0.8699 | ValPrecision 0.7857 | ValRecall 0.8324
+Epoch 21 | TrainLoss 0.0006 | TrainF1(all) 0.7933 | TrainF1(target) 0.7976 | TrainPrecision 0.7794 | TrainRecall 0.8076 | ValLoss 0.0007 | ValF1(all) 0.7979 | ValF1* 0.8315 | ValAUPRC 0.8734 | ValPrecision 0.8555 | ValRecall 0.8000
+Epoch 22 | TrainLoss 0.0006 | TrainF1(all) 0.7939 | TrainF1(target) 0.8066 | TrainPrecision 0.7794 | TrainRecall 0.8089 | ValLoss 0.0007 | ValF1(all) 0.7984 | ValF1* 0.8242 | ValAUPRC 0.8726 | ValPrecision 0.7958 | ValRecall 0.8216
+Epoch 23 | TrainLoss 0.0006 | TrainF1(all) 0.7934 | TrainF1(target) 0.7934 | TrainPrecision 0.7804 | TrainRecall 0.8068 | ValLoss 0.0007 | ValF1(all) 0.8038 | ValF1* 0.8375 | ValAUPRC 0.8768 | ValPrecision 0.8191 | ValRecall 0.8324
+Epoch 24 | TrainLoss 0.0006 | TrainF1(all) 0.7930 | TrainF1(target) 0.8031 | TrainPrecision 0.7785 | TrainRecall 0.8080 | ValLoss 0.0007 | ValF1(all) 0.7996 | ValF1* 0.8362 | ValAUPRC 0.8771 | ValPrecision 0.8216 | ValRecall 0.8216
+Epoch 25 | TrainLoss 0.0006 | TrainF1(all) 0.7935 | TrainF1(target) 0.8039 | TrainPrecision 0.7792 | TrainRecall 0.8083 | ValLoss 0.0007 | ValF1(all) 0.7941 | ValF1* 0.8268 | ValAUPRC 0.8744 | ValPrecision 0.8032 | ValRecall 0.8162
+Epoch 26 | TrainLoss 0.0006 | TrainF1(all) 0.7923 | TrainF1(target) 0.7989 | TrainPrecision 0.7757 | TrainRecall 0.8096 | ValLoss 0.0007 | ValF1(all) 0.7984 | ValF1* 0.8286 | ValAUPRC 0.8754 | ValPrecision 0.7828 | ValRecall 0.8378
+Epoch 27 | TrainLoss 0.0006 | TrainF1(all) 0.7921 | TrainF1(target) 0.8063 | TrainPrecision 0.7763 | TrainRecall 0.8085 | ValLoss 0.0007 | ValF1(all) 0.7927 | ValF1* 0.8291 | ValAUPRC 0.8771 | ValPrecision 0.7549 | ValRecall 0.8324
+Epoch 28 | TrainLoss 0.0006 | TrainF1(all) 0.7909 | TrainF1(target) 0.7981 | TrainPrecision 0.7774 | TrainRecall 0.8050 | ValLoss 0.0007 | ValF1(all) 0.7934 | ValF1* 0.8226 | ValAUPRC 0.8736 | ValPrecision 0.7789 | ValRecall 0.8378
+Epoch 29 | TrainLoss 0.0006 | TrainF1(all) 0.7984 | TrainF1(target) 0.8115 | TrainPrecision 0.7829 | TrainRecall 0.8145 | ValLoss 0.0007 | ValF1(all) 0.7935 | ValF1* 0.8270 | ValAUPRC 0.8761 | ValPrecision 0.7979 | ValRecall 0.8324
+Epoch 30 | TrainLoss 0.0006 | TrainF1(all) 0.7957 | TrainF1(target) 0.8030 | TrainPrecision 0.7834 | TrainRecall 0.8084 | ValLoss 0.0007 | ValF1(all) 0.8016 | ValF1* 0.8366 | ValAUPRC 0.8768 | ValPrecision 0.7938 | ValRecall 0.8324
+[2025-11-13 14:18:16] Training completed successfully!
+[2025-11-13 14:18:16] Training time: 1750.8 seconds (29.2 minutes)
+[2025-11-13 14:18:16] Best epoch: 24
+[2025-11-13 14:18:16] Best auprc: 0.8771
+[2025-11-13 14:18:16] Best F1 (target): 0.8362
+[2025-11-13 14:18:16] Final epoch metrics:
+[2025-11-13 14:18:16]   Train Loss: 0.0006
+[2025-11-13 14:18:16]   Train F1 (all): 0.7957
+[2025-11-13 14:18:16]   Train F1 (target): 0.8030
+[2025-11-13 14:18:16]   Val Loss: 0.0007
+[2025-11-13 14:18:16]   Val F1 (all): 0.8016
+[2025-11-13 14:18:16]   Val F1 (target): 0.8366
+[2025-11-13 14:18:16]   Val AUPRC: 0.8768
+[2025-11-13 14:18:16] Progress: 36/56 completed
+[2025-11-13 14:18:16] Elapsed time: 1027.0 minutes
+[2025-11-13 14:18:16] Estimated remaining time: 570.6 minutes
+[2025-11-13 14:18:16] 
+>>> EXPERIMENT 37/56 <<<
+[2025-11-13 14:18:16] 
+============================================================
+[2025-11-13 14:18:16] EXPERIMENT: alpha=0.7, gamma=2.1
+[2025-11-13 14:18:16] ============================================================
+[2025-11-13 14:18:16] Model: SmallUNet1D
+[2025-11-13 14:18:16]   Total parameters: 125,929
+[2025-11-13 14:18:16]   Trainable parameters: 125,929
+[2025-11-13 14:18:16] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 14:18:16] Loss: FocalLoss (alpha=0.7, gamma=2.1)
+[2025-11-13 14:18:16] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0012 | TrainF1(all) 0.6225 | TrainF1(target) 0.6559 | TrainPrecision 0.6638 | TrainRecall 0.5861 | ValLoss 0.0008 | ValF1(all) 0.7505 | ValF1* 0.8142 | ValAUPRC 0.8354 | ValPrecision 0.6411 | ValRecall 0.8595
+Epoch 02 | TrainLoss 0.0008 | TrainF1(all) 0.7239 | TrainF1(target) 0.7468 | TrainPrecision 0.7279 | TrainRecall 0.7199 | ValLoss 0.0007 | ValF1(all) 0.7679 | ValF1* 0.8138 | ValAUPRC 0.8480 | ValPrecision 0.8098 | ValRecall 0.8054
+Epoch 03 | TrainLoss 0.0008 | TrainF1(all) 0.7399 | TrainF1(target) 0.7507 | TrainPrecision 0.7354 | TrainRecall 0.7445 | ValLoss 0.0007 | ValF1(all) 0.7694 | ValF1* 0.8174 | ValAUPRC 0.8483 | ValPrecision 0.8152 | ValRecall 0.8108
+Epoch 04 | TrainLoss 0.0007 | TrainF1(all) 0.7519 | TrainF1(target) 0.7636 | TrainPrecision 0.7472 | TrainRecall 0.7566 | ValLoss 0.0007 | ValF1(all) 0.7834 | ValF1* 0.8315 | ValAUPRC 0.8584 | ValPrecision 0.8105 | ValRecall 0.8324
+Epoch 05 | TrainLoss 0.0007 | TrainF1(all) 0.7564 | TrainF1(target) 0.7731 | TrainPrecision 0.7514 | TrainRecall 0.7614 | ValLoss 0.0007 | ValF1(all) 0.7819 | ValF1* 0.8192 | ValAUPRC 0.8574 | ValPrecision 0.7989 | ValRecall 0.8162
+Epoch 06 | TrainLoss 0.0007 | TrainF1(all) 0.7570 | TrainF1(target) 0.7763 | TrainPrecision 0.7480 | TrainRecall 0.7662 | ValLoss 0.0007 | ValF1(all) 0.7937 | ValF1* 0.8282 | ValAUPRC 0.8624 | ValPrecision 0.8333 | ValRecall 0.8108
+Epoch 07 | TrainLoss 0.0007 | TrainF1(all) 0.7628 | TrainF1(target) 0.7800 | TrainPrecision 0.7572 | TrainRecall 0.7685 | ValLoss 0.0007 | ValF1(all) 0.7967 | ValF1* 0.8329 | ValAUPRC 0.8618 | ValPrecision 0.8191 | ValRecall 0.8324
+Epoch 08 | TrainLoss 0.0007 | TrainF1(all) 0.7697 | TrainF1(target) 0.7881 | TrainPrecision 0.7638 | TrainRecall 0.7757 | ValLoss 0.0007 | ValF1(all) 0.7582 | ValF1* 0.8329 | ValAUPRC 0.8538 | ValPrecision 0.7750 | ValRecall 0.8378
+Epoch 09 | TrainLoss 0.0007 | TrainF1(all) 0.7706 | TrainF1(target) 0.7893 | TrainPrecision 0.7601 | TrainRecall 0.7814 | ValLoss 0.0007 | ValF1(all) 0.8017 | ValF1* 0.8371 | ValAUPRC 0.8529 | ValPrecision 0.8172 | ValRecall 0.8216
+Epoch 10 | TrainLoss 0.0007 | TrainF1(all) 0.7724 | TrainF1(target) 0.7874 | TrainPrecision 0.7635 | TrainRecall 0.7817 | ValLoss 0.0007 | ValF1(all) 0.7881 | ValF1* 0.8315 | ValAUPRC 0.8596 | ValPrecision 0.7778 | ValRecall 0.8324
+Epoch 11 | TrainLoss 0.0006 | TrainF1(all) 0.7797 | TrainF1(target) 0.7889 | TrainPrecision 0.7691 | TrainRecall 0.7906 | ValLoss 0.0007 | ValF1(all) 0.7991 | ValF1* 0.8320 | ValAUPRC 0.8643 | ValPrecision 0.8361 | ValRecall 0.8270
+Epoch 12 | TrainLoss 0.0006 | TrainF1(all) 0.7808 | TrainF1(target) 0.7971 | TrainPrecision 0.7695 | TrainRecall 0.7924 | ValLoss 0.0006 | ValF1(all) 0.8033 | ValF1* 0.8268 | ValAUPRC 0.8629 | ValPrecision 0.8172 | ValRecall 0.8216
+Epoch 13 | TrainLoss 0.0006 | TrainF1(all) 0.7847 | TrainF1(target) 0.7992 | TrainPrecision 0.7756 | TrainRecall 0.7940 | ValLoss 0.0007 | ValF1(all) 0.8002 | ValF1* 0.8291 | ValAUPRC 0.8654 | ValPrecision 0.8333 | ValRecall 0.8108
+Epoch 14 | TrainLoss 0.0006 | TrainF1(all) 0.7862 | TrainF1(target) 0.7886 | TrainPrecision 0.7765 | TrainRecall 0.7963 | ValLoss 0.0006 | ValF1(all) 0.7966 | ValF1* 0.8274 | ValAUPRC 0.8694 | ValPrecision 0.7789 | ValRecall 0.8378
+Epoch 15 | TrainLoss 0.0006 | TrainF1(all) 0.7864 | TrainF1(target) 0.8048 | TrainPrecision 0.7742 | TrainRecall 0.7990 | ValLoss 0.0006 | ValF1(all) 0.7943 | ValF1* 0.8291 | ValAUPRC 0.8652 | ValPrecision 0.8251 | ValRecall 0.8162
+Epoch 16 | TrainLoss 0.0006 | TrainF1(all) 0.7855 | TrainF1(target) 0.8008 | TrainPrecision 0.7699 | TrainRecall 0.8016 | ValLoss 0.0006 | ValF1(all) 0.7921 | ValF1* 0.8415 | ValAUPRC 0.8711 | ValPrecision 0.8280 | ValRecall 0.8324
+Epoch 17 | TrainLoss 0.0006 | TrainF1(all) 0.7854 | TrainF1(target) 0.8027 | TrainPrecision 0.7736 | TrainRecall 0.7975 | ValLoss 0.0006 | ValF1(all) 0.7998 | ValF1* 0.8361 | ValAUPRC 0.8742 | ValPrecision 0.8125 | ValRecall 0.8432
+Epoch 18 | TrainLoss 0.0006 | TrainF1(all) 0.7847 | TrainF1(target) 0.7917 | TrainPrecision 0.7688 | TrainRecall 0.8012 | ValLoss 0.0006 | ValF1(all) 0.7854 | ValF1* 0.8324 | ValAUPRC 0.8705 | ValPrecision 0.7908 | ValRecall 0.8378
+Epoch 19 | TrainLoss 0.0006 | TrainF1(all) 0.7862 | TrainF1(target) 0.8017 | TrainPrecision 0.7729 | TrainRecall 0.7999 | ValLoss 0.0006 | ValF1(all) 0.7782 | ValF1* 0.8251 | ValAUPRC 0.8690 | ValPrecision 0.7573 | ValRecall 0.8432
+Epoch 20 | TrainLoss 0.0006 | TrainF1(all) 0.7891 | TrainF1(target) 0.7967 | TrainPrecision 0.7756 | TrainRecall 0.8031 | ValLoss 0.0006 | ValF1(all) 0.8000 | ValF1* 0.8333 | ValAUPRC 0.8763 | ValPrecision 0.7959 | ValRecall 0.8432
+Epoch 21 | TrainLoss 0.0006 | TrainF1(all) 0.7865 | TrainF1(target) 0.7989 | TrainPrecision 0.7722 | TrainRecall 0.8014 | ValLoss 0.0006 | ValF1(all) 0.7972 | ValF1* 0.8306 | ValAUPRC 0.8711 | ValPrecision 0.8306 | ValRecall 0.8216
+Epoch 22 | TrainLoss 0.0006 | TrainF1(all) 0.7869 | TrainF1(target) 0.8009 | TrainPrecision 0.7717 | TrainRecall 0.8028 | ValLoss 0.0006 | ValF1(all) 0.7887 | ValF1* 0.8306 | ValAUPRC 0.8729 | ValPrecision 0.7371 | ValRecall 0.8486
+Epoch 23 | TrainLoss 0.0006 | TrainF1(all) 0.7901 | TrainF1(target) 0.7986 | TrainPrecision 0.7723 | TrainRecall 0.8087 | ValLoss 0.0006 | ValF1(all) 0.8004 | ValF1* 0.8287 | ValAUPRC 0.8747 | ValPrecision 0.8085 | ValRecall 0.8216
+Epoch 24 | TrainLoss 0.0006 | TrainF1(all) 0.7883 | TrainF1(target) 0.7946 | TrainPrecision 0.7737 | TrainRecall 0.8035 | ValLoss 0.0006 | ValF1(all) 0.7996 | ValF1* 0.8392 | ValAUPRC 0.8713 | ValPrecision 0.8500 | ValRecall 0.8270
+Epoch 25 | TrainLoss 0.0006 | TrainF1(all) 0.7938 | TrainF1(target) 0.8094 | TrainPrecision 0.7816 | TrainRecall 0.8064 | ValLoss 0.0006 | ValF1(all) 0.7910 | ValF1* 0.8306 | ValAUPRC 0.8756 | ValPrecision 0.7857 | ValRecall 0.8324
+Epoch 26 | TrainLoss 0.0006 | TrainF1(all) 0.7957 | TrainF1(target) 0.8102 | TrainPrecision 0.7782 | TrainRecall 0.8140 | ValLoss 0.0006 | ValF1(all) 0.8012 | ValF1* 0.8378 | ValAUPRC 0.8762 | ValPrecision 0.7919 | ValRecall 0.8432
+Epoch 27 | TrainLoss 0.0006 | TrainF1(all) 0.7977 | TrainF1(target) 0.8093 | TrainPrecision 0.7827 | TrainRecall 0.8133 | ValLoss 0.0006 | ValF1(all) 0.7982 | ValF1* 0.8289 | ValAUPRC 0.8750 | ValPrecision 0.8158 | ValRecall 0.8378
+Epoch 28 | TrainLoss 0.0006 | TrainF1(all) 0.7962 | TrainF1(target) 0.8055 | TrainPrecision 0.7790 | TrainRecall 0.8141 | ValLoss 0.0006 | ValF1(all) 0.7973 | ValF1* 0.8320 | ValAUPRC 0.8736 | ValPrecision 0.8216 | ValRecall 0.8216
+Epoch 29 | TrainLoss 0.0006 | TrainF1(all) 0.7968 | TrainF1(target) 0.8047 | TrainPrecision 0.7802 | TrainRecall 0.8140 | ValLoss 0.0006 | ValF1(all) 0.7912 | ValF1* 0.8258 | ValAUPRC 0.8775 | ValPrecision 0.7723 | ValRecall 0.8432
+Epoch 30 | TrainLoss 0.0006 | TrainF1(all) 0.7962 | TrainF1(target) 0.7992 | TrainPrecision 0.7787 | TrainRecall 0.8144 | ValLoss 0.0006 | ValF1(all) 0.7902 | ValF1* 0.8329 | ValAUPRC 0.8774 | ValPrecision 0.7879 | ValRecall 0.8432
+[2025-11-13 14:48:00] Training completed successfully!
+[2025-11-13 14:48:00] Training time: 1784.2 seconds (29.7 minutes)
+[2025-11-13 14:48:00] Best epoch: 29
+[2025-11-13 14:48:00] Best auprc: 0.8775
+[2025-11-13 14:48:00] Best F1 (target): 0.8258
+[2025-11-13 14:48:00] Final epoch metrics:
+[2025-11-13 14:48:00]   Train Loss: 0.0006
+[2025-11-13 14:48:00]   Train F1 (all): 0.7962
+[2025-11-13 14:48:00]   Train F1 (target): 0.7992
+[2025-11-13 14:48:00]   Val Loss: 0.0006
+[2025-11-13 14:48:00]   Val F1 (all): 0.7902
+[2025-11-13 14:48:00]   Val F1 (target): 0.8329
+[2025-11-13 14:48:00]   Val AUPRC: 0.8774
+[2025-11-13 14:48:00] Progress: 37/56 completed
+[2025-11-13 14:48:00] Elapsed time: 1056.8 minutes
+[2025-11-13 14:48:00] Estimated remaining time: 542.7 minutes
+[2025-11-13 14:48:00] 
+>>> EXPERIMENT 38/56 <<<
+[2025-11-13 14:48:00] 
+============================================================
+[2025-11-13 14:48:00] EXPERIMENT: alpha=0.7, gamma=2.2
+[2025-11-13 14:48:00] ============================================================
+[2025-11-13 14:48:00] Model: SmallUNet1D
+[2025-11-13 14:48:00]   Total parameters: 125,929
+[2025-11-13 14:48:00]   Trainable parameters: 125,929
+[2025-11-13 14:48:00] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 14:48:00] Loss: FocalLoss (alpha=0.7, gamma=2.2)
+[2025-11-13 14:48:00] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0013 | TrainF1(all) 0.6064 | TrainF1(target) 0.6244 | TrainPrecision 0.6460 | TrainRecall 0.5714 | ValLoss 0.0008 | ValF1(all) 0.7573 | ValF1* 0.7899 | ValAUPRC 0.8287 | ValPrecision 0.7629 | ValRecall 0.8000
+Epoch 02 | TrainLoss 0.0008 | TrainF1(all) 0.7229 | TrainF1(target) 0.7435 | TrainPrecision 0.7240 | TrainRecall 0.7219 | ValLoss 0.0008 | ValF1(all) 0.7394 | ValF1* 0.8144 | ValAUPRC 0.8430 | ValPrecision 0.8506 | ValRecall 0.7081
+Epoch 03 | TrainLoss 0.0007 | TrainF1(all) 0.7345 | TrainF1(target) 0.7567 | TrainPrecision 0.7317 | TrainRecall 0.7373 | ValLoss 0.0007 | ValF1(all) 0.7847 | ValF1* 0.8142 | ValAUPRC 0.8389 | ValPrecision 0.7612 | ValRecall 0.8270
+Epoch 04 | TrainLoss 0.0007 | TrainF1(all) 0.7523 | TrainF1(target) 0.7668 | TrainPrecision 0.7486 | TrainRecall 0.7561 | ValLoss 0.0006 | ValF1(all) 0.7826 | ValF1* 0.8184 | ValAUPRC 0.8559 | ValPrecision 0.8197 | ValRecall 0.8108
+Epoch 05 | TrainLoss 0.0007 | TrainF1(all) 0.7582 | TrainF1(target) 0.7734 | TrainPrecision 0.7551 | TrainRecall 0.7613 | ValLoss 0.0006 | ValF1(all) 0.7717 | ValF1* 0.8238 | ValAUPRC 0.8592 | ValPrecision 0.7290 | ValRecall 0.8432
+Epoch 06 | TrainLoss 0.0007 | TrainF1(all) 0.7597 | TrainF1(target) 0.7833 | TrainPrecision 0.7527 | TrainRecall 0.7667 | ValLoss 0.0006 | ValF1(all) 0.7934 | ValF1* 0.8320 | ValAUPRC 0.8640 | ValPrecision 0.8297 | ValRecall 0.8162
+Epoch 07 | TrainLoss 0.0006 | TrainF1(all) 0.7651 | TrainF1(target) 0.7799 | TrainPrecision 0.7589 | TrainRecall 0.7714 | ValLoss 0.0006 | ValF1(all) 0.8000 | ValF1* 0.8291 | ValAUPRC 0.8601 | ValPrecision 0.8596 | ValRecall 0.7946
+Epoch 08 | TrainLoss 0.0006 | TrainF1(all) 0.7686 | TrainF1(target) 0.7858 | TrainPrecision 0.7625 | TrainRecall 0.7749 | ValLoss 0.0006 | ValF1(all) 0.7613 | ValF1* 0.8442 | ValAUPRC 0.8596 | ValPrecision 0.6584 | ValRecall 0.8649
+Epoch 09 | TrainLoss 0.0006 | TrainF1(all) 0.7686 | TrainF1(target) 0.7806 | TrainPrecision 0.7590 | TrainRecall 0.7783 | ValLoss 0.0006 | ValF1(all) 0.7977 | ValF1* 0.8283 | ValAUPRC 0.8616 | ValPrecision 0.8409 | ValRecall 0.8000
+Epoch 10 | TrainLoss 0.0006 | TrainF1(all) 0.7704 | TrainF1(target) 0.7887 | TrainPrecision 0.7608 | TrainRecall 0.7803 | ValLoss 0.0006 | ValF1(all) 0.7917 | ValF1* 0.8352 | ValAUPRC 0.8603 | ValPrecision 0.8398 | ValRecall 0.8216
+Epoch 11 | TrainLoss 0.0006 | TrainF1(all) 0.7791 | TrainF1(target) 0.7879 | TrainPrecision 0.7694 | TrainRecall 0.7890 | ValLoss 0.0006 | ValF1(all) 0.7975 | ValF1* 0.8380 | ValAUPRC 0.8722 | ValPrecision 0.7919 | ValRecall 0.8432
+Epoch 12 | TrainLoss 0.0006 | TrainF1(all) 0.7779 | TrainF1(target) 0.7857 | TrainPrecision 0.7678 | TrainRecall 0.7883 | ValLoss 0.0006 | ValF1(all) 0.7946 | ValF1* 0.8427 | ValAUPRC 0.8724 | ValPrecision 0.7739 | ValRecall 0.8324
+Epoch 13 | TrainLoss 0.0006 | TrainF1(all) 0.7814 | TrainF1(target) 0.7932 | TrainPrecision 0.7730 | TrainRecall 0.7899 | ValLoss 0.0006 | ValF1(all) 0.8000 | ValF1* 0.8418 | ValAUPRC 0.8743 | ValPrecision 0.8128 | ValRecall 0.8216
+Epoch 14 | TrainLoss 0.0006 | TrainF1(all) 0.7811 | TrainF1(target) 0.7945 | TrainPrecision 0.7700 | TrainRecall 0.7926 | ValLoss 0.0006 | ValF1(all) 0.8074 | ValF1* 0.8329 | ValAUPRC 0.8710 | ValPrecision 0.8444 | ValRecall 0.8216
+Epoch 15 | TrainLoss 0.0006 | TrainF1(all) 0.7821 | TrainF1(target) 0.7911 | TrainPrecision 0.7695 | TrainRecall 0.7951 | ValLoss 0.0006 | ValF1(all) 0.7903 | ValF1* 0.8367 | ValAUPRC 0.8720 | ValPrecision 0.7895 | ValRecall 0.8108
+Epoch 16 | TrainLoss 0.0006 | TrainF1(all) 0.7836 | TrainF1(target) 0.7938 | TrainPrecision 0.7726 | TrainRecall 0.7950 | ValLoss 0.0006 | ValF1(all) 0.7994 | ValF1* 0.8457 | ValAUPRC 0.8711 | ValPrecision 0.8182 | ValRecall 0.8270
+Epoch 17 | TrainLoss 0.0006 | TrainF1(all) 0.7831 | TrainF1(target) 0.8033 | TrainPrecision 0.7714 | TrainRecall 0.7951 | ValLoss 0.0006 | ValF1(all) 0.8002 | ValF1* 0.8342 | ValAUPRC 0.8739 | ValPrecision 0.8280 | ValRecall 0.8324
+Epoch 18 | TrainLoss 0.0006 | TrainF1(all) 0.7868 | TrainF1(target) 0.8036 | TrainPrecision 0.7719 | TrainRecall 0.8022 | ValLoss 0.0006 | ValF1(all) 0.7966 | ValF1* 0.8394 | ValAUPRC 0.8748 | ValPrecision 0.7406 | ValRecall 0.8486
+Epoch 19 | TrainLoss 0.0006 | TrainF1(all) 0.7872 | TrainF1(target) 0.7945 | TrainPrecision 0.7743 | TrainRecall 0.8006 | ValLoss 0.0006 | ValF1(all) 0.7946 | ValF1* 0.8394 | ValAUPRC 0.8755 | ValPrecision 0.8343 | ValRecall 0.8162
+Epoch 20 | TrainLoss 0.0006 | TrainF1(all) 0.7865 | TrainF1(target) 0.7994 | TrainPrecision 0.7712 | TrainRecall 0.8024 | ValLoss 0.0006 | ValF1(all) 0.8043 | ValF1* 0.8427 | ValAUPRC 0.8700 | ValPrecision 0.8306 | ValRecall 0.8216
+Epoch 21 | TrainLoss 0.0006 | TrainF1(all) 0.7874 | TrainF1(target) 0.8025 | TrainPrecision 0.7738 | TrainRecall 0.8014 | ValLoss 0.0006 | ValF1(all) 0.7994 | ValF1* 0.8394 | ValAUPRC 0.8750 | ValPrecision 0.8085 | ValRecall 0.8216
+Epoch 22 | TrainLoss 0.0005 | TrainF1(all) 0.7910 | TrainF1(target) 0.7992 | TrainPrecision 0.7766 | TrainRecall 0.8060 | ValLoss 0.0006 | ValF1(all) 0.7953 | ValF1* 0.8376 | ValAUPRC 0.8739 | ValPrecision 0.8138 | ValRecall 0.8270
+Epoch 23 | TrainLoss 0.0005 | TrainF1(all) 0.7882 | TrainF1(target) 0.8008 | TrainPrecision 0.7719 | TrainRecall 0.8052 | ValLoss 0.0006 | ValF1(all) 0.7963 | ValF1* 0.8466 | ValAUPRC 0.8733 | ValPrecision 0.7927 | ValRecall 0.8270
+Epoch 24 | TrainLoss 0.0005 | TrainF1(all) 0.7911 | TrainF1(target) 0.7989 | TrainPrecision 0.7771 | TrainRecall 0.8055 | ValLoss 0.0006 | ValF1(all) 0.8000 | ValF1* 0.8433 | ValAUPRC 0.8778 | ValPrecision 0.8021 | ValRecall 0.8324
+Epoch 25 | TrainLoss 0.0005 | TrainF1(all) 0.7890 | TrainF1(target) 0.8040 | TrainPrecision 0.7728 | TrainRecall 0.8059 | ValLoss 0.0006 | ValF1(all) 0.7873 | ValF1* 0.8424 | ValAUPRC 0.8769 | ValPrecision 0.7927 | ValRecall 0.8270
+Epoch 26 | TrainLoss 0.0005 | TrainF1(all) 0.7924 | TrainF1(target) 0.8072 | TrainPrecision 0.7783 | TrainRecall 0.8071 | ValLoss 0.0006 | ValF1(all) 0.7928 | ValF1* 0.8397 | ValAUPRC 0.8776 | ValPrecision 0.7685 | ValRecall 0.8432
+Epoch 27 | TrainLoss 0.0005 | TrainF1(all) 0.7908 | TrainF1(target) 0.7991 | TrainPrecision 0.7736 | TrainRecall 0.8088 | ValLoss 0.0006 | ValF1(all) 0.7969 | ValF1* 0.8442 | ValAUPRC 0.8766 | ValPrecision 0.7927 | ValRecall 0.8270
+Epoch 28 | TrainLoss 0.0005 | TrainF1(all) 0.7925 | TrainF1(target) 0.7983 | TrainPrecision 0.7747 | TrainRecall 0.8111 | ValLoss 0.0006 | ValF1(all) 0.7971 | ValF1* 0.8362 | ValAUPRC 0.8762 | ValPrecision 0.7908 | ValRecall 0.8378
+Epoch 29 | TrainLoss 0.0005 | TrainF1(all) 0.7938 | TrainF1(target) 0.8041 | TrainPrecision 0.7782 | TrainRecall 0.8100 | ValLoss 0.0006 | ValF1(all) 0.7907 | ValF1* 0.8385 | ValAUPRC 0.8744 | ValPrecision 0.7927 | ValRecall 0.8270
+Epoch 30 | TrainLoss 0.0005 | TrainF1(all) 0.7939 | TrainF1(target) 0.8081 | TrainPrecision 0.7766 | TrainRecall 0.8119 | ValLoss 0.0006 | ValF1(all) 0.7956 | ValF1* 0.8357 | ValAUPRC 0.8765 | ValPrecision 0.7979 | ValRecall 0.8324
+[2025-11-13 15:17:39] Training completed successfully!
+[2025-11-13 15:17:39] Training time: 1778.8 seconds (29.6 minutes)
+[2025-11-13 15:17:39] Best epoch: 24
+[2025-11-13 15:17:39] Best auprc: 0.8778
+[2025-11-13 15:17:39] Best F1 (target): 0.8433
+[2025-11-13 15:17:39] Final epoch metrics:
+[2025-11-13 15:17:39]   Train Loss: 0.0005
+[2025-11-13 15:17:39]   Train F1 (all): 0.7939
+[2025-11-13 15:17:39]   Train F1 (target): 0.8081
+[2025-11-13 15:17:39]   Val Loss: 0.0006
+[2025-11-13 15:17:39]   Val F1 (all): 0.7956
+[2025-11-13 15:17:39]   Val F1 (target): 0.8357
+[2025-11-13 15:17:39]   Val AUPRC: 0.8765
+[2025-11-13 15:17:39] Progress: 38/56 completed
+[2025-11-13 15:17:39] Elapsed time: 1086.4 minutes
+[2025-11-13 15:17:39] Estimated remaining time: 514.6 minutes
+[2025-11-13 15:17:39] 
+>>> EXPERIMENT 39/56 <<<
+[2025-11-13 15:17:39] 
+============================================================
+[2025-11-13 15:17:39] EXPERIMENT: alpha=0.7, gamma=2.5
+[2025-11-13 15:17:39] ============================================================
+[2025-11-13 15:17:39] Model: SmallUNet1D
+[2025-11-13 15:17:39]   Total parameters: 125,929
+[2025-11-13 15:17:39]   Trainable parameters: 125,929
+[2025-11-13 15:17:39] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 15:17:39] Loss: FocalLoss (alpha=0.7, gamma=2.5)
+[2025-11-13 15:17:39] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0009 | TrainF1(all) 0.6489 | TrainF1(target) 0.6805 | TrainPrecision 0.7129 | TrainRecall 0.5954 | ValLoss 0.0006 | ValF1(all) 0.7681 | ValF1* 0.8022 | ValAUPRC 0.8123 | ValPrecision 0.7819 | ValRecall 0.7946
+Epoch 02 | TrainLoss 0.0006 | TrainF1(all) 0.7273 | TrainF1(target) 0.7451 | TrainPrecision 0.7228 | TrainRecall 0.7320 | ValLoss 0.0006 | ValF1(all) 0.7699 | ValF1* 0.8111 | ValAUPRC 0.8405 | ValPrecision 0.7744 | ValRecall 0.8162
+Epoch 03 | TrainLoss 0.0006 | TrainF1(all) 0.7393 | TrainF1(target) 0.7502 | TrainPrecision 0.7304 | TrainRecall 0.7484 | ValLoss 0.0006 | ValF1(all) 0.7815 | ValF1* 0.8235 | ValAUPRC 0.8528 | ValPrecision 0.8000 | ValRecall 0.8216
+Epoch 04 | TrainLoss 0.0006 | TrainF1(all) 0.7485 | TrainF1(target) 0.7600 | TrainPrecision 0.7417 | TrainRecall 0.7554 | ValLoss 0.0006 | ValF1(all) 0.7808 | ValF1* 0.8297 | ValAUPRC 0.8499 | ValPrecision 0.8095 | ValRecall 0.8270
+Epoch 05 | TrainLoss 0.0006 | TrainF1(all) 0.7580 | TrainF1(target) 0.7640 | TrainPrecision 0.7503 | TrainRecall 0.7659 | ValLoss 0.0005 | ValF1(all) 0.7817 | ValF1* 0.8398 | ValAUPRC 0.8624 | ValPrecision 0.8083 | ValRecall 0.8432
+Epoch 06 | TrainLoss 0.0005 | TrainF1(all) 0.7617 | TrainF1(target) 0.7759 | TrainPrecision 0.7505 | TrainRecall 0.7731 | ValLoss 0.0006 | ValF1(all) 0.7905 | ValF1* 0.8310 | ValAUPRC 0.8489 | ValPrecision 0.8172 | ValRecall 0.8216
+Epoch 07 | TrainLoss 0.0005 | TrainF1(all) 0.7634 | TrainF1(target) 0.7780 | TrainPrecision 0.7550 | TrainRecall 0.7721 | ValLoss 0.0005 | ValF1(all) 0.7956 | ValF1* 0.8356 | ValAUPRC 0.8686 | ValPrecision 0.7929 | ValRecall 0.8486
+Epoch 08 | TrainLoss 0.0005 | TrainF1(all) 0.7672 | TrainF1(target) 0.7797 | TrainPrecision 0.7573 | TrainRecall 0.7774 | ValLoss 0.0006 | ValF1(all) 0.7818 | ValF1* 0.8329 | ValAUPRC 0.8590 | ValPrecision 0.8216 | ValRecall 0.8216
+Epoch 09 | TrainLoss 0.0005 | TrainF1(all) 0.7667 | TrainF1(target) 0.7822 | TrainPrecision 0.7548 | TrainRecall 0.7790 | ValLoss 0.0005 | ValF1(all) 0.7823 | ValF1* 0.8324 | ValAUPRC 0.8634 | ValPrecision 0.7761 | ValRecall 0.8432
+Epoch 10 | TrainLoss 0.0005 | TrainF1(all) 0.7686 | TrainF1(target) 0.7827 | TrainPrecision 0.7590 | TrainRecall 0.7783 | ValLoss 0.0005 | ValF1(all) 0.7907 | ValF1* 0.8302 | ValAUPRC 0.8642 | ValPrecision 0.8270 | ValRecall 0.8270
+Epoch 11 | TrainLoss 0.0005 | TrainF1(all) 0.7707 | TrainF1(target) 0.7890 | TrainPrecision 0.7580 | TrainRecall 0.7838 | ValLoss 0.0005 | ValF1(all) 0.7816 | ValF1* 0.8280 | ValAUPRC 0.8653 | ValPrecision 0.7349 | ValRecall 0.8541
+Epoch 12 | TrainLoss 0.0005 | TrainF1(all) 0.7774 | TrainF1(target) 0.7842 | TrainPrecision 0.7629 | TrainRecall 0.7924 | ValLoss 0.0005 | ValF1(all) 0.7929 | ValF1* 0.8270 | ValAUPRC 0.8632 | ValPrecision 0.8251 | ValRecall 0.8162
+Epoch 13 | TrainLoss 0.0005 | TrainF1(all) 0.7758 | TrainF1(target) 0.7889 | TrainPrecision 0.7601 | TrainRecall 0.7922 | ValLoss 0.0005 | ValF1(all) 0.7968 | ValF1* 0.8315 | ValAUPRC 0.8674 | ValPrecision 0.8270 | ValRecall 0.8270
+Epoch 14 | TrainLoss 0.0005 | TrainF1(all) 0.7791 | TrainF1(target) 0.7939 | TrainPrecision 0.7616 | TrainRecall 0.7975 | ValLoss 0.0006 | ValF1(all) 0.7948 | ValF1* 0.8329 | ValAUPRC 0.8660 | ValPrecision 0.8398 | ValRecall 0.8216
+Epoch 15 | TrainLoss 0.0005 | TrainF1(all) 0.7785 | TrainF1(target) 0.7989 | TrainPrecision 0.7631 | TrainRecall 0.7944 | ValLoss 0.0005 | ValF1(all) 0.7924 | ValF1* 0.8283 | ValAUPRC 0.8663 | ValPrecision 0.8053 | ValRecall 0.8270
+Epoch 16 | TrainLoss 0.0005 | TrainF1(all) 0.7813 | TrainF1(target) 0.7918 | TrainPrecision 0.7651 | TrainRecall 0.7983 | ValLoss 0.0005 | ValF1(all) 0.7828 | ValF1* 0.8338 | ValAUPRC 0.8707 | ValPrecision 0.7500 | ValRecall 0.8595
+Epoch 17 | TrainLoss 0.0005 | TrainF1(all) 0.7842 | TrainF1(target) 0.7995 | TrainPrecision 0.7674 | TrainRecall 0.8018 | ValLoss 0.0005 | ValF1(all) 0.7937 | ValF1* 0.8324 | ValAUPRC 0.8710 | ValPrecision 0.7789 | ValRecall 0.8378
+Epoch 18 | TrainLoss 0.0005 | TrainF1(all) 0.7865 | TrainF1(target) 0.7998 | TrainPrecision 0.7692 | TrainRecall 0.8046 | ValLoss 0.0005 | ValF1(all) 0.7964 | ValF1* 0.8310 | ValAUPRC 0.8722 | ValPrecision 0.7811 | ValRecall 0.8486
+Epoch 19 | TrainLoss 0.0005 | TrainF1(all) 0.7841 | TrainF1(target) 0.7874 | TrainPrecision 0.7643 | TrainRecall 0.8050 | ValLoss 0.0005 | ValF1(all) 0.7778 | ValF1* 0.8306 | ValAUPRC 0.8700 | ValPrecision 0.7248 | ValRecall 0.8541
+Epoch 20 | TrainLoss 0.0005 | TrainF1(all) 0.7837 | TrainF1(target) 0.7907 | TrainPrecision 0.7661 | TrainRecall 0.8022 | ValLoss 0.0005 | ValF1(all) 0.7946 | ValF1* 0.8319 | ValAUPRC 0.8699 | ValPrecision 0.7711 | ValRecall 0.8378
+Epoch 21 | TrainLoss 0.0005 | TrainF1(all) 0.7866 | TrainF1(target) 0.7958 | TrainPrecision 0.7685 | TrainRecall 0.8055 | ValLoss 0.0005 | ValF1(all) 0.7930 | ValF1* 0.8319 | ValAUPRC 0.8698 | ValPrecision 0.7989 | ValRecall 0.8162
+Epoch 22 | TrainLoss 0.0005 | TrainF1(all) 0.7854 | TrainF1(target) 0.7919 | TrainPrecision 0.7687 | TrainRecall 0.8028 | ValLoss 0.0005 | ValF1(all) 0.7896 | ValF1* 0.8297 | ValAUPRC 0.8731 | ValPrecision 0.7839 | ValRecall 0.8432
+Epoch 23 | TrainLoss 0.0005 | TrainF1(all) 0.7868 | TrainF1(target) 0.7976 | TrainPrecision 0.7704 | TrainRecall 0.8039 | ValLoss 0.0005 | ValF1(all) 0.7971 | ValF1* 0.8280 | ValAUPRC 0.8696 | ValPrecision 0.7990 | ValRecall 0.8378
+Epoch 24 | TrainLoss 0.0005 | TrainF1(all) 0.7882 | TrainF1(target) 0.7969 | TrainPrecision 0.7699 | TrainRecall 0.8073 | ValLoss 0.0005 | ValF1(all) 0.7916 | ValF1* 0.8295 | ValAUPRC 0.8754 | ValPrecision 0.7696 | ValRecall 0.8486
+Epoch 25 | TrainLoss 0.0005 | TrainF1(all) 0.7872 | TrainF1(target) 0.8020 | TrainPrecision 0.7693 | TrainRecall 0.8059 | ValLoss 0.0005 | ValF1(all) 0.7956 | ValF1* 0.8315 | ValAUPRC 0.8733 | ValPrecision 0.7990 | ValRecall 0.8378
+Epoch 26 | TrainLoss 0.0005 | TrainF1(all) 0.7867 | TrainF1(target) 0.7984 | TrainPrecision 0.7660 | TrainRecall 0.8085 | ValLoss 0.0005 | ValF1(all) 0.7818 | ValF1* 0.8329 | ValAUPRC 0.8704 | ValPrecision 0.7624 | ValRecall 0.8324
+Epoch 27 | TrainLoss 0.0005 | TrainF1(all) 0.7876 | TrainF1(target) 0.7964 | TrainPrecision 0.7685 | TrainRecall 0.8077 | ValLoss 0.0005 | ValF1(all) 0.7950 | ValF1* 0.8283 | ValAUPRC 0.8698 | ValPrecision 0.7979 | ValRecall 0.8324
+Epoch 28 | TrainLoss 0.0004 | TrainF1(all) 0.7881 | TrainF1(target) 0.7986 | TrainPrecision 0.7695 | TrainRecall 0.8076 | ValLoss 0.0005 | ValF1(all) 0.7773 | ValF1* 0.8213 | ValAUPRC 0.8700 | ValPrecision 0.7500 | ValRecall 0.8595
+Epoch 29 | TrainLoss 0.0004 | TrainF1(all) 0.7909 | TrainF1(target) 0.8051 | TrainPrecision 0.7740 | TrainRecall 0.8085 | ValLoss 0.0005 | ValF1(all) 0.7955 | ValF1* 0.8246 | ValAUPRC 0.8716 | ValPrecision 0.8000 | ValRecall 0.8432
+Epoch 30 | TrainLoss 0.0004 | TrainF1(all) 0.7894 | TrainF1(target) 0.8011 | TrainPrecision 0.7693 | TrainRecall 0.8107 | ValLoss 0.0005 | ValF1(all) 0.7930 | ValF1* 0.8239 | ValAUPRC 0.8720 | ValPrecision 0.7800 | ValRecall 0.8432
+[2025-11-13 15:47:27] Training completed successfully!
+[2025-11-13 15:47:27] Training time: 1788.0 seconds (29.8 minutes)
+[2025-11-13 15:47:27] Best epoch: 24
+[2025-11-13 15:47:27] Best auprc: 0.8754
+[2025-11-13 15:47:27] Best F1 (target): 0.8295
+[2025-11-13 15:47:27] Final epoch metrics:
+[2025-11-13 15:47:27]   Train Loss: 0.0004
+[2025-11-13 15:47:27]   Train F1 (all): 0.7894
+[2025-11-13 15:47:27]   Train F1 (target): 0.8011
+[2025-11-13 15:47:27]   Val Loss: 0.0005
+[2025-11-13 15:47:27]   Val F1 (all): 0.7930
+[2025-11-13 15:47:27]   Val F1 (target): 0.8239
+[2025-11-13 15:47:27]   Val AUPRC: 0.8720
+[2025-11-13 15:47:27] Progress: 39/56 completed
+[2025-11-13 15:47:27] Elapsed time: 1116.2 minutes
+[2025-11-13 15:47:27] Estimated remaining time: 486.6 minutes
+[2025-11-13 15:47:27] 
+>>> EXPERIMENT 40/56 <<<
+[2025-11-13 15:47:27] 
+============================================================
+[2025-11-13 15:47:27] EXPERIMENT: alpha=0.7, gamma=3.0
+[2025-11-13 15:47:27] ============================================================
+[2025-11-13 15:47:27] Model: SmallUNet1D
+[2025-11-13 15:47:27]   Total parameters: 125,929
+[2025-11-13 15:47:27]   Trainable parameters: 125,929
+[2025-11-13 15:47:27] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 15:47:27] Loss: FocalLoss (alpha=0.7, gamma=3.0)
+[2025-11-13 15:47:27] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0008 | TrainF1(all) 0.6051 | TrainF1(target) 0.6413 | TrainPrecision 0.6255 | TrainRecall 0.5859 | ValLoss 0.0005 | ValF1(all) 0.7413 | ValF1* 0.7946 | ValAUPRC 0.8251 | ValPrecision 0.6515 | ValRecall 0.8486
+Epoch 02 | TrainLoss 0.0005 | TrainF1(all) 0.7190 | TrainF1(target) 0.7307 | TrainPrecision 0.7134 | TrainRecall 0.7247 | ValLoss 0.0004 | ValF1(all) 0.7709 | ValF1* 0.8154 | ValAUPRC 0.8371 | ValPrecision 0.7440 | ValRecall 0.8324
+Epoch 03 | TrainLoss 0.0004 | TrainF1(all) 0.7353 | TrainF1(target) 0.7367 | TrainPrecision 0.7187 | TrainRecall 0.7526 | ValLoss 0.0004 | ValF1(all) 0.7716 | ValF1* 0.8219 | ValAUPRC 0.8451 | ValPrecision 0.8152 | ValRecall 0.8108
+Epoch 04 | TrainLoss 0.0004 | TrainF1(all) 0.7450 | TrainF1(target) 0.7491 | TrainPrecision 0.7309 | TrainRecall 0.7596 | ValLoss 0.0004 | ValF1(all) 0.7774 | ValF1* 0.8295 | ValAUPRC 0.8506 | ValPrecision 0.8065 | ValRecall 0.8108
+Epoch 05 | TrainLoss 0.0004 | TrainF1(all) 0.7527 | TrainF1(target) 0.7681 | TrainPrecision 0.7400 | TrainRecall 0.7658 | ValLoss 0.0004 | ValF1(all) 0.7753 | ValF1* 0.8362 | ValAUPRC 0.8561 | ValPrecision 0.7711 | ValRecall 0.8378
+Epoch 06 | TrainLoss 0.0004 | TrainF1(all) 0.7587 | TrainF1(target) 0.7594 | TrainPrecision 0.7494 | TrainRecall 0.7682 | ValLoss 0.0004 | ValF1(all) 0.7827 | ValF1* 0.8329 | ValAUPRC 0.8593 | ValPrecision 0.8475 | ValRecall 0.8108
+Epoch 07 | TrainLoss 0.0004 | TrainF1(all) 0.7589 | TrainF1(target) 0.7731 | TrainPrecision 0.7470 | TrainRecall 0.7711 | ValLoss 0.0004 | ValF1(all) 0.7996 | ValF1* 0.8315 | ValAUPRC 0.8619 | ValPrecision 0.8506 | ValRecall 0.8000
+Epoch 08 | TrainLoss 0.0004 | TrainF1(all) 0.7645 | TrainF1(target) 0.7761 | TrainPrecision 0.7526 | TrainRecall 0.7769 | ValLoss 0.0004 | ValF1(all) 0.7943 | ValF1* 0.8343 | ValAUPRC 0.8653 | ValPrecision 0.8216 | ValRecall 0.8216
+Epoch 09 | TrainLoss 0.0004 | TrainF1(all) 0.7675 | TrainF1(target) 0.7838 | TrainPrecision 0.7585 | TrainRecall 0.7767 | ValLoss 0.0004 | ValF1(all) 0.7976 | ValF1* 0.8343 | ValAUPRC 0.8686 | ValPrecision 0.8085 | ValRecall 0.8216
+Epoch 10 | TrainLoss 0.0004 | TrainF1(all) 0.7669 | TrainF1(target) 0.7801 | TrainPrecision 0.7570 | TrainRecall 0.7770 | ValLoss 0.0004 | ValF1(all) 0.7794 | ValF1* 0.8268 | ValAUPRC 0.8594 | ValPrecision 0.8118 | ValRecall 0.8162
+Epoch 11 | TrainLoss 0.0004 | TrainF1(all) 0.7697 | TrainF1(target) 0.7797 | TrainPrecision 0.7565 | TrainRecall 0.7834 | ValLoss 0.0004 | ValF1(all) 0.7965 | ValF1* 0.8274 | ValAUPRC 0.8630 | ValPrecision 0.8555 | ValRecall 0.8000
+Epoch 12 | TrainLoss 0.0004 | TrainF1(all) 0.7734 | TrainF1(target) 0.7750 | TrainPrecision 0.7627 | TrainRecall 0.7843 | ValLoss 0.0004 | ValF1(all) 0.7693 | ValF1* 0.8362 | ValAUPRC 0.8723 | ValPrecision 0.7054 | ValRecall 0.8541
+Epoch 13 | TrainLoss 0.0004 | TrainF1(all) 0.7761 | TrainF1(target) 0.7850 | TrainPrecision 0.7667 | TrainRecall 0.7858 | ValLoss 0.0004 | ValF1(all) 0.7990 | ValF1* 0.8297 | ValAUPRC 0.8689 | ValPrecision 0.8042 | ValRecall 0.8216
+Epoch 14 | TrainLoss 0.0004 | TrainF1(all) 0.7750 | TrainF1(target) 0.7793 | TrainPrecision 0.7651 | TrainRecall 0.7851 | ValLoss 0.0004 | ValF1(all) 0.8002 | ValF1* 0.8319 | ValAUPRC 0.8644 | ValPrecision 0.8148 | ValRecall 0.8324
+Epoch 15 | TrainLoss 0.0004 | TrainF1(all) 0.7760 | TrainF1(target) 0.7962 | TrainPrecision 0.7635 | TrainRecall 0.7888 | ValLoss 0.0004 | ValF1(all) 0.7994 | ValF1* 0.8347 | ValAUPRC 0.8643 | ValPrecision 0.8743 | ValRecall 0.7892
+Epoch 16 | TrainLoss 0.0004 | TrainF1(all) 0.7807 | TrainF1(target) 0.7956 | TrainPrecision 0.7698 | TrainRecall 0.7919 | ValLoss 0.0004 | ValF1(all) 0.7962 | ValF1* 0.8347 | ValAUPRC 0.8669 | ValPrecision 0.7846 | ValRecall 0.8270
+Epoch 17 | TrainLoss 0.0003 | TrainF1(all) 0.7809 | TrainF1(target) 0.7853 | TrainPrecision 0.7649 | TrainRecall 0.7976 | ValLoss 0.0004 | ValF1(all) 0.8135 | ValF1* 0.8389 | ValAUPRC 0.8766 | ValPrecision 0.8148 | ValRecall 0.8324
+Epoch 18 | TrainLoss 0.0003 | TrainF1(all) 0.7862 | TrainF1(target) 0.7975 | TrainPrecision 0.7713 | TrainRecall 0.8018 | ValLoss 0.0004 | ValF1(all) 0.8018 | ValF1* 0.8343 | ValAUPRC 0.8759 | ValPrecision 0.8063 | ValRecall 0.8324
+Epoch 19 | TrainLoss 0.0003 | TrainF1(all) 0.7843 | TrainF1(target) 0.7958 | TrainPrecision 0.7690 | TrainRecall 0.8003 | ValLoss 0.0004 | ValF1(all) 0.8007 | ValF1* 0.8409 | ValAUPRC 0.8711 | ValPrecision 0.7887 | ValRecall 0.8270
+Epoch 20 | TrainLoss 0.0003 | TrainF1(all) 0.7869 | TrainF1(target) 0.7955 | TrainPrecision 0.7710 | TrainRecall 0.8034 | ValLoss 0.0004 | ValF1(all) 0.8096 | ValF1* 0.8444 | ValAUPRC 0.8695 | ValPrecision 0.8492 | ValRecall 0.8216
+Epoch 21 | TrainLoss 0.0003 | TrainF1(all) 0.7852 | TrainF1(target) 0.7929 | TrainPrecision 0.7716 | TrainRecall 0.7992 | ValLoss 0.0004 | ValF1(all) 0.7943 | ValF1* 0.8407 | ValAUPRC 0.8773 | ValPrecision 0.7908 | ValRecall 0.8378
+Epoch 22 | TrainLoss 0.0003 | TrainF1(all) 0.7855 | TrainF1(target) 0.8008 | TrainPrecision 0.7699 | TrainRecall 0.8018 | ValLoss 0.0004 | ValF1(all) 0.7850 | ValF1* 0.8394 | ValAUPRC 0.8790 | ValPrecision 0.7476 | ValRecall 0.8486
+Epoch 23 | TrainLoss 0.0003 | TrainF1(all) 0.7869 | TrainF1(target) 0.7904 | TrainPrecision 0.7731 | TrainRecall 0.8012 | ValLoss 0.0004 | ValF1(all) 0.7993 | ValF1* 0.8366 | ValAUPRC 0.8753 | ValPrecision 0.7596 | ValRecall 0.8541
+Epoch 24 | TrainLoss 0.0003 | TrainF1(all) 0.7889 | TrainF1(target) 0.7959 | TrainPrecision 0.7749 | TrainRecall 0.8035 | ValLoss 0.0004 | ValF1(all) 0.7998 | ValF1* 0.8352 | ValAUPRC 0.8729 | ValPrecision 0.8370 | ValRecall 0.8324
+Epoch 25 | TrainLoss 0.0003 | TrainF1(all) 0.7915 | TrainF1(target) 0.7988 | TrainPrecision 0.7767 | TrainRecall 0.8068 | ValLoss 0.0004 | ValF1(all) 0.7914 | ValF1* 0.8343 | ValAUPRC 0.8743 | ValPrecision 0.7406 | ValRecall 0.8486
+Epoch 26 | TrainLoss 0.0003 | TrainF1(all) 0.7892 | TrainF1(target) 0.7964 | TrainPrecision 0.7741 | TrainRecall 0.8050 | ValLoss 0.0004 | ValF1(all) 0.7894 | ValF1* 0.8352 | ValAUPRC 0.8745 | ValPrecision 0.7778 | ValRecall 0.8324
+Epoch 27 | TrainLoss 0.0003 | TrainF1(all) 0.7916 | TrainF1(target) 0.7933 | TrainPrecision 0.7749 | TrainRecall 0.8089 | ValLoss 0.0003 | ValF1(all) 0.7915 | ValF1* 0.8384 | ValAUPRC 0.8804 | ValPrecision 0.7585 | ValRecall 0.8486
+Epoch 28 | TrainLoss 0.0003 | TrainF1(all) 0.7911 | TrainF1(target) 0.8034 | TrainPrecision 0.7715 | TrainRecall 0.8117 | ValLoss 0.0003 | ValF1(all) 0.8048 | ValF1* 0.8421 | ValAUPRC 0.8798 | ValPrecision 0.7868 | ValRecall 0.8378
+Epoch 29 | TrainLoss 0.0003 | TrainF1(all) 0.7954 | TrainF1(target) 0.8011 | TrainPrecision 0.7797 | TrainRecall 0.8117 | ValLoss 0.0004 | ValF1(all) 0.8034 | ValF1* 0.8412 | ValAUPRC 0.8779 | ValPrecision 0.8158 | ValRecall 0.8378
+Epoch 30 | TrainLoss 0.0003 | TrainF1(all) 0.7957 | TrainF1(target) 0.8032 | TrainPrecision 0.7778 | TrainRecall 0.8144 | ValLoss 0.0004 | ValF1(all) 0.7915 | ValF1* 0.8375 | ValAUPRC 0.8747 | ValPrecision 0.7512 | ValRecall 0.8324
+[2025-11-13 16:15:57] Training completed successfully!
+[2025-11-13 16:15:57] Training time: 1709.3 seconds (28.5 minutes)
+[2025-11-13 16:15:57] Best epoch: 27
+[2025-11-13 16:15:57] Best auprc: 0.8804
+[2025-11-13 16:15:57] Best F1 (target): 0.8384
+[2025-11-13 16:15:57] Final epoch metrics:
+[2025-11-13 16:15:57]   Train Loss: 0.0003
+[2025-11-13 16:15:57]   Train F1 (all): 0.7957
+[2025-11-13 16:15:57]   Train F1 (target): 0.8032
+[2025-11-13 16:15:57]   Val Loss: 0.0004
+[2025-11-13 16:15:57]   Val F1 (all): 0.7915
+[2025-11-13 16:15:57]   Val F1 (target): 0.8375
+[2025-11-13 16:15:57]   Val AUPRC: 0.8747
+[2025-11-13 16:15:57] Progress: 40/56 completed
+[2025-11-13 16:15:57] Elapsed time: 1144.7 minutes
+[2025-11-13 16:15:57] Estimated remaining time: 457.9 minutes
+[2025-11-13 16:15:57] 
+>>> EXPERIMENT 41/56 <<<
+[2025-11-13 16:15:57] 
+============================================================
+[2025-11-13 16:15:57] EXPERIMENT: alpha=0.8, gamma=1.5
+[2025-11-13 16:15:57] ============================================================
+[2025-11-13 16:15:57] Model: SmallUNet1D
+[2025-11-13 16:15:57]   Total parameters: 125,929
+[2025-11-13 16:15:57]   Trainable parameters: 125,929
+[2025-11-13 16:15:57] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 16:15:57] Loss: FocalLoss (alpha=0.8, gamma=1.5)
+[2025-11-13 16:15:57] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0017 | TrainF1(all) 0.6045 | TrainF1(target) 0.6298 | TrainPrecision 0.5772 | TrainRecall 0.6345 | ValLoss 0.0011 | ValF1(all) 0.7316 | ValF1* 0.7989 | ValAUPRC 0.8288 | ValPrecision 0.7042 | ValRecall 0.8108
+Epoch 02 | TrainLoss 0.0011 | TrainF1(all) 0.7019 | TrainF1(target) 0.7098 | TrainPrecision 0.6472 | TrainRecall 0.7667 | ValLoss 0.0010 | ValF1(all) 0.7034 | ValF1* 0.8110 | ValAUPRC 0.8379 | ValPrecision 0.5694 | ValRecall 0.8865
+Epoch 03 | TrainLoss 0.0010 | TrainF1(all) 0.7144 | TrainF1(target) 0.7248 | TrainPrecision 0.6508 | TrainRecall 0.7919 | ValLoss 0.0010 | ValF1(all) 0.7375 | ValF1* 0.8087 | ValAUPRC 0.8468 | ValPrecision 0.6709 | ValRecall 0.8486
+Epoch 04 | TrainLoss 0.0010 | TrainF1(all) 0.7254 | TrainF1(target) 0.7361 | TrainPrecision 0.6623 | TrainRecall 0.8018 | ValLoss 0.0010 | ValF1(all) 0.7736 | ValF1* 0.8184 | ValAUPRC 0.8475 | ValPrecision 0.7906 | ValRecall 0.8162
+Epoch 05 | TrainLoss 0.0010 | TrainF1(all) 0.7305 | TrainF1(target) 0.7392 | TrainPrecision 0.6679 | TrainRecall 0.8062 | ValLoss 0.0009 | ValF1(all) 0.7749 | ValF1* 0.8264 | ValAUPRC 0.8435 | ValPrecision 0.7766 | ValRecall 0.8270
+Epoch 06 | TrainLoss 0.0009 | TrainF1(all) 0.7372 | TrainF1(target) 0.7415 | TrainPrecision 0.6766 | TrainRecall 0.8096 | ValLoss 0.0009 | ValF1(all) 0.7548 | ValF1* 0.8209 | ValAUPRC 0.8554 | ValPrecision 0.6504 | ValRecall 0.8649
+Epoch 07 | TrainLoss 0.0009 | TrainF1(all) 0.7423 | TrainF1(target) 0.7514 | TrainPrecision 0.6824 | TrainRecall 0.8137 | ValLoss 0.0009 | ValF1(all) 0.7757 | ValF1* 0.8320 | ValAUPRC 0.8564 | ValPrecision 0.7817 | ValRecall 0.8324
+Epoch 08 | TrainLoss 0.0009 | TrainF1(all) 0.7429 | TrainF1(target) 0.7542 | TrainPrecision 0.6823 | TrainRecall 0.8152 | ValLoss 0.0009 | ValF1(all) 0.7767 | ValF1* 0.8333 | ValAUPRC 0.8562 | ValPrecision 0.7857 | ValRecall 0.8324
+Epoch 09 | TrainLoss 0.0009 | TrainF1(all) 0.7454 | TrainF1(target) 0.7505 | TrainPrecision 0.6852 | TrainRecall 0.8173 | ValLoss 0.0010 | ValF1(all) 0.6827 | ValF1* 0.8378 | ValAUPRC 0.8629 | ValPrecision 0.5906 | ValRecall 0.8811
+Epoch 10 | TrainLoss 0.0009 | TrainF1(all) 0.7462 | TrainF1(target) 0.7519 | TrainPrecision 0.6839 | TrainRecall 0.8211 | ValLoss 0.0009 | ValF1(all) 0.7576 | ValF1* 0.8174 | ValAUPRC 0.8466 | ValPrecision 0.7163 | ValRecall 0.8324
+Epoch 11 | TrainLoss 0.0009 | TrainF1(all) 0.7531 | TrainF1(target) 0.7615 | TrainPrecision 0.6939 | TrainRecall 0.8235 | ValLoss 0.0009 | ValF1(all) 0.7693 | ValF1* 0.8291 | ValAUPRC 0.8608 | ValPrecision 0.6840 | ValRecall 0.8541
+Epoch 12 | TrainLoss 0.0009 | TrainF1(all) 0.7516 | TrainF1(target) 0.7535 | TrainPrecision 0.6894 | TrainRecall 0.8261 | ValLoss 0.0009 | ValF1(all) 0.7898 | ValF1* 0.8287 | ValAUPRC 0.8634 | ValPrecision 0.7182 | ValRecall 0.8541
+Epoch 13 | TrainLoss 0.0009 | TrainF1(all) 0.7550 | TrainF1(target) 0.7572 | TrainPrecision 0.6959 | TrainRecall 0.8249 | ValLoss 0.0010 | ValF1(all) 0.7815 | ValF1* 0.8293 | ValAUPRC 0.8640 | ValPrecision 0.6951 | ValRecall 0.8378
+Epoch 14 | TrainLoss 0.0009 | TrainF1(all) 0.7583 | TrainF1(target) 0.7639 | TrainPrecision 0.6985 | TrainRecall 0.8292 | ValLoss 0.0009 | ValF1(all) 0.7730 | ValF1* 0.8291 | ValAUPRC 0.8709 | ValPrecision 0.6926 | ValRecall 0.8649
+Epoch 15 | TrainLoss 0.0009 | TrainF1(all) 0.7581 | TrainF1(target) 0.7694 | TrainPrecision 0.6983 | TrainRecall 0.8292 | ValLoss 0.0009 | ValF1(all) 0.7810 | ValF1* 0.8287 | ValAUPRC 0.8682 | ValPrecision 0.7358 | ValRecall 0.8432
+Epoch 16 | TrainLoss 0.0008 | TrainF1(all) 0.7555 | TrainF1(target) 0.7618 | TrainPrecision 0.6939 | TrainRecall 0.8291 | ValLoss 0.0009 | ValF1(all) 0.7845 | ValF1* 0.8370 | ValAUPRC 0.8701 | ValPrecision 0.7828 | ValRecall 0.8378
+Epoch 17 | TrainLoss 0.0008 | TrainF1(all) 0.7634 | TrainF1(target) 0.7748 | TrainPrecision 0.7044 | TrainRecall 0.8332 | ValLoss 0.0009 | ValF1(all) 0.7819 | ValF1* 0.8235 | ValAUPRC 0.8684 | ValPrecision 0.7700 | ValRecall 0.8324
+Epoch 18 | TrainLoss 0.0008 | TrainF1(all) 0.7581 | TrainF1(target) 0.7625 | TrainPrecision 0.6979 | TrainRecall 0.8296 | ValLoss 0.0009 | ValF1(all) 0.7778 | ValF1* 0.8338 | ValAUPRC 0.8730 | ValPrecision 0.8042 | ValRecall 0.8216
+Epoch 19 | TrainLoss 0.0008 | TrainF1(all) 0.7634 | TrainF1(target) 0.7611 | TrainPrecision 0.7036 | TrainRecall 0.8342 | ValLoss 0.0008 | ValF1(all) 0.7885 | ValF1* 0.8172 | ValAUPRC 0.8750 | ValPrecision 0.7659 | ValRecall 0.8486
+Epoch 20 | TrainLoss 0.0008 | TrainF1(all) 0.7645 | TrainF1(target) 0.7666 | TrainPrecision 0.7046 | TrainRecall 0.8354 | ValLoss 0.0009 | ValF1(all) 0.7962 | ValF1* 0.8282 | ValAUPRC 0.8730 | ValPrecision 0.8128 | ValRecall 0.8216
+Epoch 21 | TrainLoss 0.0008 | TrainF1(all) 0.7636 | TrainF1(target) 0.7699 | TrainPrecision 0.7048 | TrainRecall 0.8330 | ValLoss 0.0009 | ValF1(all) 0.7773 | ValF1* 0.8212 | ValAUPRC 0.8711 | ValPrecision 0.7248 | ValRecall 0.8541
+Epoch 22 | TrainLoss 0.0008 | TrainF1(all) 0.7667 | TrainF1(target) 0.7713 | TrainPrecision 0.7079 | TrainRecall 0.8362 | ValLoss 0.0009 | ValF1(all) 0.7611 | ValF1* 0.8222 | ValAUPRC 0.8655 | ValPrecision 0.6864 | ValRecall 0.8757
+Epoch 23 | TrainLoss 0.0008 | TrainF1(all) 0.7655 | TrainF1(target) 0.7766 | TrainPrecision 0.7040 | TrainRecall 0.8388 | ValLoss 0.0009 | ValF1(all) 0.7632 | ValF1* 0.8276 | ValAUPRC 0.8660 | ValPrecision 0.6838 | ValRecall 0.8649
+Epoch 24 | TrainLoss 0.0008 | TrainF1(all) 0.7694 | TrainF1(target) 0.7742 | TrainPrecision 0.7084 | TrainRecall 0.8420 | ValLoss 0.0008 | ValF1(all) 0.7818 | ValF1* 0.8232 | ValAUPRC 0.8742 | ValPrecision 0.7220 | ValRecall 0.8703
+Epoch 25 | TrainLoss 0.0008 | TrainF1(all) 0.7724 | TrainF1(target) 0.7845 | TrainPrecision 0.7110 | TrainRecall 0.8454 | ValLoss 0.0008 | ValF1(all) 0.7805 | ValF1* 0.8249 | ValAUPRC 0.8737 | ValPrecision 0.7464 | ValRecall 0.8432
+Epoch 26 | TrainLoss 0.0008 | TrainF1(all) 0.7709 | TrainF1(target) 0.7714 | TrainPrecision 0.7089 | TrainRecall 0.8448 | ValLoss 0.0008 | ValF1(all) 0.7618 | ValF1* 0.8258 | ValAUPRC 0.8766 | ValPrecision 0.6792 | ValRecall 0.8811
+Epoch 27 | TrainLoss 0.0008 | TrainF1(all) 0.7726 | TrainF1(target) 0.7818 | TrainPrecision 0.7110 | TrainRecall 0.8458 | ValLoss 0.0008 | ValF1(all) 0.7583 | ValF1* 0.8333 | ValAUPRC 0.8763 | ValPrecision 0.6546 | ValRecall 0.8811
+Epoch 28 | TrainLoss 0.0008 | TrainF1(all) 0.7711 | TrainF1(target) 0.7703 | TrainPrecision 0.7069 | TrainRecall 0.8481 | ValLoss 0.0009 | ValF1(all) 0.7772 | ValF1* 0.8209 | ValAUPRC 0.8732 | ValPrecision 0.7324 | ValRecall 0.8432
+Epoch 29 | TrainLoss 0.0008 | TrainF1(all) 0.7725 | TrainF1(target) 0.7808 | TrainPrecision 0.7090 | TrainRecall 0.8485 | ValLoss 0.0008 | ValF1(all) 0.7931 | ValF1* 0.8282 | ValAUPRC 0.8786 | ValPrecision 0.7561 | ValRecall 0.8378
+Epoch 30 | TrainLoss 0.0008 | TrainF1(all) 0.7710 | TrainF1(target) 0.7817 | TrainPrecision 0.7066 | TrainRecall 0.8484 | ValLoss 0.0008 | ValF1(all) 0.7822 | ValF1* 0.8282 | ValAUPRC 0.8813 | ValPrecision 0.6970 | ValRecall 0.8703
+[2025-11-13 16:44:33] Training completed successfully!
+[2025-11-13 16:44:33] Training time: 1716.5 seconds (28.6 minutes)
+[2025-11-13 16:44:33] Best epoch: 30
+[2025-11-13 16:44:33] Best auprc: 0.8813
+[2025-11-13 16:44:33] Best F1 (target): 0.8282
+[2025-11-13 16:44:33] Final epoch metrics:
+[2025-11-13 16:44:33]   Train Loss: 0.0008
+[2025-11-13 16:44:33]   Train F1 (all): 0.7710
+[2025-11-13 16:44:33]   Train F1 (target): 0.7817
+[2025-11-13 16:44:33]   Val Loss: 0.0008
+[2025-11-13 16:44:33]   Val F1 (all): 0.7822
+[2025-11-13 16:44:33]   Val F1 (target): 0.8282
+[2025-11-13 16:44:33]   Val AUPRC: 0.8813
+[2025-11-13 16:44:33] Progress: 41/56 completed
+[2025-11-13 16:44:33] Elapsed time: 1173.3 minutes
+[2025-11-13 16:44:33] Estimated remaining time: 429.3 minutes
+[2025-11-13 16:44:33] 
+>>> EXPERIMENT 42/56 <<<
+[2025-11-13 16:44:33] 
+============================================================
+[2025-11-13 16:44:33] EXPERIMENT: alpha=0.8, gamma=1.7
+[2025-11-13 16:44:33] ============================================================
+[2025-11-13 16:44:33] Model: SmallUNet1D
+[2025-11-13 16:44:33]   Total parameters: 125,929
+[2025-11-13 16:44:33]   Trainable parameters: 125,929
+[2025-11-13 16:44:33] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 16:44:33] Loss: FocalLoss (alpha=0.8, gamma=1.7)
+[2025-11-13 16:44:33] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0015 | TrainF1(all) 0.6189 | TrainF1(target) 0.6480 | TrainPrecision 0.6004 | TrainRecall 0.6387 | ValLoss 0.0009 | ValF1(all) 0.7383 | ValF1* 0.8033 | ValAUPRC 0.8331 | ValPrecision 0.6471 | ValRecall 0.8324
+Epoch 02 | TrainLoss 0.0010 | TrainF1(all) 0.7031 | TrainF1(target) 0.7091 | TrainPrecision 0.6482 | TrainRecall 0.7681 | ValLoss 0.0009 | ValF1(all) 0.7352 | ValF1* 0.8142 | ValAUPRC 0.8503 | ValPrecision 0.6211 | ValRecall 0.8595
+Epoch 03 | TrainLoss 0.0009 | TrainF1(all) 0.7152 | TrainF1(target) 0.7347 | TrainPrecision 0.6554 | TrainRecall 0.7870 | ValLoss 0.0008 | ValF1(all) 0.7464 | ValF1* 0.8099 | ValAUPRC 0.8447 | ValPrecision 0.6270 | ValRecall 0.8541
+Epoch 04 | TrainLoss 0.0009 | TrainF1(all) 0.7258 | TrainF1(target) 0.7338 | TrainPrecision 0.6647 | TrainRecall 0.7991 | ValLoss 0.0008 | ValF1(all) 0.7363 | ValF1* 0.8287 | ValAUPRC 0.8449 | ValPrecision 0.6490 | ValRecall 0.8595
+Epoch 05 | TrainLoss 0.0009 | TrainF1(all) 0.7259 | TrainF1(target) 0.7321 | TrainPrecision 0.6648 | TrainRecall 0.7995 | ValLoss 0.0008 | ValF1(all) 0.7271 | ValF1* 0.8286 | ValAUPRC 0.8517 | ValPrecision 0.6611 | ValRecall 0.8541
+Epoch 06 | TrainLoss 0.0008 | TrainF1(all) 0.7353 | TrainF1(target) 0.7393 | TrainPrecision 0.6754 | TrainRecall 0.8069 | ValLoss 0.0008 | ValF1(all) 0.7718 | ValF1* 0.8287 | ValAUPRC 0.8506 | ValPrecision 0.7711 | ValRecall 0.8378
+Epoch 07 | TrainLoss 0.0008 | TrainF1(all) 0.7413 | TrainF1(target) 0.7469 | TrainPrecision 0.6820 | TrainRecall 0.8120 | ValLoss 0.0008 | ValF1(all) 0.7868 | ValF1* 0.8268 | ValAUPRC 0.8516 | ValPrecision 0.8251 | ValRecall 0.8162
+Epoch 08 | TrainLoss 0.0008 | TrainF1(all) 0.7409 | TrainF1(target) 0.7450 | TrainPrecision 0.6809 | TrainRecall 0.8125 | ValLoss 0.0008 | ValF1(all) 0.7367 | ValF1* 0.8357 | ValAUPRC 0.8506 | ValPrecision 0.6667 | ValRecall 0.8541
+Epoch 09 | TrainLoss 0.0008 | TrainF1(all) 0.7483 | TrainF1(target) 0.7599 | TrainPrecision 0.6898 | TrainRecall 0.8176 | ValLoss 0.0008 | ValF1(all) 0.7759 | ValF1* 0.8333 | ValAUPRC 0.8572 | ValPrecision 0.7277 | ValRecall 0.8378
+Epoch 10 | TrainLoss 0.0008 | TrainF1(all) 0.7468 | TrainF1(target) 0.7603 | TrainPrecision 0.6855 | TrainRecall 0.8201 | ValLoss 0.0008 | ValF1(all) 0.7860 | ValF1* 0.8239 | ValAUPRC 0.8620 | ValPrecision 0.7429 | ValRecall 0.8432
+Epoch 11 | TrainLoss 0.0008 | TrainF1(all) 0.7495 | TrainF1(target) 0.7610 | TrainPrecision 0.6901 | TrainRecall 0.8201 | ValLoss 0.0008 | ValF1(all) 0.7605 | ValF1* 0.8274 | ValAUPRC 0.8660 | ValPrecision 0.6431 | ValRecall 0.8865
+Epoch 12 | TrainLoss 0.0008 | TrainF1(all) 0.7503 | TrainF1(target) 0.7616 | TrainPrecision 0.6882 | TrainRecall 0.8248 | ValLoss 0.0008 | ValF1(all) 0.7915 | ValF1* 0.8352 | ValAUPRC 0.8672 | ValPrecision 0.7633 | ValRecall 0.8541
+Epoch 13 | TrainLoss 0.0008 | TrainF1(all) 0.7536 | TrainF1(target) 0.7623 | TrainPrecision 0.6923 | TrainRecall 0.8268 | ValLoss 0.0008 | ValF1(all) 0.7882 | ValF1* 0.8375 | ValAUPRC 0.8660 | ValPrecision 0.8172 | ValRecall 0.8216
+Epoch 14 | TrainLoss 0.0008 | TrainF1(all) 0.7515 | TrainF1(target) 0.7576 | TrainPrecision 0.6907 | TrainRecall 0.8240 | ValLoss 0.0008 | ValF1(all) 0.7834 | ValF1* 0.8357 | ValAUPRC 0.8732 | ValPrecision 0.7336 | ValRecall 0.8486
+Epoch 15 | TrainLoss 0.0008 | TrainF1(all) 0.7568 | TrainF1(target) 0.7634 | TrainPrecision 0.6980 | TrainRecall 0.8264 | ValLoss 0.0007 | ValF1(all) 0.7801 | ValF1* 0.8347 | ValAUPRC 0.8747 | ValPrecision 0.7465 | ValRecall 0.8595
+Epoch 16 | TrainLoss 0.0008 | TrainF1(all) 0.7537 | TrainF1(target) 0.7595 | TrainPrecision 0.6943 | TrainRecall 0.8243 | ValLoss 0.0007 | ValF1(all) 0.7756 | ValF1* 0.8309 | ValAUPRC 0.8752 | ValPrecision 0.7685 | ValRecall 0.8432
+Epoch 17 | TrainLoss 0.0008 | TrainF1(all) 0.7598 | TrainF1(target) 0.7720 | TrainPrecision 0.7020 | TrainRecall 0.8280 | ValLoss 0.0007 | ValF1(all) 0.7930 | ValF1* 0.8427 | ValAUPRC 0.8736 | ValPrecision 0.7707 | ValRecall 0.8541
+Epoch 18 | TrainLoss 0.0008 | TrainF1(all) 0.7581 | TrainF1(target) 0.7648 | TrainPrecision 0.6991 | TrainRecall 0.8279 | ValLoss 0.0008 | ValF1(all) 0.7083 | ValF1* 0.8476 | ValAUPRC 0.8722 | ValPrecision 0.6312 | ValRecall 0.8973
+Epoch 19 | TrainLoss 0.0007 | TrainF1(all) 0.7610 | TrainF1(target) 0.7711 | TrainPrecision 0.7010 | TrainRecall 0.8324 | ValLoss 0.0008 | ValF1(all) 0.7916 | ValF1* 0.8272 | ValAUPRC 0.8681 | ValPrecision 0.8075 | ValRecall 0.8162
+Epoch 20 | TrainLoss 0.0007 | TrainF1(all) 0.7592 | TrainF1(target) 0.7644 | TrainPrecision 0.6990 | TrainRecall 0.8308 | ValLoss 0.0008 | ValF1(all) 0.7626 | ValF1* 0.8398 | ValAUPRC 0.8770 | ValPrecision 0.6749 | ValRecall 0.8865
+Epoch 21 | TrainLoss 0.0007 | TrainF1(all) 0.7671 | TrainF1(target) 0.7821 | TrainPrecision 0.7110 | TrainRecall 0.8329 | ValLoss 0.0008 | ValF1(all) 0.7811 | ValF1* 0.8398 | ValAUPRC 0.8780 | ValPrecision 0.7585 | ValRecall 0.8486
+Epoch 22 | TrainLoss 0.0007 | TrainF1(all) 0.7620 | TrainF1(target) 0.7655 | TrainPrecision 0.7024 | TrainRecall 0.8326 | ValLoss 0.0008 | ValF1(all) 0.7818 | ValF1* 0.8329 | ValAUPRC 0.8738 | ValPrecision 0.7598 | ValRecall 0.8378
+Epoch 23 | TrainLoss 0.0007 | TrainF1(all) 0.7657 | TrainF1(target) 0.7772 | TrainPrecision 0.7068 | TrainRecall 0.8352 | ValLoss 0.0007 | ValF1(all) 0.7802 | ValF1* 0.8462 | ValAUPRC 0.8799 | ValPrecision 0.7294 | ValRecall 0.8595
+Epoch 24 | TrainLoss 0.0007 | TrainF1(all) 0.7680 | TrainF1(target) 0.7735 | TrainPrecision 0.7105 | TrainRecall 0.8357 | ValLoss 0.0008 | ValF1(all) 0.7521 | ValF1* 0.8376 | ValAUPRC 0.8727 | ValPrecision 0.6573 | ValRecall 0.8811
+Epoch 25 | TrainLoss 0.0007 | TrainF1(all) 0.7638 | TrainF1(target) 0.7654 | TrainPrecision 0.7030 | TrainRecall 0.8361 | ValLoss 0.0008 | ValF1(all) 0.7941 | ValF1* 0.8362 | ValAUPRC 0.8788 | ValPrecision 0.8021 | ValRecall 0.8324
+Epoch 26 | TrainLoss 0.0007 | TrainF1(all) 0.7678 | TrainF1(target) 0.7706 | TrainPrecision 0.7090 | TrainRecall 0.8373 | ValLoss 0.0007 | ValF1(all) 0.7777 | ValF1* 0.8415 | ValAUPRC 0.8785 | ValPrecision 0.7761 | ValRecall 0.8432
+Epoch 27 | TrainLoss 0.0007 | TrainF1(all) 0.7630 | TrainF1(target) 0.7670 | TrainPrecision 0.7035 | TrainRecall 0.8334 | ValLoss 0.0008 | ValF1(all) 0.7590 | ValF1* 0.8398 | ValAUPRC 0.8776 | ValPrecision 0.6790 | ValRecall 0.8919
+Epoch 28 | TrainLoss 0.0007 | TrainF1(all) 0.7690 | TrainF1(target) 0.7814 | TrainPrecision 0.7063 | TrainRecall 0.8440 | ValLoss 0.0007 | ValF1(all) 0.7681 | ValF1* 0.8391 | ValAUPRC 0.8810 | ValPrecision 0.7124 | ValRecall 0.8703
+Epoch 29 | TrainLoss 0.0007 | TrainF1(all) 0.7720 | TrainF1(target) 0.7746 | TrainPrecision 0.7109 | TrainRecall 0.8446 | ValLoss 0.0007 | ValF1(all) 0.7746 | ValF1* 0.8315 | ValAUPRC 0.8819 | ValPrecision 0.7500 | ValRecall 0.8595
+Epoch 30 | TrainLoss 0.0007 | TrainF1(all) 0.7753 | TrainF1(target) 0.7849 | TrainPrecision 0.7141 | TrainRecall 0.8480 | ValLoss 0.0008 | ValF1(all) 0.8027 | ValF1* 0.8415 | ValAUPRC 0.8798 | ValPrecision 0.8135 | ValRecall 0.8486
+[2025-11-13 17:14:11] Training completed successfully!
+[2025-11-13 17:14:11] Training time: 1777.4 seconds (29.6 minutes)
+[2025-11-13 17:14:11] Best epoch: 29
+[2025-11-13 17:14:11] Best auprc: 0.8819
+[2025-11-13 17:14:11] Best F1 (target): 0.8315
+[2025-11-13 17:14:11] Final epoch metrics:
+[2025-11-13 17:14:11]   Train Loss: 0.0007
+[2025-11-13 17:14:11]   Train F1 (all): 0.7753
+[2025-11-13 17:14:11]   Train F1 (target): 0.7849
+[2025-11-13 17:14:11]   Val Loss: 0.0008
+[2025-11-13 17:14:11]   Val F1 (all): 0.8027
+[2025-11-13 17:14:11]   Val F1 (target): 0.8415
+[2025-11-13 17:14:11]   Val AUPRC: 0.8798
+[2025-11-13 17:14:11] Progress: 42/56 completed
+[2025-11-13 17:14:11] Elapsed time: 1202.9 minutes
+[2025-11-13 17:14:11] Estimated remaining time: 401.0 minutes
+[2025-11-13 17:14:11] 
+>>> EXPERIMENT 43/56 <<<
+[2025-11-13 17:14:11] 
+============================================================
+[2025-11-13 17:14:11] EXPERIMENT: alpha=0.8, gamma=1.9
+[2025-11-13 17:14:11] ============================================================
+[2025-11-13 17:14:11] Model: SmallUNet1D
+[2025-11-13 17:14:11]   Total parameters: 125,929
+[2025-11-13 17:14:11]   Trainable parameters: 125,929
+[2025-11-13 17:14:11] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 17:14:11] Loss: FocalLoss (alpha=0.8, gamma=1.9)
+[2025-11-13 17:14:11] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0013 | TrainF1(all) 0.6424 | TrainF1(target) 0.6641 | TrainPrecision 0.6306 | TrainRecall 0.6546 | ValLoss 0.0008 | ValF1(all) 0.7578 | ValF1* 0.8043 | ValAUPRC 0.8310 | ValPrecision 0.7488 | ValRecall 0.8216
+Epoch 02 | TrainLoss 0.0009 | TrainF1(all) 0.7124 | TrainF1(target) 0.7251 | TrainPrecision 0.6568 | TrainRecall 0.7783 | ValLoss 0.0008 | ValF1(all) 0.7830 | ValF1* 0.8103 | ValAUPRC 0.8522 | ValPrecision 0.7989 | ValRecall 0.7946
+Epoch 03 | TrainLoss 0.0008 | TrainF1(all) 0.7167 | TrainF1(target) 0.7206 | TrainPrecision 0.6579 | TrainRecall 0.7870 | ValLoss 0.0007 | ValF1(all) 0.7711 | ValF1* 0.8216 | ValAUPRC 0.8476 | ValPrecision 0.7685 | ValRecall 0.8432
+Epoch 04 | TrainLoss 0.0008 | TrainF1(all) 0.7288 | TrainF1(target) 0.7354 | TrainPrecision 0.6655 | TrainRecall 0.8055 | ValLoss 0.0008 | ValF1(all) 0.7940 | ValF1* 0.8264 | ValAUPRC 0.8592 | ValPrecision 0.8457 | ValRecall 0.8000
+Epoch 05 | TrainLoss 0.0007 | TrainF1(all) 0.7337 | TrainF1(target) 0.7448 | TrainPrecision 0.6740 | TrainRecall 0.8051 | ValLoss 0.0007 | ValF1(all) 0.7511 | ValF1* 0.8347 | ValAUPRC 0.8534 | ValPrecision 0.7349 | ValRecall 0.8541
+Epoch 06 | TrainLoss 0.0007 | TrainF1(all) 0.7399 | TrainF1(target) 0.7439 | TrainPrecision 0.6809 | TrainRecall 0.8101 | ValLoss 0.0007 | ValF1(all) 0.7271 | ValF1* 0.8315 | ValAUPRC 0.8593 | ValPrecision 0.6795 | ValRecall 0.8595
+Epoch 07 | TrainLoss 0.0007 | TrainF1(all) 0.7381 | TrainF1(target) 0.7470 | TrainPrecision 0.6777 | TrainRecall 0.8103 | ValLoss 0.0007 | ValF1(all) 0.7779 | ValF1* 0.8324 | ValAUPRC 0.8597 | ValPrecision 0.7659 | ValRecall 0.8486
+Epoch 08 | TrainLoss 0.0007 | TrainF1(all) 0.7465 | TrainF1(target) 0.7638 | TrainPrecision 0.6869 | TrainRecall 0.8173 | ValLoss 0.0008 | ValF1(all) 0.7835 | ValF1* 0.8208 | ValAUPRC 0.8455 | ValPrecision 0.8033 | ValRecall 0.7946
+Epoch 09 | TrainLoss 0.0007 | TrainF1(all) 0.7497 | TrainF1(target) 0.7521 | TrainPrecision 0.6885 | TrainRecall 0.8227 | ValLoss 0.0007 | ValF1(all) 0.7715 | ValF1* 0.8401 | ValAUPRC 0.8680 | ValPrecision 0.7571 | ValRecall 0.8595
+Epoch 10 | TrainLoss 0.0007 | TrainF1(all) 0.7511 | TrainF1(target) 0.7509 | TrainPrecision 0.6915 | TrainRecall 0.8219 | ValLoss 0.0008 | ValF1(all) 0.6892 | ValF1* 0.8301 | ValAUPRC 0.8716 | ValPrecision 0.5784 | ValRecall 0.8973
+Epoch 11 | TrainLoss 0.0007 | TrainF1(all) 0.7526 | TrainF1(target) 0.7678 | TrainPrecision 0.6929 | TrainRecall 0.8236 | ValLoss 0.0007 | ValF1(all) 0.7785 | ValF1* 0.8338 | ValAUPRC 0.8704 | ValPrecision 0.7512 | ValRecall 0.8486
+Epoch 12 | TrainLoss 0.0007 | TrainF1(all) 0.7523 | TrainF1(target) 0.7621 | TrainPrecision 0.6900 | TrainRecall 0.8269 | ValLoss 0.0007 | ValF1(all) 0.7585 | ValF1* 0.8384 | ValAUPRC 0.8748 | ValPrecision 0.6851 | ValRecall 0.8703
+Epoch 13 | TrainLoss 0.0007 | TrainF1(all) 0.7551 | TrainF1(target) 0.7566 | TrainPrecision 0.6958 | TrainRecall 0.8255 | ValLoss 0.0007 | ValF1(all) 0.7570 | ValF1* 0.8373 | ValAUPRC 0.8696 | ValPrecision 0.6480 | ValRecall 0.8757
+Epoch 14 | TrainLoss 0.0007 | TrainF1(all) 0.7578 | TrainF1(target) 0.7627 | TrainPrecision 0.6977 | TrainRecall 0.8292 | ValLoss 0.0007 | ValF1(all) 0.7806 | ValF1* 0.8262 | ValAUPRC 0.8664 | ValPrecision 0.7919 | ValRecall 0.8432
+Epoch 15 | TrainLoss 0.0007 | TrainF1(all) 0.7620 | TrainF1(target) 0.7696 | TrainPrecision 0.7027 | TrainRecall 0.8322 | ValLoss 0.0007 | ValF1(all) 0.7309 | ValF1* 0.8297 | ValAUPRC 0.8740 | ValPrecision 0.7035 | ValRecall 0.8595
+Epoch 16 | TrainLoss 0.0007 | TrainF1(all) 0.7562 | TrainF1(target) 0.7645 | TrainPrecision 0.6955 | TrainRecall 0.8285 | ValLoss 0.0007 | ValF1(all) 0.7774 | ValF1* 0.8394 | ValAUPRC 0.8722 | ValPrecision 0.7573 | ValRecall 0.8432
+Epoch 17 | TrainLoss 0.0006 | TrainF1(all) 0.7695 | TrainF1(target) 0.7700 | TrainPrecision 0.7102 | TrainRecall 0.8397 | ValLoss 0.0007 | ValF1(all) 0.7643 | ValF1* 0.8370 | ValAUPRC 0.8804 | ValPrecision 0.6897 | ValRecall 0.8649
+Epoch 18 | TrainLoss 0.0006 | TrainF1(all) 0.7672 | TrainF1(target) 0.7720 | TrainPrecision 0.7067 | TrainRecall 0.8389 | ValLoss 0.0007 | ValF1(all) 0.7889 | ValF1* 0.8406 | ValAUPRC 0.8755 | ValPrecision 0.7548 | ValRecall 0.8486
+Epoch 19 | TrainLoss 0.0006 | TrainF1(all) 0.7654 | TrainF1(target) 0.7633 | TrainPrecision 0.7039 | TrainRecall 0.8388 | ValLoss 0.0007 | ValF1(all) 0.7684 | ValF1* 0.8453 | ValAUPRC 0.8805 | ValPrecision 0.7143 | ValRecall 0.8649
+Epoch 20 | TrainLoss 0.0006 | TrainF1(all) 0.7706 | TrainF1(target) 0.7846 | TrainPrecision 0.7108 | TrainRecall 0.8413 | ValLoss 0.0007 | ValF1(all) 0.7832 | ValF1* 0.8385 | ValAUPRC 0.8796 | ValPrecision 0.7548 | ValRecall 0.8486
+Epoch 21 | TrainLoss 0.0006 | TrainF1(all) 0.7692 | TrainF1(target) 0.7738 | TrainPrecision 0.7087 | TrainRecall 0.8410 | ValLoss 0.0007 | ValF1(all) 0.7762 | ValF1* 0.8407 | ValAUPRC 0.8822 | ValPrecision 0.7260 | ValRecall 0.8595
+Epoch 22 | TrainLoss 0.0006 | TrainF1(all) 0.7678 | TrainF1(target) 0.7785 | TrainPrecision 0.7077 | TrainRecall 0.8389 | ValLoss 0.0007 | ValF1(all) 0.7637 | ValF1* 0.8305 | ValAUPRC 0.8772 | ValPrecision 0.7143 | ValRecall 0.8649
+Epoch 23 | TrainLoss 0.0006 | TrainF1(all) 0.7694 | TrainF1(target) 0.7782 | TrainPrecision 0.7096 | TrainRecall 0.8402 | ValLoss 0.0007 | ValF1(all) 0.7602 | ValF1* 0.8394 | ValAUPRC 0.8790 | ValPrecision 0.7074 | ValRecall 0.8757
+Epoch 24 | TrainLoss 0.0006 | TrainF1(all) 0.7694 | TrainF1(target) 0.7708 | TrainPrecision 0.7059 | TrainRecall 0.8456 | ValLoss 0.0007 | ValF1(all) 0.7824 | ValF1* 0.8264 | ValAUPRC 0.8761 | ValPrecision 0.7373 | ValRecall 0.8649
+Epoch 25 | TrainLoss 0.0006 | TrainF1(all) 0.7693 | TrainF1(target) 0.7694 | TrainPrecision 0.7077 | TrainRecall 0.8428 | ValLoss 0.0007 | ValF1(all) 0.7800 | ValF1* 0.8357 | ValAUPRC 0.8783 | ValPrecision 0.7227 | ValRecall 0.8595
+Epoch 26 | TrainLoss 0.0006 | TrainF1(all) 0.7716 | TrainF1(target) 0.7759 | TrainPrecision 0.7086 | TrainRecall 0.8468 | ValLoss 0.0007 | ValF1(all) 0.7898 | ValF1* 0.8430 | ValAUPRC 0.8832 | ValPrecision 0.7306 | ValRecall 0.8649
+Epoch 27 | TrainLoss 0.0006 | TrainF1(all) 0.7733 | TrainF1(target) 0.7781 | TrainPrecision 0.7117 | TrainRecall 0.8466 | ValLoss 0.0007 | ValF1(all) 0.7793 | ValF1* 0.8412 | ValAUPRC 0.8847 | ValPrecision 0.7087 | ValRecall 0.8811
+Epoch 28 | TrainLoss 0.0006 | TrainF1(all) 0.7710 | TrainF1(target) 0.7735 | TrainPrecision 0.7064 | TrainRecall 0.8488 | ValLoss 0.0007 | ValF1(all) 0.7737 | ValF1* 0.8421 | ValAUPRC 0.8811 | ValPrecision 0.7207 | ValRecall 0.8649
+Epoch 29 | TrainLoss 0.0006 | TrainF1(all) 0.7753 | TrainF1(target) 0.7752 | TrainPrecision 0.7138 | TrainRecall 0.8484 | ValLoss 0.0007 | ValF1(all) 0.7879 | ValF1* 0.8430 | ValAUPRC 0.8834 | ValPrecision 0.7608 | ValRecall 0.8595
+Epoch 30 | TrainLoss 0.0006 | TrainF1(all) 0.7742 | TrainF1(target) 0.7721 | TrainPrecision 0.7117 | TrainRecall 0.8486 | ValLoss 0.0007 | ValF1(all) 0.7853 | ValF1* 0.8409 | ValAUPRC 0.8843 | ValPrecision 0.7407 | ValRecall 0.8649
+[2025-11-13 17:44:00] Training completed successfully!
+[2025-11-13 17:44:00] Training time: 1789.8 seconds (29.8 minutes)
+[2025-11-13 17:44:00] Best epoch: 27
+[2025-11-13 17:44:00] Best auprc: 0.8847
+[2025-11-13 17:44:00] Best F1 (target): 0.8412
+[2025-11-13 17:44:00] Final epoch metrics:
+[2025-11-13 17:44:00]   Train Loss: 0.0006
+[2025-11-13 17:44:00]   Train F1 (all): 0.7742
+[2025-11-13 17:44:00]   Train F1 (target): 0.7721
+[2025-11-13 17:44:00]   Val Loss: 0.0007
+[2025-11-13 17:44:00]   Val F1 (all): 0.7853
+[2025-11-13 17:44:00]   Val F1 (target): 0.8409
+[2025-11-13 17:44:00]   Val AUPRC: 0.8843
+[2025-11-13 17:44:00] Progress: 43/56 completed
+[2025-11-13 17:44:00] Elapsed time: 1232.8 minutes
+[2025-11-13 17:44:00] Estimated remaining time: 372.7 minutes
+[2025-11-13 17:44:00] 
+>>> EXPERIMENT 44/56 <<<
+[2025-11-13 17:44:00] 
+============================================================
+[2025-11-13 17:44:00] EXPERIMENT: alpha=0.8, gamma=2.0
+[2025-11-13 17:44:00] ============================================================
+[2025-11-13 17:44:00] Model: SmallUNet1D
+[2025-11-13 17:44:00]   Total parameters: 125,929
+[2025-11-13 17:44:00]   Trainable parameters: 125,929
+[2025-11-13 17:44:00] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 17:44:00] Loss: FocalLoss (alpha=0.8, gamma=2.0)
+[2025-11-13 17:44:00] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0012 | TrainF1(all) 0.6376 | TrainF1(target) 0.6488 | TrainPrecision 0.6300 | TrainRecall 0.6455 | ValLoss 0.0008 | ValF1(all) 0.7226 | ValF1* 0.8111 | ValAUPRC 0.8347 | ValPrecision 0.6753 | ValRecall 0.8432
+Epoch 02 | TrainLoss 0.0008 | TrainF1(all) 0.7083 | TrainF1(target) 0.6971 | TrainPrecision 0.6486 | TrainRecall 0.7801 | ValLoss 0.0007 | ValF1(all) 0.7487 | ValF1* 0.8092 | ValAUPRC 0.8517 | ValPrecision 0.6996 | ValRecall 0.8432
+Epoch 03 | TrainLoss 0.0008 | TrainF1(all) 0.7216 | TrainF1(target) 0.7227 | TrainPrecision 0.6601 | TrainRecall 0.7958 | ValLoss 0.0008 | ValF1(all) 0.7026 | ValF1* 0.8198 | ValAUPRC 0.8439 | ValPrecision 0.6053 | ValRecall 0.8703
+Epoch 04 | TrainLoss 0.0007 | TrainF1(all) 0.7275 | TrainF1(target) 0.7318 | TrainPrecision 0.6669 | TrainRecall 0.8003 | ValLoss 0.0007 | ValF1(all) 0.7308 | ValF1* 0.8293 | ValAUPRC 0.8576 | ValPrecision 0.6375 | ValRecall 0.8649
+Epoch 05 | TrainLoss 0.0007 | TrainF1(all) 0.7374 | TrainF1(target) 0.7340 | TrainPrecision 0.6779 | TrainRecall 0.8083 | ValLoss 0.0007 | ValF1(all) 0.7637 | ValF1* 0.8352 | ValAUPRC 0.8528 | ValPrecision 0.7512 | ValRecall 0.8486
+Epoch 06 | TrainLoss 0.0007 | TrainF1(all) 0.7403 | TrainF1(target) 0.7390 | TrainPrecision 0.6800 | TrainRecall 0.8124 | ValLoss 0.0007 | ValF1(all) 0.7829 | ValF1* 0.8251 | ValAUPRC 0.8546 | ValPrecision 0.7536 | ValRecall 0.8432
+Epoch 07 | TrainLoss 0.0007 | TrainF1(all) 0.7419 | TrainF1(target) 0.7462 | TrainPrecision 0.6802 | TrainRecall 0.8159 | ValLoss 0.0007 | ValF1(all) 0.7754 | ValF1* 0.8255 | ValAUPRC 0.8531 | ValPrecision 0.7311 | ValRecall 0.8378
+Epoch 08 | TrainLoss 0.0007 | TrainF1(all) 0.7411 | TrainF1(target) 0.7549 | TrainPrecision 0.6789 | TrainRecall 0.8159 | ValLoss 0.0006 | ValF1(all) 0.7556 | ValF1* 0.8362 | ValAUPRC 0.8635 | ValPrecision 0.6695 | ValRecall 0.8649
+Epoch 09 | TrainLoss 0.0007 | TrainF1(all) 0.7446 | TrainF1(target) 0.7553 | TrainPrecision 0.6839 | TrainRecall 0.8171 | ValLoss 0.0007 | ValF1(all) 0.6837 | ValF1* 0.8170 | ValAUPRC 0.8600 | ValPrecision 0.5045 | ValRecall 0.9081
+Epoch 10 | TrainLoss 0.0007 | TrainF1(all) 0.7486 | TrainF1(target) 0.7520 | TrainPrecision 0.6876 | TrainRecall 0.8216 | ValLoss 0.0007 | ValF1(all) 0.7330 | ValF1* 0.8235 | ValAUPRC 0.8604 | ValPrecision 0.5985 | ValRecall 0.8865
+Epoch 11 | TrainLoss 0.0007 | TrainF1(all) 0.7517 | TrainF1(target) 0.7559 | TrainPrecision 0.6937 | TrainRecall 0.8203 | ValLoss 0.0007 | ValF1(all) 0.7326 | ValF1* 0.8295 | ValAUPRC 0.8713 | ValPrecision 0.6284 | ValRecall 0.8865
+Epoch 12 | TrainLoss 0.0006 | TrainF1(all) 0.7523 | TrainF1(target) 0.7616 | TrainPrecision 0.6940 | TrainRecall 0.8215 | ValLoss 0.0006 | ValF1(all) 0.7801 | ValF1* 0.8319 | ValAUPRC 0.8702 | ValPrecision 0.7512 | ValRecall 0.8486
+Epoch 13 | TrainLoss 0.0006 | TrainF1(all) 0.7537 | TrainF1(target) 0.7535 | TrainPrecision 0.6934 | TrainRecall 0.8256 | ValLoss 0.0007 | ValF1(all) 0.7962 | ValF1* 0.8293 | ValAUPRC 0.8661 | ValPrecision 0.7897 | ValRecall 0.8324
+Epoch 14 | TrainLoss 0.0006 | TrainF1(all) 0.7566 | TrainF1(target) 0.7552 | TrainPrecision 0.6965 | TrainRecall 0.8281 | ValLoss 0.0006 | ValF1(all) 0.7724 | ValF1* 0.8222 | ValAUPRC 0.8647 | ValPrecision 0.7182 | ValRecall 0.8541
+Epoch 15 | TrainLoss 0.0006 | TrainF1(all) 0.7569 | TrainF1(target) 0.7595 | TrainPrecision 0.6976 | TrainRecall 0.8273 | ValLoss 0.0006 | ValF1(all) 0.7835 | ValF1* 0.8267 | ValAUPRC 0.8671 | ValPrecision 0.7175 | ValRecall 0.8649
+Epoch 16 | TrainLoss 0.0006 | TrainF1(all) 0.7613 | TrainF1(target) 0.7744 | TrainPrecision 0.7001 | TrainRecall 0.8344 | ValLoss 0.0006 | ValF1(all) 0.7850 | ValF1* 0.8268 | ValAUPRC 0.8668 | ValPrecision 0.7281 | ValRecall 0.8541
+Epoch 17 | TrainLoss 0.0006 | TrainF1(all) 0.7614 | TrainF1(target) 0.7687 | TrainPrecision 0.6997 | TrainRecall 0.8350 | ValLoss 0.0006 | ValF1(all) 0.7624 | ValF1* 0.8347 | ValAUPRC 0.8719 | ValPrecision 0.6867 | ValRecall 0.8649
+Epoch 18 | TrainLoss 0.0006 | TrainF1(all) 0.7641 | TrainF1(target) 0.7664 | TrainPrecision 0.7031 | TrainRecall 0.8368 | ValLoss 0.0006 | ValF1(all) 0.7773 | ValF1* 0.8407 | ValAUPRC 0.8695 | ValPrecision 0.7441 | ValRecall 0.8486
+Epoch 19 | TrainLoss 0.0006 | TrainF1(all) 0.7657 | TrainF1(target) 0.7713 | TrainPrecision 0.7067 | TrainRecall 0.8356 | ValLoss 0.0006 | ValF1(all) 0.7880 | ValF1* 0.8347 | ValAUPRC 0.8729 | ValPrecision 0.7441 | ValRecall 0.8486
+Epoch 20 | TrainLoss 0.0006 | TrainF1(all) 0.7662 | TrainF1(target) 0.7735 | TrainPrecision 0.7071 | TrainRecall 0.8360 | ValLoss 0.0006 | ValF1(all) 0.7621 | ValF1* 0.8394 | ValAUPRC 0.8745 | ValPrecision 0.6520 | ValRecall 0.8811
+Epoch 21 | TrainLoss 0.0006 | TrainF1(all) 0.7664 | TrainF1(target) 0.7769 | TrainPrecision 0.7056 | TrainRecall 0.8386 | ValLoss 0.0006 | ValF1(all) 0.7483 | ValF1* 0.8389 | ValAUPRC 0.8740 | ValPrecision 0.6371 | ValRecall 0.8919
+Epoch 22 | TrainLoss 0.0006 | TrainF1(all) 0.7651 | TrainF1(target) 0.7654 | TrainPrecision 0.7035 | TrainRecall 0.8385 | ValLoss 0.0006 | ValF1(all) 0.7747 | ValF1* 0.8392 | ValAUPRC 0.8768 | ValPrecision 0.7143 | ValRecall 0.8649
+Epoch 23 | TrainLoss 0.0006 | TrainF1(all) 0.7656 | TrainF1(target) 0.7669 | TrainPrecision 0.7043 | TrainRecall 0.8385 | ValLoss 0.0007 | ValF1(all) 0.7814 | ValF1* 0.8407 | ValAUPRC 0.8718 | ValPrecision 0.7979 | ValRecall 0.8324
+Epoch 24 | TrainLoss 0.0006 | TrainF1(all) 0.7674 | TrainF1(target) 0.7731 | TrainPrecision 0.7069 | TrainRecall 0.8392 | ValLoss 0.0006 | ValF1(all) 0.7842 | ValF1* 0.8362 | ValAUPRC 0.8732 | ValPrecision 0.7476 | ValRecall 0.8324
+Epoch 25 | TrainLoss 0.0006 | TrainF1(all) 0.7707 | TrainF1(target) 0.7702 | TrainPrecision 0.7100 | TrainRecall 0.8428 | ValLoss 0.0006 | ValF1(all) 0.7737 | ValF1* 0.8306 | ValAUPRC 0.8797 | ValPrecision 0.6970 | ValRecall 0.8703
+Epoch 26 | TrainLoss 0.0006 | TrainF1(all) 0.7694 | TrainF1(target) 0.7746 | TrainPrecision 0.7072 | TrainRecall 0.8436 | ValLoss 0.0006 | ValF1(all) 0.7644 | ValF1* 0.8378 | ValAUPRC 0.8805 | ValPrecision 0.7143 | ValRecall 0.8649
+Epoch 27 | TrainLoss 0.0006 | TrainF1(all) 0.7673 | TrainF1(target) 0.7741 | TrainPrecision 0.7075 | TrainRecall 0.8381 | ValLoss 0.0006 | ValF1(all) 0.7695 | ValF1* 0.8392 | ValAUPRC 0.8798 | ValPrecision 0.7339 | ValRecall 0.8649
+Epoch 28 | TrainLoss 0.0006 | TrainF1(all) 0.7690 | TrainF1(target) 0.7811 | TrainPrecision 0.7085 | TrainRecall 0.8409 | ValLoss 0.0006 | ValF1(all) 0.7329 | ValF1* 0.8376 | ValAUPRC 0.8770 | ValPrecision 0.6471 | ValRecall 0.8919
+Epoch 29 | TrainLoss 0.0006 | TrainF1(all) 0.7692 | TrainF1(target) 0.7756 | TrainPrecision 0.7069 | TrainRecall 0.8436 | ValLoss 0.0007 | ValF1(all) 0.7831 | ValF1* 0.8421 | ValAUPRC 0.8741 | ValPrecision 0.7745 | ValRecall 0.8541
+Epoch 30 | TrainLoss 0.0006 | TrainF1(all) 0.7691 | TrainF1(target) 0.7832 | TrainPrecision 0.7091 | TrainRecall 0.8402 | ValLoss 0.0006 | ValF1(all) 0.7765 | ValF1* 0.8389 | ValAUPRC 0.8771 | ValPrecision 0.6880 | ValRecall 0.8703
+[2025-11-13 18:13:43] Training completed successfully!
+[2025-11-13 18:13:43] Training time: 1782.5 seconds (29.7 minutes)
+[2025-11-13 18:13:43] Best epoch: 26
+[2025-11-13 18:13:43] Best auprc: 0.8805
+[2025-11-13 18:13:43] Best F1 (target): 0.8378
+[2025-11-13 18:13:43] Final epoch metrics:
+[2025-11-13 18:13:43]   Train Loss: 0.0006
+[2025-11-13 18:13:43]   Train F1 (all): 0.7691
+[2025-11-13 18:13:43]   Train F1 (target): 0.7832
+[2025-11-13 18:13:43]   Val Loss: 0.0006
+[2025-11-13 18:13:43]   Val F1 (all): 0.7765
+[2025-11-13 18:13:43]   Val F1 (target): 0.8389
+[2025-11-13 18:13:43]   Val AUPRC: 0.8771
+[2025-11-13 18:13:43] Progress: 44/56 completed
+[2025-11-13 18:13:43] Elapsed time: 1262.5 minutes
+[2025-11-13 18:13:43] Estimated remaining time: 344.3 minutes
+[2025-11-13 18:13:43] 
+>>> EXPERIMENT 45/56 <<<
+[2025-11-13 18:13:43] 
+============================================================
+[2025-11-13 18:13:43] EXPERIMENT: alpha=0.8, gamma=2.1
+[2025-11-13 18:13:43] ============================================================
+[2025-11-13 18:13:43] Model: SmallUNet1D
+[2025-11-13 18:13:43]   Total parameters: 125,929
+[2025-11-13 18:13:43]   Trainable parameters: 125,929
+[2025-11-13 18:13:43] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 18:13:43] Loss: FocalLoss (alpha=0.8, gamma=2.1)
+[2025-11-13 18:13:43] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0011 | TrainF1(all) 0.6491 | TrainF1(target) 0.6802 | TrainPrecision 0.6389 | TrainRecall 0.6596 | ValLoss 0.0008 | ValF1(all) 0.7227 | ValF1* 0.7913 | ValAUPRC 0.8323 | ValPrecision 0.6933 | ValRecall 0.8432
+Epoch 02 | TrainLoss 0.0008 | TrainF1(all) 0.7053 | TrainF1(target) 0.7178 | TrainPrecision 0.6499 | TrainRecall 0.7710 | ValLoss 0.0007 | ValF1(all) 0.7402 | ValF1* 0.8179 | ValAUPRC 0.8390 | ValPrecision 0.6037 | ValRecall 0.8811
+Epoch 03 | TrainLoss 0.0007 | TrainF1(all) 0.7195 | TrainF1(target) 0.7270 | TrainPrecision 0.6615 | TrainRecall 0.7887 | ValLoss 0.0007 | ValF1(all) 0.7624 | ValF1* 0.8320 | ValAUPRC 0.8436 | ValPrecision 0.6886 | ValRecall 0.8486
+Epoch 04 | TrainLoss 0.0007 | TrainF1(all) 0.7317 | TrainF1(target) 0.7357 | TrainPrecision 0.6739 | TrainRecall 0.8004 | ValLoss 0.0006 | ValF1(all) 0.7737 | ValF1* 0.8352 | ValAUPRC 0.8349 | ValPrecision 0.7561 | ValRecall 0.8378
+Epoch 05 | TrainLoss 0.0007 | TrainF1(all) 0.7359 | TrainF1(target) 0.7408 | TrainPrecision 0.6785 | TrainRecall 0.8040 | ValLoss 0.0006 | ValF1(all) 0.7814 | ValF1* 0.8272 | ValAUPRC 0.8433 | ValPrecision 0.7846 | ValRecall 0.8270
+Epoch 06 | TrainLoss 0.0006 | TrainF1(all) 0.7375 | TrainF1(target) 0.7512 | TrainPrecision 0.6798 | TrainRecall 0.8058 | ValLoss 0.0006 | ValF1(all) 0.7650 | ValF1* 0.8384 | ValAUPRC 0.8577 | ValPrecision 0.6793 | ValRecall 0.8703
+Epoch 07 | TrainLoss 0.0006 | TrainF1(all) 0.7361 | TrainF1(target) 0.7428 | TrainPrecision 0.6750 | TrainRecall 0.8092 | ValLoss 0.0006 | ValF1(all) 0.7783 | ValF1* 0.8320 | ValAUPRC 0.8462 | ValPrecision 0.7647 | ValRecall 0.8432
+Epoch 08 | TrainLoss 0.0006 | TrainF1(all) 0.7421 | TrainF1(target) 0.7456 | TrainPrecision 0.6818 | TrainRecall 0.8143 | ValLoss 0.0006 | ValF1(all) 0.7722 | ValF1* 0.8320 | ValAUPRC 0.8526 | ValPrecision 0.6886 | ValRecall 0.8486
+Epoch 09 | TrainLoss 0.0006 | TrainF1(all) 0.7456 | TrainF1(target) 0.7529 | TrainPrecision 0.6851 | TrainRecall 0.8177 | ValLoss 0.0006 | ValF1(all) 0.7802 | ValF1* 0.8297 | ValAUPRC 0.8487 | ValPrecision 0.7778 | ValRecall 0.8324
+Epoch 10 | TrainLoss 0.0006 | TrainF1(all) 0.7445 | TrainF1(target) 0.7460 | TrainPrecision 0.6830 | TrainRecall 0.8183 | ValLoss 0.0006 | ValF1(all) 0.7667 | ValF1* 0.8297 | ValAUPRC 0.8581 | ValPrecision 0.6708 | ValRecall 0.8811
+Epoch 11 | TrainLoss 0.0006 | TrainF1(all) 0.7498 | TrainF1(target) 0.7613 | TrainPrecision 0.6889 | TrainRecall 0.8224 | ValLoss 0.0006 | ValF1(all) 0.7411 | ValF1* 0.8278 | ValAUPRC 0.8619 | ValPrecision 0.7022 | ValRecall 0.8541
+Epoch 12 | TrainLoss 0.0006 | TrainF1(all) 0.7470 | TrainF1(target) 0.7571 | TrainPrecision 0.6842 | TrainRecall 0.8225 | ValLoss 0.0007 | ValF1(all) 0.7917 | ValF1* 0.8301 | ValAUPRC 0.8647 | ValPrecision 0.8085 | ValRecall 0.8216
+Epoch 13 | TrainLoss 0.0006 | TrainF1(all) 0.7517 | TrainF1(target) 0.7691 | TrainPrecision 0.6905 | TrainRecall 0.8248 | ValLoss 0.0006 | ValF1(all) 0.7488 | ValF1* 0.8276 | ValAUPRC 0.8581 | ValPrecision 0.6226 | ValRecall 0.8649
+Epoch 14 | TrainLoss 0.0006 | TrainF1(all) 0.7517 | TrainF1(target) 0.7555 | TrainPrecision 0.6910 | TrainRecall 0.8243 | ValLoss 0.0006 | ValF1(all) 0.7597 | ValF1* 0.8164 | ValAUPRC 0.8615 | ValPrecision 0.7739 | ValRecall 0.8324
+Epoch 15 | TrainLoss 0.0006 | TrainF1(all) 0.7536 | TrainF1(target) 0.7600 | TrainPrecision 0.6931 | TrainRecall 0.8257 | ValLoss 0.0006 | ValF1(all) 0.7872 | ValF1* 0.8306 | ValAUPRC 0.8626 | ValPrecision 0.7711 | ValRecall 0.8378
+Epoch 16 | TrainLoss 0.0006 | TrainF1(all) 0.7546 | TrainF1(target) 0.7613 | TrainPrecision 0.6930 | TrainRecall 0.8283 | ValLoss 0.0006 | ValF1(all) 0.7559 | ValF1* 0.8232 | ValAUPRC 0.8646 | ValPrecision 0.6680 | ValRecall 0.8703
+Epoch 17 | TrainLoss 0.0006 | TrainF1(all) 0.7634 | TrainF1(target) 0.7683 | TrainPrecision 0.7023 | TrainRecall 0.8361 | ValLoss 0.0006 | ValF1(all) 0.7480 | ValF1* 0.8255 | ValAUPRC 0.8648 | ValPrecision 0.6903 | ValRecall 0.8432
+Epoch 18 | TrainLoss 0.0006 | TrainF1(all) 0.7615 | TrainF1(target) 0.7725 | TrainPrecision 0.6991 | TrainRecall 0.8362 | ValLoss 0.0006 | ValF1(all) 0.7525 | ValF1* 0.8283 | ValAUPRC 0.8664 | ValPrecision 0.6709 | ValRecall 0.8595
+Epoch 19 | TrainLoss 0.0006 | TrainF1(all) 0.7625 | TrainF1(target) 0.7694 | TrainPrecision 0.6990 | TrainRecall 0.8386 | ValLoss 0.0006 | ValF1(all) 0.7488 | ValF1* 0.8324 | ValAUPRC 0.8658 | ValPrecision 0.6598 | ValRecall 0.8703
+Epoch 20 | TrainLoss 0.0006 | TrainF1(all) 0.7632 | TrainF1(target) 0.7772 | TrainPrecision 0.7022 | TrainRecall 0.8358 | ValLoss 0.0006 | ValF1(all) 0.7769 | ValF1* 0.8293 | ValAUPRC 0.8704 | ValPrecision 0.7048 | ValRecall 0.8649
+Epoch 21 | TrainLoss 0.0005 | TrainF1(all) 0.7639 | TrainF1(target) 0.7700 | TrainPrecision 0.6989 | TrainRecall 0.8422 | ValLoss 0.0006 | ValF1(all) 0.7652 | ValF1* 0.8357 | ValAUPRC 0.8689 | ValPrecision 0.7117 | ValRecall 0.8541
+Epoch 22 | TrainLoss 0.0005 | TrainF1(all) 0.7633 | TrainF1(target) 0.7695 | TrainPrecision 0.7006 | TrainRecall 0.8382 | ValLoss 0.0006 | ValF1(all) 0.7637 | ValF1* 0.8306 | ValAUPRC 0.8745 | ValPrecision 0.7085 | ValRecall 0.8541
+Epoch 23 | TrainLoss 0.0005 | TrainF1(all) 0.7653 | TrainF1(target) 0.7719 | TrainPrecision 0.7022 | TrainRecall 0.8409 | ValLoss 0.0006 | ValF1(all) 0.7649 | ValF1* 0.8352 | ValAUPRC 0.8705 | ValPrecision 0.6960 | ValRecall 0.8541
+Epoch 24 | TrainLoss 0.0005 | TrainF1(all) 0.7652 | TrainF1(target) 0.7654 | TrainPrecision 0.7041 | TrainRecall 0.8378 | ValLoss 0.0006 | ValF1(all) 0.7690 | ValF1* 0.8235 | ValAUPRC 0.8704 | ValPrecision 0.6840 | ValRecall 0.8541
+Epoch 25 | TrainLoss 0.0005 | TrainF1(all) 0.7651 | TrainF1(target) 0.7746 | TrainPrecision 0.7016 | TrainRecall 0.8413 | ValLoss 0.0006 | ValF1(all) 0.7536 | ValF1* 0.8302 | ValAUPRC 0.8743 | ValPrecision 0.6496 | ValRecall 0.8919
+Epoch 26 | TrainLoss 0.0005 | TrainF1(all) 0.7695 | TrainF1(target) 0.7747 | TrainPrecision 0.7063 | TrainRecall 0.8450 | ValLoss 0.0006 | ValF1(all) 0.7853 | ValF1* 0.8320 | ValAUPRC 0.8721 | ValPrecision 0.7673 | ValRecall 0.8378
+Epoch 27 | TrainLoss 0.0005 | TrainF1(all) 0.7681 | TrainF1(target) 0.7675 | TrainPrecision 0.7020 | TrainRecall 0.8480 | ValLoss 0.0006 | ValF1(all) 0.7495 | ValF1* 0.8274 | ValAUPRC 0.8706 | ValPrecision 0.6532 | ValRecall 0.8757
+Epoch 28 | TrainLoss 0.0005 | TrainF1(all) 0.7721 | TrainF1(target) 0.7756 | TrainPrecision 0.7098 | TrainRecall 0.8464 | ValLoss 0.0006 | ValF1(all) 0.7563 | ValF1* 0.8270 | ValAUPRC 0.8713 | ValPrecision 0.7123 | ValRecall 0.8432
+Epoch 29 | TrainLoss 0.0005 | TrainF1(all) 0.7711 | TrainF1(target) 0.7676 | TrainPrecision 0.7068 | TrainRecall 0.8482 | ValLoss 0.0006 | ValF1(all) 0.7709 | ValF1* 0.8293 | ValAUPRC 0.8726 | ValPrecision 0.7189 | ValRecall 0.8432
+Epoch 30 | TrainLoss 0.0005 | TrainF1(all) 0.7699 | TrainF1(target) 0.7720 | TrainPrecision 0.7050 | TrainRecall 0.8478 | ValLoss 0.0006 | ValF1(all) 0.7497 | ValF1* 0.8320 | ValAUPRC 0.8731 | ValPrecision 0.6585 | ValRecall 0.8757
+[2025-11-13 18:43:26] Training completed successfully!
+[2025-11-13 18:43:26] Training time: 1783.0 seconds (29.7 minutes)
+[2025-11-13 18:43:26] Best epoch: 22
+[2025-11-13 18:43:26] Best auprc: 0.8745
+[2025-11-13 18:43:26] Best F1 (target): 0.8306
+[2025-11-13 18:43:26] Final epoch metrics:
+[2025-11-13 18:43:26]   Train Loss: 0.0005
+[2025-11-13 18:43:26]   Train F1 (all): 0.7699
+[2025-11-13 18:43:26]   Train F1 (target): 0.7720
+[2025-11-13 18:43:26]   Val Loss: 0.0006
+[2025-11-13 18:43:26]   Val F1 (all): 0.7497
+[2025-11-13 18:43:26]   Val F1 (target): 0.8320
+[2025-11-13 18:43:26]   Val AUPRC: 0.8731
+[2025-11-13 18:43:26] Progress: 45/56 completed
+[2025-11-13 18:43:26] Elapsed time: 1292.2 minutes
+[2025-11-13 18:43:26] Estimated remaining time: 315.9 minutes
+[2025-11-13 18:43:26] 
+>>> EXPERIMENT 46/56 <<<
+[2025-11-13 18:43:26] 
+============================================================
+[2025-11-13 18:43:26] EXPERIMENT: alpha=0.8, gamma=2.2
+[2025-11-13 18:43:26] ============================================================
+[2025-11-13 18:43:26] Model: SmallUNet1D
+[2025-11-13 18:43:26]   Total parameters: 125,929
+[2025-11-13 18:43:26]   Trainable parameters: 125,929
+[2025-11-13 18:43:26] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 18:43:26] Loss: FocalLoss (alpha=0.8, gamma=2.2)
+[2025-11-13 18:43:26] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0012 | TrainF1(all) 0.6033 | TrainF1(target) 0.6297 | TrainPrecision 0.5705 | TrainRecall 0.6400 | ValLoss 0.0007 | ValF1(all) 0.7443 | ValF1* 0.8033 | ValAUPRC 0.8340 | ValPrecision 0.6878 | ValRecall 0.8216
+Epoch 02 | TrainLoss 0.0007 | TrainF1(all) 0.7011 | TrainF1(target) 0.7101 | TrainPrecision 0.6437 | TrainRecall 0.7698 | ValLoss 0.0006 | ValF1(all) 0.7718 | ValF1* 0.8089 | ValAUPRC 0.8461 | ValPrecision 0.7512 | ValRecall 0.8162
+Epoch 03 | TrainLoss 0.0007 | TrainF1(all) 0.7230 | TrainF1(target) 0.7366 | TrainPrecision 0.6643 | TrainRecall 0.7931 | ValLoss 0.0006 | ValF1(all) 0.7249 | ValF1* 0.8103 | ValAUPRC 0.8503 | ValPrecision 0.7196 | ValRecall 0.8324
+Epoch 04 | TrainLoss 0.0006 | TrainF1(all) 0.7264 | TrainF1(target) 0.7396 | TrainPrecision 0.6686 | TrainRecall 0.7950 | ValLoss 0.0007 | ValF1(all) 0.7835 | ValF1* 0.8287 | ValAUPRC 0.8542 | ValPrecision 0.8182 | ValRecall 0.8270
+Epoch 05 | TrainLoss 0.0006 | TrainF1(all) 0.7315 | TrainF1(target) 0.7447 | TrainPrecision 0.6719 | TrainRecall 0.8027 | ValLoss 0.0006 | ValF1(all) 0.7536 | ValF1* 0.8258 | ValAUPRC 0.8548 | ValPrecision 0.6781 | ValRecall 0.8541
+Epoch 06 | TrainLoss 0.0006 | TrainF1(all) 0.7351 | TrainF1(target) 0.7434 | TrainPrecision 0.6738 | TrainRecall 0.8087 | ValLoss 0.0006 | ValF1(all) 0.7526 | ValF1* 0.8257 | ValAUPRC 0.8571 | ValPrecision 0.6916 | ValRecall 0.8486
+Epoch 07 | TrainLoss 0.0006 | TrainF1(all) 0.7366 | TrainF1(target) 0.7484 | TrainPrecision 0.6752 | TrainRecall 0.8103 | ValLoss 0.0006 | ValF1(all) 0.7962 | ValF1* 0.8343 | ValAUPRC 0.8575 | ValPrecision 0.8251 | ValRecall 0.8162
+Epoch 08 | TrainLoss 0.0006 | TrainF1(all) 0.7410 | TrainF1(target) 0.7475 | TrainPrecision 0.6808 | TrainRecall 0.8129 | ValLoss 0.0006 | ValF1(all) 0.7337 | ValF1* 0.8338 | ValAUPRC 0.8581 | ValPrecision 0.6504 | ValRecall 0.8649
+Epoch 09 | TrainLoss 0.0006 | TrainF1(all) 0.7480 | TrainF1(target) 0.7564 | TrainPrecision 0.6887 | TrainRecall 0.8184 | ValLoss 0.0006 | ValF1(all) 0.7580 | ValF1* 0.8287 | ValAUPRC 0.8593 | ValPrecision 0.7441 | ValRecall 0.8486
+Epoch 10 | TrainLoss 0.0006 | TrainF1(all) 0.7481 | TrainF1(target) 0.7562 | TrainPrecision 0.6896 | TrainRecall 0.8175 | ValLoss 0.0006 | ValF1(all) 0.7777 | ValF1* 0.8270 | ValAUPRC 0.8611 | ValPrecision 0.7734 | ValRecall 0.8486
+Epoch 11 | TrainLoss 0.0006 | TrainF1(all) 0.7532 | TrainF1(target) 0.7654 | TrainPrecision 0.6940 | TrainRecall 0.8236 | ValLoss 0.0006 | ValF1(all) 0.7753 | ValF1* 0.8329 | ValAUPRC 0.8625 | ValPrecision 0.7488 | ValRecall 0.8541
+Epoch 12 | TrainLoss 0.0006 | TrainF1(all) 0.7524 | TrainF1(target) 0.7602 | TrainPrecision 0.6944 | TrainRecall 0.8209 | ValLoss 0.0006 | ValF1(all) 0.7824 | ValF1* 0.8267 | ValAUPRC 0.8586 | ValPrecision 0.7696 | ValRecall 0.8486
+Epoch 13 | TrainLoss 0.0006 | TrainF1(all) 0.7546 | TrainF1(target) 0.7540 | TrainPrecision 0.6970 | TrainRecall 0.8227 | ValLoss 0.0006 | ValF1(all) 0.7884 | ValF1* 0.8215 | ValAUPRC 0.8581 | ValPrecision 0.8010 | ValRecall 0.8270
+Epoch 14 | TrainLoss 0.0006 | TrainF1(all) 0.7555 | TrainF1(target) 0.7622 | TrainPrecision 0.6966 | TrainRecall 0.8255 | ValLoss 0.0006 | ValF1(all) 0.7533 | ValF1* 0.8286 | ValAUPRC 0.8708 | ValPrecision 0.6468 | ValRecall 0.8811
+Epoch 15 | TrainLoss 0.0006 | TrainF1(all) 0.7551 | TrainF1(target) 0.7621 | TrainPrecision 0.6930 | TrainRecall 0.8295 | ValLoss 0.0006 | ValF1(all) 0.7693 | ValF1* 0.8276 | ValAUPRC 0.8647 | ValPrecision 0.7536 | ValRecall 0.8432
+Epoch 16 | TrainLoss 0.0006 | TrainF1(all) 0.7575 | TrainF1(target) 0.7596 | TrainPrecision 0.6976 | TrainRecall 0.8288 | ValLoss 0.0006 | ValF1(all) 0.7854 | ValF1* 0.8338 | ValAUPRC 0.8692 | ValPrecision 0.7585 | ValRecall 0.8486
+Epoch 17 | TrainLoss 0.0006 | TrainF1(all) 0.7543 | TrainF1(target) 0.7641 | TrainPrecision 0.6940 | TrainRecall 0.8263 | ValLoss 0.0006 | ValF1(all) 0.7729 | ValF1* 0.8320 | ValAUPRC 0.8668 | ValPrecision 0.7927 | ValRecall 0.8270
+Epoch 18 | TrainLoss 0.0005 | TrainF1(all) 0.7585 | TrainF1(target) 0.7674 | TrainPrecision 0.7007 | TrainRecall 0.8268 | ValLoss 0.0006 | ValF1(all) 0.7845 | ValF1* 0.8347 | ValAUPRC 0.8703 | ValPrecision 0.8073 | ValRecall 0.8378
+Epoch 19 | TrainLoss 0.0005 | TrainF1(all) 0.7648 | TrainF1(target) 0.7690 | TrainPrecision 0.7050 | TrainRecall 0.8357 | ValLoss 0.0006 | ValF1(all) 0.7842 | ValF1* 0.8333 | ValAUPRC 0.8702 | ValPrecision 0.7685 | ValRecall 0.8432
+Epoch 20 | TrainLoss 0.0005 | TrainF1(all) 0.7663 | TrainF1(target) 0.7759 | TrainPrecision 0.7055 | TrainRecall 0.8386 | ValLoss 0.0006 | ValF1(all) 0.7841 | ValF1* 0.8297 | ValAUPRC 0.8672 | ValPrecision 0.7124 | ValRecall 0.8703
+Epoch 21 | TrainLoss 0.0005 | TrainF1(all) 0.7663 | TrainF1(target) 0.7762 | TrainPrecision 0.7055 | TrainRecall 0.8386 | ValLoss 0.0006 | ValF1(all) 0.7740 | ValF1* 0.8305 | ValAUPRC 0.8737 | ValPrecision 0.7383 | ValRecall 0.8541
+Epoch 22 | TrainLoss 0.0005 | TrainF1(all) 0.7682 | TrainF1(target) 0.7816 | TrainPrecision 0.7097 | TrainRecall 0.8373 | ValLoss 0.0006 | ValF1(all) 0.7733 | ValF1* 0.8329 | ValAUPRC 0.8715 | ValPrecision 0.7349 | ValRecall 0.8541
+Epoch 23 | TrainLoss 0.0005 | TrainF1(all) 0.7714 | TrainF1(target) 0.7735 | TrainPrecision 0.7111 | TrainRecall 0.8430 | ValLoss 0.0006 | ValF1(all) 0.7677 | ValF1* 0.8362 | ValAUPRC 0.8698 | ValPrecision 0.7188 | ValRecall 0.8703
+Epoch 24 | TrainLoss 0.0005 | TrainF1(all) 0.7695 | TrainF1(target) 0.7792 | TrainPrecision 0.7083 | TrainRecall 0.8424 | ValLoss 0.0006 | ValF1(all) 0.7610 | ValF1* 0.8305 | ValAUPRC 0.8672 | ValPrecision 0.7098 | ValRecall 0.8595
+Epoch 25 | TrainLoss 0.0005 | TrainF1(all) 0.7671 | TrainF1(target) 0.7676 | TrainPrecision 0.7043 | TrainRecall 0.8421 | ValLoss 0.0006 | ValF1(all) 0.7728 | ValF1* 0.8343 | ValAUPRC 0.8724 | ValPrecision 0.7349 | ValRecall 0.8541
+Epoch 26 | TrainLoss 0.0005 | TrainF1(all) 0.7747 | TrainF1(target) 0.7799 | TrainPrecision 0.7125 | TrainRecall 0.8488 | ValLoss 0.0006 | ValF1(all) 0.7776 | ValF1* 0.8361 | ValAUPRC 0.8728 | ValPrecision 0.7315 | ValRecall 0.8541
+Epoch 27 | TrainLoss 0.0005 | TrainF1(all) 0.7749 | TrainF1(target) 0.7775 | TrainPrecision 0.7144 | TrainRecall 0.8468 | ValLoss 0.0006 | ValF1(all) 0.7804 | ValF1* 0.8333 | ValAUPRC 0.8723 | ValPrecision 0.7548 | ValRecall 0.8486
+Epoch 28 | TrainLoss 0.0005 | TrainF1(all) 0.7758 | TrainF1(target) 0.7851 | TrainPrecision 0.7159 | TrainRecall 0.8466 | ValLoss 0.0006 | ValF1(all) 0.7723 | ValF1* 0.8347 | ValAUPRC 0.8732 | ValPrecision 0.7054 | ValRecall 0.8541
+Epoch 29 | TrainLoss 0.0005 | TrainF1(all) 0.7751 | TrainF1(target) 0.7818 | TrainPrecision 0.7131 | TrainRecall 0.8490 | ValLoss 0.0006 | ValF1(all) 0.7732 | ValF1* 0.8338 | ValAUPRC 0.8715 | ValPrecision 0.7418 | ValRecall 0.8541
+Epoch 30 | TrainLoss 0.0005 | TrainF1(all) 0.7754 | TrainF1(target) 0.7790 | TrainPrecision 0.7137 | TrainRecall 0.8489 | ValLoss 0.0005 | ValF1(all) 0.7728 | ValF1* 0.8370 | ValAUPRC 0.8765 | ValPrecision 0.7195 | ValRecall 0.8595
+[2025-11-13 19:13:08] Training completed successfully!
+[2025-11-13 19:13:08] Training time: 1781.8 seconds (29.7 minutes)
+[2025-11-13 19:13:08] Best epoch: 30
+[2025-11-13 19:13:08] Best auprc: 0.8765
+[2025-11-13 19:13:08] Best F1 (target): 0.8370
+[2025-11-13 19:13:08] Final epoch metrics:
+[2025-11-13 19:13:08]   Train Loss: 0.0005
+[2025-11-13 19:13:08]   Train F1 (all): 0.7754
+[2025-11-13 19:13:08]   Train F1 (target): 0.7790
+[2025-11-13 19:13:08]   Val Loss: 0.0005
+[2025-11-13 19:13:08]   Val F1 (all): 0.7728
+[2025-11-13 19:13:08]   Val F1 (target): 0.8370
+[2025-11-13 19:13:08]   Val AUPRC: 0.8765
+[2025-11-13 19:13:08] Progress: 46/56 completed
+[2025-11-13 19:13:08] Elapsed time: 1321.9 minutes
+[2025-11-13 19:13:08] Estimated remaining time: 287.4 minutes
+[2025-11-13 19:13:08] 
+>>> EXPERIMENT 47/56 <<<
+[2025-11-13 19:13:08] 
+============================================================
+[2025-11-13 19:13:08] EXPERIMENT: alpha=0.8, gamma=2.5
+[2025-11-13 19:13:08] ============================================================
+[2025-11-13 19:13:08] Model: SmallUNet1D
+[2025-11-13 19:13:08]   Total parameters: 125,929
+[2025-11-13 19:13:08]   Trainable parameters: 125,929
+[2025-11-13 19:13:08] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 19:13:08] Loss: FocalLoss (alpha=0.8, gamma=2.5)
+[2025-11-13 19:13:08] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0010 | TrainF1(all) 0.5841 | TrainF1(target) 0.6041 | TrainPrecision 0.5488 | TrainRecall 0.6243 | ValLoss 0.0006 | ValF1(all) 0.7567 | ValF1* 0.7989 | ValAUPRC 0.8258 | ValPrecision 0.7170 | ValRecall 0.8216
+Epoch 02 | TrainLoss 0.0006 | TrainF1(all) 0.6986 | TrainF1(target) 0.7028 | TrainPrecision 0.6446 | TrainRecall 0.7625 | ValLoss 0.0005 | ValF1(all) 0.7417 | ValF1* 0.8207 | ValAUPRC 0.8380 | ValPrecision 0.6115 | ValRecall 0.8595
+Epoch 03 | TrainLoss 0.0006 | TrainF1(all) 0.7169 | TrainF1(target) 0.7270 | TrainPrecision 0.6594 | TrainRecall 0.7854 | ValLoss 0.0005 | ValF1(all) 0.7643 | ValF1* 0.8238 | ValAUPRC 0.8452 | ValPrecision 0.6982 | ValRecall 0.8378
+Epoch 04 | TrainLoss 0.0005 | TrainF1(all) 0.7244 | TrainF1(target) 0.7282 | TrainPrecision 0.6652 | TrainRecall 0.7951 | ValLoss 0.0005 | ValF1(all) 0.7189 | ValF1* 0.8245 | ValAUPRC 0.8488 | ValPrecision 0.6639 | ValRecall 0.8649
+Epoch 05 | TrainLoss 0.0005 | TrainF1(all) 0.7281 | TrainF1(target) 0.7345 | TrainPrecision 0.6666 | TrainRecall 0.8022 | ValLoss 0.0005 | ValF1(all) 0.7751 | ValF1* 0.8310 | ValAUPRC 0.8487 | ValPrecision 0.7778 | ValRecall 0.8324
+Epoch 06 | TrainLoss 0.0005 | TrainF1(all) 0.7353 | TrainF1(target) 0.7466 | TrainPrecision 0.6763 | TrainRecall 0.8056 | ValLoss 0.0005 | ValF1(all) 0.7269 | ValF1* 0.8343 | ValAUPRC 0.8435 | ValPrecision 0.6084 | ValRecall 0.8649
+Epoch 07 | TrainLoss 0.0005 | TrainF1(all) 0.7414 | TrainF1(target) 0.7488 | TrainPrecision 0.6828 | TrainRecall 0.8111 | ValLoss 0.0005 | ValF1(all) 0.7867 | ValF1* 0.8301 | ValAUPRC 0.8547 | ValPrecision 0.8095 | ValRecall 0.8270
+Epoch 08 | TrainLoss 0.0005 | TrainF1(all) 0.7423 | TrainF1(target) 0.7457 | TrainPrecision 0.6805 | TrainRecall 0.8163 | ValLoss 0.0005 | ValF1(all) 0.7908 | ValF1* 0.8357 | ValAUPRC 0.8526 | ValPrecision 0.7696 | ValRecall 0.8486
+Epoch 09 | TrainLoss 0.0005 | TrainF1(all) 0.7424 | TrainF1(target) 0.7546 | TrainPrecision 0.6812 | TrainRecall 0.8157 | ValLoss 0.0005 | ValF1(all) 0.7461 | ValF1* 0.8218 | ValAUPRC 0.8643 | ValPrecision 0.6520 | ValRecall 0.8811
+Epoch 10 | TrainLoss 0.0005 | TrainF1(all) 0.7444 | TrainF1(target) 0.7528 | TrainPrecision 0.6836 | TrainRecall 0.8171 | ValLoss 0.0005 | ValF1(all) 0.7362 | ValF1* 0.8370 | ValAUPRC 0.8601 | ValPrecision 0.6612 | ValRecall 0.8649
+Epoch 11 | TrainLoss 0.0005 | TrainF1(all) 0.7499 | TrainF1(target) 0.7589 | TrainPrecision 0.6910 | TrainRecall 0.8197 | ValLoss 0.0005 | ValF1(all) 0.7703 | ValF1* 0.8324 | ValAUPRC 0.8636 | ValPrecision 0.7670 | ValRecall 0.8541
+Epoch 12 | TrainLoss 0.0005 | TrainF1(all) 0.7459 | TrainF1(target) 0.7500 | TrainPrecision 0.6843 | TrainRecall 0.8196 | ValLoss 0.0005 | ValF1(all) 0.7928 | ValF1* 0.8361 | ValAUPRC 0.8592 | ValPrecision 0.8444 | ValRecall 0.8216
+Epoch 13 | TrainLoss 0.0005 | TrainF1(all) 0.7487 | TrainF1(target) 0.7585 | TrainPrecision 0.6898 | TrainRecall 0.8185 | ValLoss 0.0005 | ValF1(all) 0.7844 | ValF1* 0.8338 | ValAUPRC 0.8654 | ValPrecision 0.7868 | ValRecall 0.8378
+Epoch 14 | TrainLoss 0.0005 | TrainF1(all) 0.7512 | TrainF1(target) 0.7564 | TrainPrecision 0.6917 | TrainRecall 0.8220 | ValLoss 0.0005 | ValF1(all) 0.7599 | ValF1* 0.8333 | ValAUPRC 0.8659 | ValPrecision 0.7124 | ValRecall 0.8703
+Epoch 15 | TrainLoss 0.0005 | TrainF1(all) 0.7529 | TrainF1(target) 0.7607 | TrainPrecision 0.6931 | TrainRecall 0.8240 | ValLoss 0.0005 | ValF1(all) 0.7943 | ValF1* 0.8297 | ValAUPRC 0.8661 | ValPrecision 0.8182 | ValRecall 0.8270
+Epoch 16 | TrainLoss 0.0005 | TrainF1(all) 0.7542 | TrainF1(target) 0.7673 | TrainPrecision 0.6934 | TrainRecall 0.8267 | ValLoss 0.0005 | ValF1(all) 0.7657 | ValF1* 0.8462 | ValAUPRC 0.8684 | ValPrecision 0.7406 | ValRecall 0.8486
+Epoch 17 | TrainLoss 0.0005 | TrainF1(all) 0.7540 | TrainF1(target) 0.7502 | TrainPrecision 0.6948 | TrainRecall 0.8241 | ValLoss 0.0005 | ValF1(all) 0.7883 | ValF1* 0.8392 | ValAUPRC 0.8745 | ValPrecision 0.7302 | ValRecall 0.8486
+Epoch 18 | TrainLoss 0.0005 | TrainF1(all) 0.7557 | TrainF1(target) 0.7650 | TrainPrecision 0.6951 | TrainRecall 0.8279 | ValLoss 0.0005 | ValF1(all) 0.7754 | ValF1* 0.8438 | ValAUPRC 0.8722 | ValPrecision 0.6943 | ValRecall 0.8595
+Epoch 19 | TrainLoss 0.0005 | TrainF1(all) 0.7555 | TrainF1(target) 0.7569 | TrainPrecision 0.6966 | TrainRecall 0.8253 | ValLoss 0.0005 | ValF1(all) 0.7957 | ValF1* 0.8389 | ValAUPRC 0.8723 | ValPrecision 0.8073 | ValRecall 0.8378
+Epoch 20 | TrainLoss 0.0005 | TrainF1(all) 0.7576 | TrainF1(target) 0.7625 | TrainPrecision 0.6973 | TrainRecall 0.8295 | ValLoss 0.0005 | ValF1(all) 0.7805 | ValF1* 0.8315 | ValAUPRC 0.8675 | ValPrecision 0.7828 | ValRecall 0.8378
+Epoch 21 | TrainLoss 0.0004 | TrainF1(all) 0.7579 | TrainF1(target) 0.7634 | TrainPrecision 0.6981 | TrainRecall 0.8288 | ValLoss 0.0005 | ValF1(all) 0.7664 | ValF1* 0.8424 | ValAUPRC 0.8753 | ValPrecision 0.7130 | ValRecall 0.8595
+Epoch 22 | TrainLoss 0.0004 | TrainF1(all) 0.7583 | TrainF1(target) 0.7598 | TrainPrecision 0.6976 | TrainRecall 0.8306 | ValLoss 0.0005 | ValF1(all) 0.7528 | ValF1* 0.8380 | ValAUPRC 0.8755 | ValPrecision 0.6667 | ValRecall 0.8649
+Epoch 23 | TrainLoss 0.0004 | TrainF1(all) 0.7635 | TrainF1(target) 0.7691 | TrainPrecision 0.7034 | TrainRecall 0.8349 | ValLoss 0.0005 | ValF1(all) 0.7905 | ValF1* 0.8485 | ValAUPRC 0.8710 | ValPrecision 0.7182 | ValRecall 0.8541
+Epoch 24 | TrainLoss 0.0004 | TrainF1(all) 0.7632 | TrainF1(target) 0.7708 | TrainPrecision 0.7024 | TrainRecall 0.8356 | ValLoss 0.0005 | ValF1(all) 0.7600 | ValF1* 0.8301 | ValAUPRC 0.8643 | ValPrecision 0.6680 | ValRecall 0.8811
+Epoch 25 | TrainLoss 0.0004 | TrainF1(all) 0.7607 | TrainF1(target) 0.7607 | TrainPrecision 0.6996 | TrainRecall 0.8334 | ValLoss 0.0005 | ValF1(all) 0.7567 | ValF1* 0.8366 | ValAUPRC 0.8716 | ValPrecision 0.7137 | ValRecall 0.8757
+Epoch 26 | TrainLoss 0.0004 | TrainF1(all) 0.7636 | TrainF1(target) 0.7638 | TrainPrecision 0.7010 | TrainRecall 0.8385 | ValLoss 0.0005 | ValF1(all) 0.7889 | ValF1* 0.8409 | ValAUPRC 0.8727 | ValPrecision 0.7500 | ValRecall 0.8595
+Epoch 27 | TrainLoss 0.0004 | TrainF1(all) 0.7688 | TrainF1(target) 0.7651 | TrainPrecision 0.7068 | TrainRecall 0.8428 | ValLoss 0.0005 | ValF1(all) 0.7775 | ValF1* 0.8453 | ValAUPRC 0.8767 | ValPrecision 0.7240 | ValRecall 0.8649
+Epoch 28 | TrainLoss 0.0004 | TrainF1(all) 0.7685 | TrainF1(target) 0.7823 | TrainPrecision 0.7041 | TrainRecall 0.8458 | ValLoss 0.0005 | ValF1(all) 0.7835 | ValF1* 0.8485 | ValAUPRC 0.8769 | ValPrecision 0.7573 | ValRecall 0.8432
+Epoch 29 | TrainLoss 0.0004 | TrainF1(all) 0.7685 | TrainF1(target) 0.7780 | TrainPrecision 0.7042 | TrainRecall 0.8458 | ValLoss 0.0005 | ValF1(all) 0.7903 | ValF1* 0.8476 | ValAUPRC 0.8772 | ValPrecision 0.7908 | ValRecall 0.8378
+Epoch 30 | TrainLoss 0.0004 | TrainF1(all) 0.7682 | TrainF1(target) 0.7804 | TrainPrecision 0.7065 | TrainRecall 0.8417 | ValLoss 0.0005 | ValF1(all) 0.7890 | ValF1* 0.8324 | ValAUPRC 0.8745 | ValPrecision 0.7800 | ValRecall 0.8432
+[2025-11-13 19:42:56] Training completed successfully!
+[2025-11-13 19:42:56] Training time: 1788.1 seconds (29.8 minutes)
+[2025-11-13 19:42:56] Best epoch: 29
+[2025-11-13 19:42:56] Best auprc: 0.8772
+[2025-11-13 19:42:56] Best F1 (target): 0.8476
+[2025-11-13 19:42:56] Final epoch metrics:
+[2025-11-13 19:42:56]   Train Loss: 0.0004
+[2025-11-13 19:42:56]   Train F1 (all): 0.7682
+[2025-11-13 19:42:56]   Train F1 (target): 0.7804
+[2025-11-13 19:42:56]   Val Loss: 0.0005
+[2025-11-13 19:42:56]   Val F1 (all): 0.7890
+[2025-11-13 19:42:56]   Val F1 (target): 0.8324
+[2025-11-13 19:42:56]   Val AUPRC: 0.8745
+[2025-11-13 19:42:56] Progress: 47/56 completed
+[2025-11-13 19:42:56] Elapsed time: 1351.7 minutes
+[2025-11-13 19:42:56] Estimated remaining time: 258.8 minutes
+[2025-11-13 19:42:56] 
+>>> EXPERIMENT 48/56 <<<
+[2025-11-13 19:42:56] 
+============================================================
+[2025-11-13 19:42:56] EXPERIMENT: alpha=0.8, gamma=3.0
+[2025-11-13 19:42:56] ============================================================
+[2025-11-13 19:42:56] Model: SmallUNet1D
+[2025-11-13 19:42:56]   Total parameters: 125,929
+[2025-11-13 19:42:56]   Trainable parameters: 125,929
+[2025-11-13 19:42:56] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 19:42:56] Loss: FocalLoss (alpha=0.8, gamma=3.0)
+[2025-11-13 19:42:56] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0007 | TrainF1(all) 0.6255 | TrainF1(target) 0.6406 | TrainPrecision 0.6094 | TrainRecall 0.6424 | ValLoss 0.0004 | ValF1(all) 0.7071 | ValF1* 0.7887 | ValAUPRC 0.8271 | ValPrecision 0.6638 | ValRecall 0.8324
+Epoch 02 | TrainLoss 0.0005 | TrainF1(all) 0.6966 | TrainF1(target) 0.7100 | TrainPrecision 0.6408 | TrainRecall 0.7630 | ValLoss 0.0004 | ValF1(all) 0.6602 | ValF1* 0.8065 | ValAUPRC 0.8403 | ValPrecision 0.4622 | ValRecall 0.9243
+Epoch 03 | TrainLoss 0.0004 | TrainF1(all) 0.7072 | TrainF1(target) 0.7182 | TrainPrecision 0.6459 | TrainRecall 0.7814 | ValLoss 0.0004 | ValF1(all) 0.7609 | ValF1* 0.8089 | ValAUPRC 0.8417 | ValPrecision 0.7196 | ValRecall 0.8324
+Epoch 04 | TrainLoss 0.0004 | TrainF1(all) 0.7193 | TrainF1(target) 0.7319 | TrainPrecision 0.6575 | TrainRecall 0.7940 | ValLoss 0.0004 | ValF1(all) 0.7554 | ValF1* 0.8140 | ValAUPRC 0.8549 | ValPrecision 0.6681 | ValRecall 0.8486
+Epoch 05 | TrainLoss 0.0004 | TrainF1(all) 0.7266 | TrainF1(target) 0.7366 | TrainPrecision 0.6662 | TrainRecall 0.7990 | ValLoss 0.0004 | ValF1(all) 0.7468 | ValF1* 0.8174 | ValAUPRC 0.8418 | ValPrecision 0.6584 | ValRecall 0.8649
+Epoch 06 | TrainLoss 0.0004 | TrainF1(all) 0.7342 | TrainF1(target) 0.7430 | TrainPrecision 0.6736 | TrainRecall 0.8067 | ValLoss 0.0004 | ValF1(all) 0.7564 | ValF1* 0.8216 | ValAUPRC 0.8493 | ValPrecision 0.6930 | ValRecall 0.8541
+Epoch 07 | TrainLoss 0.0004 | TrainF1(all) 0.7361 | TrainF1(target) 0.7406 | TrainPrecision 0.6734 | TrainRecall 0.8117 | ValLoss 0.0004 | ValF1(all) 0.7202 | ValF1* 0.8142 | ValAUPRC 0.8558 | ValPrecision 0.5878 | ValRecall 0.8865
+Epoch 08 | TrainLoss 0.0004 | TrainF1(all) 0.7402 | TrainF1(target) 0.7492 | TrainPrecision 0.6793 | TrainRecall 0.8132 | ValLoss 0.0004 | ValF1(all) 0.7354 | ValF1* 0.8310 | ValAUPRC 0.8577 | ValPrecision 0.6255 | ValRecall 0.8757
+Epoch 09 | TrainLoss 0.0004 | TrainF1(all) 0.7426 | TrainF1(target) 0.7445 | TrainPrecision 0.6808 | TrainRecall 0.8167 | ValLoss 0.0004 | ValF1(all) 0.7801 | ValF1* 0.8274 | ValAUPRC 0.8558 | ValPrecision 0.7868 | ValRecall 0.8378
+Epoch 10 | TrainLoss 0.0004 | TrainF1(all) 0.7442 | TrainF1(target) 0.7483 | TrainPrecision 0.6839 | TrainRecall 0.8163 | ValLoss 0.0004 | ValF1(all) 0.7615 | ValF1* 0.8333 | ValAUPRC 0.8666 | ValPrecision 0.6930 | ValRecall 0.8541
+Epoch 11 | TrainLoss 0.0004 | TrainF1(all) 0.7454 | TrainF1(target) 0.7591 | TrainPrecision 0.6846 | TrainRecall 0.8180 | ValLoss 0.0004 | ValF1(all) 0.7722 | ValF1* 0.8261 | ValAUPRC 0.8636 | ValPrecision 0.8063 | ValRecall 0.8324
+Epoch 12 | TrainLoss 0.0003 | TrainF1(all) 0.7460 | TrainF1(target) 0.7509 | TrainPrecision 0.6846 | TrainRecall 0.8196 | ValLoss 0.0004 | ValF1(all) 0.7841 | ValF1* 0.8352 | ValAUPRC 0.8619 | ValPrecision 0.7908 | ValRecall 0.8378
+Epoch 13 | TrainLoss 0.0003 | TrainF1(all) 0.7491 | TrainF1(target) 0.7557 | TrainPrecision 0.6865 | TrainRecall 0.8244 | ValLoss 0.0004 | ValF1(all) 0.7805 | ValF1* 0.8392 | ValAUPRC 0.8629 | ValPrecision 0.8191 | ValRecall 0.8324
+Epoch 14 | TrainLoss 0.0003 | TrainF1(all) 0.7512 | TrainF1(target) 0.7578 | TrainPrecision 0.6905 | TrainRecall 0.8236 | ValLoss 0.0004 | ValF1(all) 0.7781 | ValF1* 0.8291 | ValAUPRC 0.8649 | ValPrecision 0.7817 | ValRecall 0.8324
+Epoch 15 | TrainLoss 0.0003 | TrainF1(all) 0.7565 | TrainF1(target) 0.7574 | TrainPrecision 0.6941 | TrainRecall 0.8312 | ValLoss 0.0004 | ValF1(all) 0.7844 | ValF1* 0.8371 | ValAUPRC 0.8595 | ValPrecision 0.7536 | ValRecall 0.8432
+Epoch 16 | TrainLoss 0.0003 | TrainF1(all) 0.7585 | TrainF1(target) 0.7617 | TrainPrecision 0.6964 | TrainRecall 0.8328 | ValLoss 0.0003 | ValF1(all) 0.7486 | ValF1* 0.8338 | ValAUPRC 0.8662 | ValPrecision 0.7067 | ValRecall 0.8595
+Epoch 17 | TrainLoss 0.0003 | TrainF1(all) 0.7601 | TrainF1(target) 0.7680 | TrainPrecision 0.6975 | TrainRecall 0.8350 | ValLoss 0.0004 | ValF1(all) 0.7218 | ValF1* 0.8347 | ValAUPRC 0.8644 | ValPrecision 0.6304 | ValRecall 0.8757
+Epoch 18 | TrainLoss 0.0003 | TrainF1(all) 0.7593 | TrainF1(target) 0.7651 | TrainPrecision 0.6954 | TrainRecall 0.8360 | ValLoss 0.0004 | ValF1(all) 0.7790 | ValF1* 0.8333 | ValAUPRC 0.8650 | ValPrecision 0.7739 | ValRecall 0.8324
+Epoch 19 | TrainLoss 0.0003 | TrainF1(all) 0.7627 | TrainF1(target) 0.7626 | TrainPrecision 0.7001 | TrainRecall 0.8374 | ValLoss 0.0003 | ValF1(all) 0.7433 | ValF1* 0.8352 | ValAUPRC 0.8700 | ValPrecision 0.6708 | ValRecall 0.8811
+Epoch 20 | TrainLoss 0.0003 | TrainF1(all) 0.7659 | TrainF1(target) 0.7666 | TrainPrecision 0.7029 | TrainRecall 0.8412 | ValLoss 0.0003 | ValF1(all) 0.7651 | ValF1* 0.8338 | ValAUPRC 0.8719 | ValPrecision 0.7277 | ValRecall 0.8378
+Epoch 21 | TrainLoss 0.0003 | TrainF1(all) 0.7625 | TrainF1(target) 0.7675 | TrainPrecision 0.6985 | TrainRecall 0.8393 | ValLoss 0.0004 | ValF1(all) 0.7282 | ValF1* 0.8398 | ValAUPRC 0.8695 | ValPrecision 0.6585 | ValRecall 0.8757
+Epoch 22 | TrainLoss 0.0003 | TrainF1(all) 0.7645 | TrainF1(target) 0.7718 | TrainPrecision 0.7008 | TrainRecall 0.8409 | ValLoss 0.0004 | ValF1(all) 0.7783 | ValF1* 0.8380 | ValAUPRC 0.8702 | ValPrecision 0.7429 | ValRecall 0.8432
+Epoch 23 | TrainLoss 0.0003 | TrainF1(all) 0.7681 | TrainF1(target) 0.7782 | TrainPrecision 0.7036 | TrainRecall 0.8457 | ValLoss 0.0004 | ValF1(all) 0.7601 | ValF1* 0.8384 | ValAUPRC 0.8725 | ValPrecision 0.6894 | ValRecall 0.8757
+Epoch 24 | TrainLoss 0.0003 | TrainF1(all) 0.7684 | TrainF1(target) 0.7787 | TrainPrecision 0.7049 | TrainRecall 0.8445 | ValLoss 0.0003 | ValF1(all) 0.7491 | ValF1* 0.8315 | ValAUPRC 0.8693 | ValPrecision 0.6880 | ValRecall 0.8703
+Epoch 25 | TrainLoss 0.0003 | TrainF1(all) 0.7670 | TrainF1(target) 0.7726 | TrainPrecision 0.7052 | TrainRecall 0.8408 | ValLoss 0.0004 | ValF1(all) 0.7668 | ValF1* 0.8394 | ValAUPRC 0.8702 | ValPrecision 0.7324 | ValRecall 0.8432
+Epoch 26 | TrainLoss 0.0003 | TrainF1(all) 0.7698 | TrainF1(target) 0.7762 | TrainPrecision 0.7094 | TrainRecall 0.8413 | ValLoss 0.0004 | ValF1(all) 0.7706 | ValF1* 0.8398 | ValAUPRC 0.8717 | ValPrecision 0.7162 | ValRecall 0.8595
+Epoch 27 | TrainLoss 0.0003 | TrainF1(all) 0.7654 | TrainF1(target) 0.7836 | TrainPrecision 0.7037 | TrainRecall 0.8390 | ValLoss 0.0004 | ValF1(all) 0.7610 | ValF1* 0.8375 | ValAUPRC 0.8724 | ValPrecision 0.7175 | ValRecall 0.8649
+Epoch 28 | TrainLoss 0.0003 | TrainF1(all) 0.7667 | TrainF1(target) 0.7719 | TrainPrecision 0.7026 | TrainRecall 0.8437 | ValLoss 0.0004 | ValF1(all) 0.7577 | ValF1* 0.8389 | ValAUPRC 0.8716 | ValPrecision 0.7054 | ValRecall 0.8541
+Epoch 29 | TrainLoss 0.0003 | TrainF1(all) 0.7676 | TrainF1(target) 0.7741 | TrainPrecision 0.7038 | TrainRecall 0.8442 | ValLoss 0.0003 | ValF1(all) 0.7594 | ValF1* 0.8444 | ValAUPRC 0.8751 | ValPrecision 0.7327 | ValRecall 0.8595
+Epoch 30 | TrainLoss 0.0003 | TrainF1(all) 0.7693 | TrainF1(target) 0.7766 | TrainPrecision 0.7068 | TrainRecall 0.8438 | ValLoss 0.0004 | ValF1(all) 0.7683 | ValF1* 0.8421 | ValAUPRC 0.8724 | ValPrecision 0.7235 | ValRecall 0.8486
+[2025-11-13 20:12:43] Training completed successfully!
+[2025-11-13 20:12:43] Training time: 1787.2 seconds (29.8 minutes)
+[2025-11-13 20:12:43] Best epoch: 29
+[2025-11-13 20:12:43] Best auprc: 0.8751
+[2025-11-13 20:12:43] Best F1 (target): 0.8444
+[2025-11-13 20:12:43] Final epoch metrics:
+[2025-11-13 20:12:43]   Train Loss: 0.0003
+[2025-11-13 20:12:43]   Train F1 (all): 0.7693
+[2025-11-13 20:12:43]   Train F1 (target): 0.7766
+[2025-11-13 20:12:43]   Val Loss: 0.0004
+[2025-11-13 20:12:43]   Val F1 (all): 0.7683
+[2025-11-13 20:12:43]   Val F1 (target): 0.8421
+[2025-11-13 20:12:43]   Val AUPRC: 0.8724
+[2025-11-13 20:12:43] Progress: 48/56 completed
+[2025-11-13 20:12:43] Elapsed time: 1381.5 minutes
+[2025-11-13 20:12:43] Estimated remaining time: 230.2 minutes
+[2025-11-13 20:12:43] 
+>>> EXPERIMENT 49/56 <<<
+[2025-11-13 20:12:43] 
+============================================================
+[2025-11-13 20:12:43] EXPERIMENT: alpha=0.9, gamma=1.5
+[2025-11-13 20:12:43] ============================================================
+[2025-11-13 20:12:43] Model: SmallUNet1D
+[2025-11-13 20:12:43]   Total parameters: 125,929
+[2025-11-13 20:12:43]   Trainable parameters: 125,929
+[2025-11-13 20:12:43] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 20:12:43] Loss: FocalLoss (alpha=0.9, gamma=1.5)
+[2025-11-13 20:12:43] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0014 | TrainF1(all) 0.5756 | TrainF1(target) 0.6086 | TrainPrecision 0.4775 | TrainRecall 0.7244 | ValLoss 0.0008 | ValF1(all) 0.7053 | ValF1* 0.8108 | ValAUPRC 0.8314 | ValPrecision 0.5730 | ValRecall 0.8703
+Epoch 02 | TrainLoss 0.0009 | TrainF1(all) 0.6378 | TrainF1(target) 0.6405 | TrainPrecision 0.5173 | TrainRecall 0.8314 | ValLoss 0.0008 | ValF1(all) 0.6834 | ValF1* 0.8011 | ValAUPRC 0.8311 | ValPrecision 0.4372 | ValRecall 0.9027
+Epoch 03 | TrainLoss 0.0008 | TrainF1(all) 0.6504 | TrainF1(target) 0.6513 | TrainPrecision 0.5282 | TrainRecall 0.8461 | ValLoss 0.0008 | ValF1(all) 0.5861 | ValF1* 0.7967 | ValAUPRC 0.8432 | ValPrecision 0.4465 | ValRecall 0.9027
+Epoch 04 | TrainLoss 0.0008 | TrainF1(all) 0.6598 | TrainF1(target) 0.6632 | TrainPrecision 0.5374 | TrainRecall 0.8543 | ValLoss 0.0009 | ValF1(all) 0.7482 | ValF1* 0.8130 | ValAUPRC 0.8519 | ValPrecision 0.6611 | ValRecall 0.8541
+Epoch 05 | TrainLoss 0.0008 | TrainF1(all) 0.6629 | TrainF1(target) 0.6790 | TrainPrecision 0.5402 | TrainRecall 0.8575 | ValLoss 0.0008 | ValF1(all) 0.7408 | ValF1* 0.8305 | ValAUPRC 0.8560 | ValPrecision 0.5867 | ValRecall 0.8595
+Epoch 06 | TrainLoss 0.0008 | TrainF1(all) 0.6670 | TrainF1(target) 0.6667 | TrainPrecision 0.5450 | TrainRecall 0.8593 | ValLoss 0.0007 | ValF1(all) 0.7031 | ValF1* 0.8333 | ValAUPRC 0.8543 | ValPrecision 0.5964 | ValRecall 0.8865
+Epoch 07 | TrainLoss 0.0008 | TrainF1(all) 0.6700 | TrainF1(target) 0.6663 | TrainPrecision 0.5476 | TrainRecall 0.8630 | ValLoss 0.0007 | ValF1(all) 0.6830 | ValF1* 0.8278 | ValAUPRC 0.8566 | ValPrecision 0.6113 | ValRecall 0.8757
+Epoch 08 | TrainLoss 0.0008 | TrainF1(all) 0.6726 | TrainF1(target) 0.6845 | TrainPrecision 0.5497 | TrainRecall 0.8663 | ValLoss 0.0007 | ValF1(all) 0.6651 | ValF1* 0.8297 | ValAUPRC 0.8535 | ValPrecision 0.5425 | ValRecall 0.8973
+Epoch 09 | TrainLoss 0.0007 | TrainF1(all) 0.6794 | TrainF1(target) 0.6826 | TrainPrecision 0.5576 | TrainRecall 0.8691 | ValLoss 0.0007 | ValF1(all) 0.6835 | ValF1* 0.8232 | ValAUPRC 0.8675 | ValPrecision 0.5443 | ValRecall 0.8973
+Epoch 10 | TrainLoss 0.0007 | TrainF1(all) 0.6765 | TrainF1(target) 0.6847 | TrainPrecision 0.5535 | TrainRecall 0.8698 | ValLoss 0.0007 | ValF1(all) 0.7019 | ValF1* 0.8343 | ValAUPRC 0.8648 | ValPrecision 0.5651 | ValRecall 0.8919
+Epoch 11 | TrainLoss 0.0007 | TrainF1(all) 0.6814 | TrainF1(target) 0.6808 | TrainPrecision 0.5596 | TrainRecall 0.8710 | ValLoss 0.0007 | ValF1(all) 0.7646 | ValF1* 0.8376 | ValAUPRC 0.8663 | ValPrecision 0.7260 | ValRecall 0.8595
+Epoch 12 | TrainLoss 0.0007 | TrainF1(all) 0.6859 | TrainF1(target) 0.6776 | TrainPrecision 0.5656 | TrainRecall 0.8711 | ValLoss 0.0007 | ValF1(all) 0.6345 | ValF1* 0.8280 | ValAUPRC 0.8678 | ValPrecision 0.5234 | ValRecall 0.9081
+Epoch 13 | TrainLoss 0.0007 | TrainF1(all) 0.6825 | TrainF1(target) 0.6753 | TrainPrecision 0.5617 | TrainRecall 0.8695 | ValLoss 0.0007 | ValF1(all) 0.6417 | ValF1* 0.8352 | ValAUPRC 0.8741 | ValPrecision 0.5327 | ValRecall 0.9243
+Epoch 14 | TrainLoss 0.0007 | TrainF1(all) 0.6840 | TrainF1(target) 0.6818 | TrainPrecision 0.5614 | TrainRecall 0.8751 | ValLoss 0.0007 | ValF1(all) 0.7308 | ValF1* 0.8282 | ValAUPRC 0.8676 | ValPrecision 0.6851 | ValRecall 0.8703
+Epoch 15 | TrainLoss 0.0007 | TrainF1(all) 0.6878 | TrainF1(target) 0.6849 | TrainPrecision 0.5668 | TrainRecall 0.8746 | ValLoss 0.0007 | ValF1(all) 0.7248 | ValF1* 0.8287 | ValAUPRC 0.8633 | ValPrecision 0.6117 | ValRecall 0.9027
+Epoch 16 | TrainLoss 0.0007 | TrainF1(all) 0.6873 | TrainF1(target) 0.6894 | TrainPrecision 0.5661 | TrainRecall 0.8747 | ValLoss 0.0007 | ValF1(all) 0.6975 | ValF1* 0.8329 | ValAUPRC 0.8751 | ValPrecision 0.6074 | ValRecall 0.8865
+Epoch 17 | TrainLoss 0.0007 | TrainF1(all) 0.6891 | TrainF1(target) 0.6880 | TrainPrecision 0.5676 | TrainRecall 0.8768 | ValLoss 0.0007 | ValF1(all) 0.7048 | ValF1* 0.8366 | ValAUPRC 0.8717 | ValPrecision 0.5887 | ValRecall 0.8973
+Epoch 18 | TrainLoss 0.0007 | TrainF1(all) 0.6938 | TrainF1(target) 0.6860 | TrainPrecision 0.5738 | TrainRecall 0.8772 | ValLoss 0.0007 | ValF1(all) 0.6223 | ValF1* 0.8347 | ValAUPRC 0.8771 | ValPrecision 0.4332 | ValRecall 0.9459
+Epoch 19 | TrainLoss 0.0007 | TrainF1(all) 0.6951 | TrainF1(target) 0.6864 | TrainPrecision 0.5754 | TrainRecall 0.8776 | ValLoss 0.0007 | ValF1(all) 0.7484 | ValF1* 0.8309 | ValAUPRC 0.8749 | ValPrecision 0.6780 | ValRecall 0.8649
+Epoch 20 | TrainLoss 0.0007 | TrainF1(all) 0.6933 | TrainF1(target) 0.6798 | TrainPrecision 0.5709 | TrainRecall 0.8826 | ValLoss 0.0007 | ValF1(all) 0.7161 | ValF1* 0.8352 | ValAUPRC 0.8691 | ValPrecision 0.5714 | ValRecall 0.8865
+Epoch 21 | TrainLoss 0.0007 | TrainF1(all) 0.6910 | TrainF1(target) 0.6839 | TrainPrecision 0.5694 | TrainRecall 0.8786 | ValLoss 0.0007 | ValF1(all) 0.7098 | ValF1* 0.8427 | ValAUPRC 0.8723 | ValPrecision 0.6750 | ValRecall 0.8757
+Epoch 22 | TrainLoss 0.0007 | TrainF1(all) 0.6955 | TrainF1(target) 0.6775 | TrainPrecision 0.5741 | TrainRecall 0.8822 | ValLoss 0.0007 | ValF1(all) 0.7422 | ValF1* 0.8229 | ValAUPRC 0.8720 | ValPrecision 0.6392 | ValRecall 0.8811
+Epoch 23 | TrainLoss 0.0006 | TrainF1(all) 0.7028 | TrainF1(target) 0.7021 | TrainPrecision 0.5827 | TrainRecall 0.8854 | ValLoss 0.0007 | ValF1(all) 0.6967 | ValF1* 0.8289 | ValAUPRC 0.8751 | ValPrecision 0.5592 | ValRecall 0.9189
+Epoch 24 | TrainLoss 0.0006 | TrainF1(all) 0.6994 | TrainF1(target) 0.6852 | TrainPrecision 0.5771 | TrainRecall 0.8875 | ValLoss 0.0007 | ValF1(all) 0.7311 | ValF1* 0.8365 | ValAUPRC 0.8821 | ValPrecision 0.6308 | ValRecall 0.8865
+Epoch 25 | TrainLoss 0.0006 | TrainF1(all) 0.7008 | TrainF1(target) 0.6995 | TrainPrecision 0.5797 | TrainRecall 0.8860 | ValLoss 0.0007 | ValF1(all) 0.7094 | ValF1* 0.8302 | ValAUPRC 0.8742 | ValPrecision 0.6103 | ValRecall 0.8973
+Epoch 26 | TrainLoss 0.0006 | TrainF1(all) 0.7082 | TrainF1(target) 0.7028 | TrainPrecision 0.5878 | TrainRecall 0.8907 | ValLoss 0.0007 | ValF1(all) 0.7217 | ValF1* 0.8310 | ValAUPRC 0.8721 | ValPrecision 0.5936 | ValRecall 0.9081
+Epoch 27 | TrainLoss 0.0006 | TrainF1(all) 0.7022 | TrainF1(target) 0.6872 | TrainPrecision 0.5806 | TrainRecall 0.8882 | ValLoss 0.0007 | ValF1(all) 0.7052 | ValF1* 0.8370 | ValAUPRC 0.8792 | ValPrecision 0.6269 | ValRecall 0.8811
+Epoch 28 | TrainLoss 0.0006 | TrainF1(all) 0.7044 | TrainF1(target) 0.6945 | TrainPrecision 0.5826 | TrainRecall 0.8906 | ValLoss 0.0007 | ValF1(all) 0.7339 | ValF1* 0.8315 | ValAUPRC 0.8738 | ValPrecision 0.6599 | ValRecall 0.8811
+Epoch 29 | TrainLoss 0.0006 | TrainF1(all) 0.7102 | TrainF1(target) 0.7088 | TrainPrecision 0.5890 | TrainRecall 0.8942 | ValLoss 0.0007 | ValF1(all) 0.7399 | ValF1* 0.8347 | ValAUPRC 0.8807 | ValPrecision 0.6574 | ValRecall 0.8919
+Epoch 30 | TrainLoss 0.0006 | TrainF1(all) 0.7082 | TrainF1(target) 0.6959 | TrainPrecision 0.5867 | TrainRecall 0.8932 | ValLoss 0.0007 | ValF1(all) 0.7003 | ValF1* 0.8310 | ValAUPRC 0.8762 | ValPrecision 0.5724 | ValRecall 0.9189
+[2025-11-13 20:42:25] Training completed successfully!
+[2025-11-13 20:42:25] Training time: 1782.3 seconds (29.7 minutes)
+[2025-11-13 20:42:25] Best epoch: 24
+[2025-11-13 20:42:25] Best auprc: 0.8821
+[2025-11-13 20:42:25] Best F1 (target): 0.8365
+[2025-11-13 20:42:25] Final epoch metrics:
+[2025-11-13 20:42:25]   Train Loss: 0.0006
+[2025-11-13 20:42:25]   Train F1 (all): 0.7082
+[2025-11-13 20:42:25]   Train F1 (target): 0.6959
+[2025-11-13 20:42:25]   Val Loss: 0.0007
+[2025-11-13 20:42:25]   Val F1 (all): 0.7003
+[2025-11-13 20:42:25]   Val F1 (target): 0.8310
+[2025-11-13 20:42:25]   Val AUPRC: 0.8762
+[2025-11-13 20:42:25] Progress: 49/56 completed
+[2025-11-13 20:42:25] Elapsed time: 1411.2 minutes
+[2025-11-13 20:42:25] Estimated remaining time: 201.6 minutes
+[2025-11-13 20:42:25] 
+>>> EXPERIMENT 50/56 <<<
+[2025-11-13 20:42:25] 
+============================================================
+[2025-11-13 20:42:25] EXPERIMENT: alpha=0.9, gamma=1.7
+[2025-11-13 20:42:25] ============================================================
+[2025-11-13 20:42:25] Model: SmallUNet1D
+[2025-11-13 20:42:25]   Total parameters: 125,929
+[2025-11-13 20:42:25]   Trainable parameters: 125,929
+[2025-11-13 20:42:25] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 20:42:25] Loss: FocalLoss (alpha=0.9, gamma=1.7)
+[2025-11-13 20:42:25] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0012 | TrainF1(all) 0.5949 | TrainF1(target) 0.6025 | TrainPrecision 0.4962 | TrainRecall 0.7428 | ValLoss 0.0008 | ValF1(all) 0.6261 | ValF1* 0.8101 | ValAUPRC 0.8238 | ValPrecision 0.5076 | ValRecall 0.9081
+Epoch 02 | TrainLoss 0.0008 | TrainF1(all) 0.6434 | TrainF1(target) 0.6524 | TrainPrecision 0.5210 | TrainRecall 0.8412 | ValLoss 0.0007 | ValF1(all) 0.6720 | ValF1* 0.8097 | ValAUPRC 0.8423 | ValPrecision 0.5425 | ValRecall 0.8973
+Epoch 03 | TrainLoss 0.0007 | TrainF1(all) 0.6520 | TrainF1(target) 0.6485 | TrainPrecision 0.5293 | TrainRecall 0.8489 | ValLoss 0.0007 | ValF1(all) 0.6114 | ValF1* 0.8022 | ValAUPRC 0.8426 | ValPrecision 0.4841 | ValRecall 0.9081
+Epoch 04 | TrainLoss 0.0007 | TrainF1(all) 0.6609 | TrainF1(target) 0.6594 | TrainPrecision 0.5385 | TrainRecall 0.8554 | ValLoss 0.0007 | ValF1(all) 0.7236 | ValF1* 0.8138 | ValAUPRC 0.8494 | ValPrecision 0.6400 | ValRecall 0.8649
+Epoch 05 | TrainLoss 0.0007 | TrainF1(all) 0.6620 | TrainF1(target) 0.6532 | TrainPrecision 0.5392 | TrainRecall 0.8570 | ValLoss 0.0007 | ValF1(all) 0.6909 | ValF1* 0.8291 | ValAUPRC 0.8478 | ValPrecision 0.5625 | ValRecall 0.8757
+Epoch 06 | TrainLoss 0.0007 | TrainF1(all) 0.6721 | TrainF1(target) 0.6697 | TrainPrecision 0.5495 | TrainRecall 0.8653 | ValLoss 0.0007 | ValF1(all) 0.7193 | ValF1* 0.8156 | ValAUPRC 0.8460 | ValPrecision 0.6480 | ValRecall 0.8757
+Epoch 07 | TrainLoss 0.0007 | TrainF1(all) 0.6701 | TrainF1(target) 0.6642 | TrainPrecision 0.5479 | TrainRecall 0.8625 | ValLoss 0.0006 | ValF1(all) 0.6850 | ValF1* 0.8305 | ValAUPRC 0.8572 | ValPrecision 0.5878 | ValRecall 0.8865
+Epoch 08 | TrainLoss 0.0007 | TrainF1(all) 0.6754 | TrainF1(target) 0.6753 | TrainPrecision 0.5542 | TrainRecall 0.8643 | ValLoss 0.0007 | ValF1(all) 0.6818 | ValF1* 0.8320 | ValAUPRC 0.8526 | ValPrecision 0.5985 | ValRecall 0.8541
+Epoch 09 | TrainLoss 0.0006 | TrainF1(all) 0.6763 | TrainF1(target) 0.6718 | TrainPrecision 0.5533 | TrainRecall 0.8695 | ValLoss 0.0007 | ValF1(all) 0.6906 | ValF1* 0.8179 | ValAUPRC 0.8437 | ValPrecision 0.6097 | ValRecall 0.8865
+Epoch 10 | TrainLoss 0.0006 | TrainF1(all) 0.6832 | TrainF1(target) 0.6780 | TrainPrecision 0.5625 | TrainRecall 0.8697 | ValLoss 0.0007 | ValF1(all) 0.6618 | ValF1* 0.8207 | ValAUPRC 0.8518 | ValPrecision 0.4628 | ValRecall 0.9081
+Epoch 11 | TrainLoss 0.0006 | TrainF1(all) 0.6788 | TrainF1(target) 0.6734 | TrainPrecision 0.5552 | TrainRecall 0.8731 | ValLoss 0.0006 | ValF1(all) 0.6450 | ValF1* 0.8219 | ValAUPRC 0.8597 | ValPrecision 0.4393 | ValRecall 0.9189
+Epoch 12 | TrainLoss 0.0006 | TrainF1(all) 0.6884 | TrainF1(target) 0.6784 | TrainPrecision 0.5685 | TrainRecall 0.8723 | ValLoss 0.0006 | ValF1(all) 0.6606 | ValF1* 0.8375 | ValAUPRC 0.8600 | ValPrecision 0.5552 | ValRecall 0.8973
+Epoch 13 | TrainLoss 0.0006 | TrainF1(all) 0.6844 | TrainF1(target) 0.6813 | TrainPrecision 0.5623 | TrainRecall 0.8742 | ValLoss 0.0007 | ValF1(all) 0.6278 | ValF1* 0.8324 | ValAUPRC 0.8581 | ValPrecision 0.4956 | ValRecall 0.9135
+Epoch 14 | TrainLoss 0.0006 | TrainF1(all) 0.6887 | TrainF1(target) 0.6803 | TrainPrecision 0.5685 | TrainRecall 0.8734 | ValLoss 0.0007 | ValF1(all) 0.7170 | ValF1* 0.8248 | ValAUPRC 0.8562 | ValPrecision 0.6097 | ValRecall 0.8865
+Epoch 15 | TrainLoss 0.0006 | TrainF1(all) 0.6930 | TrainF1(target) 0.6770 | TrainPrecision 0.5723 | TrainRecall 0.8782 | ValLoss 0.0006 | ValF1(all) 0.7316 | ValF1* 0.8282 | ValAUPRC 0.8661 | ValPrecision 0.6312 | ValRecall 0.8973
+Epoch 16 | TrainLoss 0.0006 | TrainF1(all) 0.6857 | TrainF1(target) 0.6769 | TrainPrecision 0.5637 | TrainRecall 0.8751 | ValLoss 0.0006 | ValF1(all) 0.7108 | ValF1* 0.8324 | ValAUPRC 0.8641 | ValPrecision 0.6598 | ValRecall 0.8703
+Epoch 17 | TrainLoss 0.0006 | TrainF1(all) 0.6949 | TrainF1(target) 0.6901 | TrainPrecision 0.5740 | TrainRecall 0.8804 | ValLoss 0.0007 | ValF1(all) 0.6563 | ValF1* 0.8189 | ValAUPRC 0.8543 | ValPrecision 0.5300 | ValRecall 0.9081
+Epoch 18 | TrainLoss 0.0006 | TrainF1(all) 0.6935 | TrainF1(target) 0.6881 | TrainPrecision 0.5733 | TrainRecall 0.8776 | ValLoss 0.0007 | ValF1(all) 0.6547 | ValF1* 0.8302 | ValAUPRC 0.8591 | ValPrecision 0.5355 | ValRecall 0.8973
+Epoch 19 | TrainLoss 0.0006 | TrainF1(all) 0.6930 | TrainF1(target) 0.6938 | TrainPrecision 0.5714 | TrainRecall 0.8802 | ValLoss 0.0006 | ValF1(all) 0.7033 | ValF1* 0.8320 | ValAUPRC 0.8672 | ValPrecision 0.5769 | ValRecall 0.8919
+Epoch 20 | TrainLoss 0.0006 | TrainF1(all) 0.6933 | TrainF1(target) 0.6910 | TrainPrecision 0.5718 | TrainRecall 0.8803 | ValLoss 0.0007 | ValF1(all) 0.6857 | ValF1* 0.8278 | ValAUPRC 0.8638 | ValPrecision 0.6007 | ValRecall 0.8865
+Epoch 21 | TrainLoss 0.0006 | TrainF1(all) 0.6952 | TrainF1(target) 0.6936 | TrainPrecision 0.5746 | TrainRecall 0.8800 | ValLoss 0.0006 | ValF1(all) 0.7068 | ValF1* 0.8392 | ValAUPRC 0.8718 | ValPrecision 0.6560 | ValRecall 0.8865
+Epoch 22 | TrainLoss 0.0006 | TrainF1(all) 0.6943 | TrainF1(target) 0.6872 | TrainPrecision 0.5729 | TrainRecall 0.8808 | ValLoss 0.0006 | ValF1(all) 0.7016 | ValF1* 0.8225 | ValAUPRC 0.8597 | ValPrecision 0.5646 | ValRecall 0.8973
+Epoch 23 | TrainLoss 0.0006 | TrainF1(all) 0.6953 | TrainF1(target) 0.6900 | TrainPrecision 0.5745 | TrainRecall 0.8806 | ValLoss 0.0006 | ValF1(all) 0.7248 | ValF1* 0.8293 | ValAUPRC 0.8651 | ValPrecision 0.6406 | ValRecall 0.8865
+Epoch 24 | TrainLoss 0.0006 | TrainF1(all) 0.6951 | TrainF1(target) 0.6861 | TrainPrecision 0.5735 | TrainRecall 0.8822 | ValLoss 0.0007 | ValF1(all) 0.7509 | ValF1* 0.8215 | ValAUPRC 0.8596 | ValPrecision 0.6667 | ValRecall 0.8649
+Epoch 25 | TrainLoss 0.0006 | TrainF1(all) 0.6969 | TrainF1(target) 0.6913 | TrainPrecision 0.5753 | TrainRecall 0.8839 | ValLoss 0.0006 | ValF1(all) 0.7208 | ValF1* 0.8278 | ValAUPRC 0.8638 | ValPrecision 0.6269 | ValRecall 0.8811
+Epoch 26 | TrainLoss 0.0006 | TrainF1(all) 0.7054 | TrainF1(target) 0.6903 | TrainPrecision 0.5851 | TrainRecall 0.8880 | ValLoss 0.0006 | ValF1(all) 0.7327 | ValF1* 0.8272 | ValAUPRC 0.8696 | ValPrecision 0.6667 | ValRecall 0.8757
+Epoch 27 | TrainLoss 0.0005 | TrainF1(all) 0.7058 | TrainF1(target) 0.7031 | TrainPrecision 0.5862 | TrainRecall 0.8867 | ValLoss 0.0007 | ValF1(all) 0.6392 | ValF1* 0.8242 | ValAUPRC 0.8691 | ValPrecision 0.5405 | ValRecall 0.9027
+Epoch 28 | TrainLoss 0.0005 | TrainF1(all) 0.7077 | TrainF1(target) 0.7020 | TrainPrecision 0.5870 | TrainRecall 0.8908 | ValLoss 0.0007 | ValF1(all) 0.7271 | ValF1* 0.8361 | ValAUPRC 0.8707 | ValPrecision 0.6809 | ValRecall 0.8649
+Epoch 29 | TrainLoss 0.0005 | TrainF1(all) 0.7098 | TrainF1(target) 0.7019 | TrainPrecision 0.5885 | TrainRecall 0.8940 | ValLoss 0.0006 | ValF1(all) 0.6995 | ValF1* 0.8291 | ValAUPRC 0.8688 | ValPrecision 0.5895 | ValRecall 0.9081
+Epoch 30 | TrainLoss 0.0005 | TrainF1(all) 0.7123 | TrainF1(target) 0.6991 | TrainPrecision 0.5924 | TrainRecall 0.8932 | ValLoss 0.0006 | ValF1(all) 0.7099 | ValF1* 0.8370 | ValAUPRC 0.8681 | ValPrecision 0.6342 | ValRecall 0.8811
+[2025-11-13 21:12:03] Training completed successfully!
+[2025-11-13 21:12:03] Training time: 1777.8 seconds (29.6 minutes)
+[2025-11-13 21:12:03] Best epoch: 21
+[2025-11-13 21:12:03] Best auprc: 0.8718
+[2025-11-13 21:12:03] Best F1 (target): 0.8392
+[2025-11-13 21:12:03] Final epoch metrics:
+[2025-11-13 21:12:03]   Train Loss: 0.0005
+[2025-11-13 21:12:03]   Train F1 (all): 0.7123
+[2025-11-13 21:12:03]   Train F1 (target): 0.6991
+[2025-11-13 21:12:03]   Val Loss: 0.0006
+[2025-11-13 21:12:03]   Val F1 (all): 0.7099
+[2025-11-13 21:12:03]   Val F1 (target): 0.8370
+[2025-11-13 21:12:03]   Val AUPRC: 0.8681
+[2025-11-13 21:12:03] Progress: 50/56 completed
+[2025-11-13 21:12:03] Elapsed time: 1440.8 minutes
+[2025-11-13 21:12:03] Estimated remaining time: 172.9 minutes
+[2025-11-13 21:12:03] 
+>>> EXPERIMENT 51/56 <<<
+[2025-11-13 21:12:03] 
+============================================================
+[2025-11-13 21:12:03] EXPERIMENT: alpha=0.9, gamma=1.9
+[2025-11-13 21:12:03] ============================================================
+[2025-11-13 21:12:03] Model: SmallUNet1D
+[2025-11-13 21:12:03]   Total parameters: 125,929
+[2025-11-13 21:12:03]   Trainable parameters: 125,929
+[2025-11-13 21:12:03] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 21:12:03] Loss: FocalLoss (alpha=0.9, gamma=1.9)
+[2025-11-13 21:12:03] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0011 | TrainF1(all) 0.5786 | TrainF1(target) 0.5980 | TrainPrecision 0.4800 | TrainRecall 0.7280 | ValLoss 0.0007 | ValF1(all) 0.6537 | ValF1* 0.7911 | ValAUPRC 0.8294 | ValPrecision 0.5046 | ValRecall 0.8973
+Epoch 02 | TrainLoss 0.0007 | TrainF1(all) 0.6306 | TrainF1(target) 0.6352 | TrainPrecision 0.5082 | TrainRecall 0.8306 | ValLoss 0.0007 | ValF1(all) 0.7273 | ValF1* 0.8174 | ValAUPRC 0.8443 | ValPrecision 0.6235 | ValRecall 0.8595
+Epoch 03 | TrainLoss 0.0007 | TrainF1(all) 0.6410 | TrainF1(target) 0.6496 | TrainPrecision 0.5179 | TrainRecall 0.8406 | ValLoss 0.0006 | ValF1(all) 0.6501 | ValF1* 0.8177 | ValAUPRC 0.8434 | ValPrecision 0.5392 | ValRecall 0.8919
+Epoch 04 | TrainLoss 0.0006 | TrainF1(all) 0.6489 | TrainF1(target) 0.6502 | TrainPrecision 0.5251 | TrainRecall 0.8492 | ValLoss 0.0006 | ValF1(all) 0.7334 | ValF1* 0.8235 | ValAUPRC 0.8401 | ValPrecision 0.6275 | ValRecall 0.8649
+Epoch 05 | TrainLoss 0.0006 | TrainF1(all) 0.6583 | TrainF1(target) 0.6634 | TrainPrecision 0.5358 | TrainRecall 0.8534 | ValLoss 0.0007 | ValF1(all) 0.5507 | ValF1* 0.8209 | ValAUPRC 0.8342 | ValPrecision 0.4550 | ValRecall 0.9027
+Epoch 06 | TrainLoss 0.0006 | TrainF1(all) 0.6619 | TrainF1(target) 0.6567 | TrainPrecision 0.5376 | TrainRecall 0.8609 | ValLoss 0.0006 | ValF1(all) 0.6924 | ValF1* 0.8202 | ValAUPRC 0.8471 | ValPrecision 0.6265 | ValRecall 0.8703
+Epoch 07 | TrainLoss 0.0006 | TrainF1(all) 0.6670 | TrainF1(target) 0.6671 | TrainPrecision 0.5430 | TrainRecall 0.8642 | ValLoss 0.0007 | ValF1(all) 0.7718 | ValF1* 0.8315 | ValAUPRC 0.8569 | ValPrecision 0.7235 | ValRecall 0.8486
+Epoch 08 | TrainLoss 0.0006 | TrainF1(all) 0.6709 | TrainF1(target) 0.6647 | TrainPrecision 0.5474 | TrainRecall 0.8663 | ValLoss 0.0006 | ValF1(all) 0.7378 | ValF1* 0.8199 | ValAUPRC 0.8496 | ValPrecision 0.6285 | ValRecall 0.8595
+Epoch 09 | TrainLoss 0.0006 | TrainF1(all) 0.6728 | TrainF1(target) 0.6759 | TrainPrecision 0.5495 | TrainRecall 0.8675 | ValLoss 0.0006 | ValF1(all) 0.7347 | ValF1* 0.8212 | ValAUPRC 0.8420 | ValPrecision 0.6478 | ValRecall 0.8649
+Epoch 10 | TrainLoss 0.0006 | TrainF1(all) 0.6734 | TrainF1(target) 0.6679 | TrainPrecision 0.5485 | TrainRecall 0.8718 | ValLoss 0.0006 | ValF1(all) 0.6152 | ValF1* 0.8138 | ValAUPRC 0.8519 | ValPrecision 0.4381 | ValRecall 0.9189
+Epoch 11 | TrainLoss 0.0006 | TrainF1(all) 0.6804 | TrainF1(target) 0.6792 | TrainPrecision 0.5588 | TrainRecall 0.8697 | ValLoss 0.0006 | ValF1(all) 0.7473 | ValF1* 0.8320 | ValAUPRC 0.8486 | ValPrecision 0.6943 | ValRecall 0.8595
+Epoch 12 | TrainLoss 0.0005 | TrainF1(all) 0.6837 | TrainF1(target) 0.6790 | TrainPrecision 0.5610 | TrainRecall 0.8750 | ValLoss 0.0006 | ValF1(all) 0.7224 | ValF1* 0.8219 | ValAUPRC 0.8557 | ValPrecision 0.6452 | ValRecall 0.8649
+Epoch 13 | TrainLoss 0.0005 | TrainF1(all) 0.6866 | TrainF1(target) 0.6797 | TrainPrecision 0.5638 | TrainRecall 0.8778 | ValLoss 0.0006 | ValF1(all) 0.7275 | ValF1* 0.8310 | ValAUPRC 0.8543 | ValPrecision 0.6414 | ValRecall 0.8703
+Epoch 14 | TrainLoss 0.0005 | TrainF1(all) 0.6899 | TrainF1(target) 0.6833 | TrainPrecision 0.5677 | TrainRecall 0.8791 | ValLoss 0.0006 | ValF1(all) 0.6968 | ValF1* 0.8392 | ValAUPRC 0.8648 | ValPrecision 0.5541 | ValRecall 0.9135
+Epoch 15 | TrainLoss 0.0005 | TrainF1(all) 0.6897 | TrainF1(target) 0.6800 | TrainPrecision 0.5677 | TrainRecall 0.8783 | ValLoss 0.0006 | ValF1(all) 0.6977 | ValF1* 0.8375 | ValAUPRC 0.8558 | ValPrecision 0.6097 | ValRecall 0.8865
+Epoch 16 | TrainLoss 0.0005 | TrainF1(all) 0.6891 | TrainF1(target) 0.6806 | TrainPrecision 0.5662 | TrainRecall 0.8800 | ValLoss 0.0006 | ValF1(all) 0.7102 | ValF1* 0.8301 | ValAUPRC 0.8473 | ValPrecision 0.5780 | ValRecall 0.8811
+Epoch 17 | TrainLoss 0.0005 | TrainF1(all) 0.6935 | TrainF1(target) 0.6813 | TrainPrecision 0.5713 | TrainRecall 0.8823 | ValLoss 0.0006 | ValF1(all) 0.7125 | ValF1* 0.8338 | ValAUPRC 0.8632 | ValPrecision 0.6160 | ValRecall 0.8757
+Epoch 18 | TrainLoss 0.0005 | TrainF1(all) 0.6937 | TrainF1(target) 0.6873 | TrainPrecision 0.5723 | TrainRecall 0.8803 | ValLoss 0.0006 | ValF1(all) 0.7069 | ValF1* 0.8361 | ValAUPRC 0.8610 | ValPrecision 0.6105 | ValRecall 0.8811
+Epoch 19 | TrainLoss 0.0005 | TrainF1(all) 0.6968 | TrainF1(target) 0.6869 | TrainPrecision 0.5758 | TrainRecall 0.8822 | ValLoss 0.0006 | ValF1(all) 0.7310 | ValF1* 0.8398 | ValAUPRC 0.8654 | ValPrecision 0.6007 | ValRecall 0.8865
+Epoch 20 | TrainLoss 0.0005 | TrainF1(all) 0.6964 | TrainF1(target) 0.6910 | TrainPrecision 0.5742 | TrainRecall 0.8846 | ValLoss 0.0006 | ValF1(all) 0.7262 | ValF1* 0.8338 | ValAUPRC 0.8554 | ValPrecision 0.6207 | ValRecall 0.8757
+Epoch 21 | TrainLoss 0.0005 | TrainF1(all) 0.6984 | TrainF1(target) 0.6939 | TrainPrecision 0.5767 | TrainRecall 0.8854 | ValLoss 0.0006 | ValF1(all) 0.7497 | ValF1* 0.8352 | ValAUPRC 0.8635 | ValPrecision 0.6328 | ValRecall 0.8757
+Epoch 22 | TrainLoss 0.0005 | TrainF1(all) 0.6990 | TrainF1(target) 0.6892 | TrainPrecision 0.5775 | TrainRecall 0.8854 | ValLoss 0.0006 | ValF1(all) 0.6917 | ValF1* 0.8384 | ValAUPRC 0.8655 | ValPrecision 0.5570 | ValRecall 0.8973
+Epoch 23 | TrainLoss 0.0005 | TrainF1(all) 0.6958 | TrainF1(target) 0.6917 | TrainPrecision 0.5733 | TrainRecall 0.8851 | ValLoss 0.0006 | ValF1(all) 0.7192 | ValF1* 0.8370 | ValAUPRC 0.8630 | ValPrecision 0.6090 | ValRecall 0.8757
+Epoch 24 | TrainLoss 0.0005 | TrainF1(all) 0.7040 | TrainF1(target) 0.6985 | TrainPrecision 0.5830 | TrainRecall 0.8883 | ValLoss 0.0006 | ValF1(all) 0.7018 | ValF1* 0.8329 | ValAUPRC 0.8577 | ValPrecision 0.5789 | ValRecall 0.8919
+Epoch 25 | TrainLoss 0.0005 | TrainF1(all) 0.7022 | TrainF1(target) 0.6969 | TrainPrecision 0.5800 | TrainRecall 0.8895 | ValLoss 0.0005 | ValF1(all) 0.6957 | ValF1* 0.8347 | ValAUPRC 0.8610 | ValPrecision 0.5666 | ValRecall 0.8973
+Epoch 26 | TrainLoss 0.0005 | TrainF1(all) 0.7044 | TrainF1(target) 0.6983 | TrainPrecision 0.5838 | TrainRecall 0.8879 | ValLoss 0.0006 | ValF1(all) 0.7150 | ValF1* 0.8343 | ValAUPRC 0.8586 | ValPrecision 0.5887 | ValRecall 0.8973
+Epoch 27 | TrainLoss 0.0005 | TrainF1(all) 0.7031 | TrainF1(target) 0.6984 | TrainPrecision 0.5812 | TrainRecall 0.8899 | ValLoss 0.0006 | ValF1(all) 0.6941 | ValF1* 0.8357 | ValAUPRC 0.8583 | ValPrecision 0.5825 | ValRecall 0.8973
+Epoch 28 | TrainLoss 0.0005 | TrainF1(all) 0.7012 | TrainF1(target) 0.6902 | TrainPrecision 0.5792 | TrainRecall 0.8884 | ValLoss 0.0006 | ValF1(all) 0.7104 | ValF1* 0.8366 | ValAUPRC 0.8606 | ValPrecision 0.6044 | ValRecall 0.8919
+Epoch 29 | TrainLoss 0.0005 | TrainF1(all) 0.7061 | TrainF1(target) 0.6979 | TrainPrecision 0.5849 | TrainRecall 0.8907 | ValLoss 0.0006 | ValF1(all) 0.7071 | ValF1* 0.8352 | ValAUPRC 0.8629 | ValPrecision 0.6022 | ValRecall 0.8919
+Epoch 30 | TrainLoss 0.0005 | TrainF1(all) 0.7052 | TrainF1(target) 0.7015 | TrainPrecision 0.5843 | TrainRecall 0.8894 | ValLoss 0.0006 | ValF1(all) 0.7035 | ValF1* 0.8348 | ValAUPRC 0.8632 | ValPrecision 0.6000 | ValRecall 0.8919
+[2025-11-13 21:41:32] Training completed successfully!
+[2025-11-13 21:41:32] Training time: 1768.5 seconds (29.5 minutes)
+[2025-11-13 21:41:32] Best epoch: 22
+[2025-11-13 21:41:32] Best auprc: 0.8655
+[2025-11-13 21:41:32] Best F1 (target): 0.8384
+[2025-11-13 21:41:32] Final epoch metrics:
+[2025-11-13 21:41:32]   Train Loss: 0.0005
+[2025-11-13 21:41:32]   Train F1 (all): 0.7052
+[2025-11-13 21:41:32]   Train F1 (target): 0.7015
+[2025-11-13 21:41:32]   Val Loss: 0.0006
+[2025-11-13 21:41:32]   Val F1 (all): 0.7035
+[2025-11-13 21:41:32]   Val F1 (target): 0.8348
+[2025-11-13 21:41:32]   Val AUPRC: 0.8632
+[2025-11-13 21:41:32] Progress: 51/56 completed
+[2025-11-13 21:41:32] Elapsed time: 1470.3 minutes
+[2025-11-13 21:41:32] Estimated remaining time: 144.1 minutes
+[2025-11-13 21:41:32] 
+>>> EXPERIMENT 52/56 <<<
+[2025-11-13 21:41:32] 
+============================================================
+[2025-11-13 21:41:32] EXPERIMENT: alpha=0.9, gamma=2.0
+[2025-11-13 21:41:32] ============================================================
+[2025-11-13 21:41:32] Model: SmallUNet1D
+[2025-11-13 21:41:32]   Total parameters: 125,929
+[2025-11-13 21:41:32]   Trainable parameters: 125,929
+[2025-11-13 21:41:32] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 21:41:32] Loss: FocalLoss (alpha=0.9, gamma=2.0)
+[2025-11-13 21:41:32] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0011 | TrainF1(all) 0.5462 | TrainF1(target) 0.5666 | TrainPrecision 0.4450 | TrainRecall 0.7072 | ValLoss 0.0006 | ValF1(all) 0.6543 | ValF1* 0.7934 | ValAUPRC 0.8169 | ValPrecision 0.4678 | ValRecall 0.9027
+Epoch 02 | TrainLoss 0.0007 | TrainF1(all) 0.6188 | TrainF1(target) 0.6321 | TrainPrecision 0.4947 | TrainRecall 0.8259 | ValLoss 0.0006 | ValF1(all) 0.7496 | ValF1* 0.8177 | ValAUPRC 0.8476 | ValPrecision 0.6598 | ValRecall 0.8703
+Epoch 03 | TrainLoss 0.0006 | TrainF1(all) 0.6417 | TrainF1(target) 0.6514 | TrainPrecision 0.5179 | TrainRecall 0.8434 | ValLoss 0.0006 | ValF1(all) 0.7065 | ValF1* 0.8207 | ValAUPRC 0.8549 | ValPrecision 0.6285 | ValRecall 0.8595
+Epoch 04 | TrainLoss 0.0006 | TrainF1(all) 0.6521 | TrainF1(target) 0.6575 | TrainPrecision 0.5286 | TrainRecall 0.8508 | ValLoss 0.0006 | ValF1(all) 0.6708 | ValF1* 0.8291 | ValAUPRC 0.8533 | ValPrecision 0.5154 | ValRecall 0.9027
+Epoch 05 | TrainLoss 0.0006 | TrainF1(all) 0.6611 | TrainF1(target) 0.6677 | TrainPrecision 0.5380 | TrainRecall 0.8571 | ValLoss 0.0006 | ValF1(all) 0.7478 | ValF1* 0.8199 | ValAUPRC 0.8479 | ValPrecision 0.6386 | ValRecall 0.8595
+Epoch 06 | TrainLoss 0.0006 | TrainF1(all) 0.6618 | TrainF1(target) 0.6612 | TrainPrecision 0.5370 | TrainRecall 0.8619 | ValLoss 0.0006 | ValF1(all) 0.6576 | ValF1* 0.8329 | ValAUPRC 0.8537 | ValPrecision 0.5169 | ValRecall 0.9081
+Epoch 07 | TrainLoss 0.0006 | TrainF1(all) 0.6728 | TrainF1(target) 0.6780 | TrainPrecision 0.5516 | TrainRecall 0.8622 | ValLoss 0.0006 | ValF1(all) 0.7210 | ValF1* 0.8324 | ValAUPRC 0.8421 | ValPrecision 0.6098 | ValRecall 0.8703
+Epoch 08 | TrainLoss 0.0005 | TrainF1(all) 0.6817 | TrainF1(target) 0.6828 | TrainPrecision 0.5593 | TrainRecall 0.8726 | ValLoss 0.0005 | ValF1(all) 0.6790 | ValF1* 0.8222 | ValAUPRC 0.8558 | ValPrecision 0.5170 | ValRecall 0.9027
+Epoch 09 | TrainLoss 0.0005 | TrainF1(all) 0.6812 | TrainF1(target) 0.6777 | TrainPrecision 0.5583 | TrainRecall 0.8734 | ValLoss 0.0006 | ValF1(all) 0.6986 | ValF1* 0.8306 | ValAUPRC 0.8548 | ValPrecision 0.6667 | ValRecall 0.8649
+Epoch 10 | TrainLoss 0.0005 | TrainF1(all) 0.6790 | TrainF1(target) 0.6774 | TrainPrecision 0.5563 | TrainRecall 0.8711 | ValLoss 0.0005 | ValF1(all) 0.6956 | ValF1* 0.8251 | ValAUPRC 0.8571 | ValPrecision 0.5387 | ValRecall 0.9027
+Epoch 11 | TrainLoss 0.0005 | TrainF1(all) 0.6834 | TrainF1(target) 0.6834 | TrainPrecision 0.5602 | TrainRecall 0.8759 | ValLoss 0.0005 | ValF1(all) 0.6485 | ValF1* 0.8295 | ValAUPRC 0.8624 | ValPrecision 0.4855 | ValRecall 0.9027
+Epoch 12 | TrainLoss 0.0005 | TrainF1(all) 0.6831 | TrainF1(target) 0.6894 | TrainPrecision 0.5610 | TrainRecall 0.8733 | ValLoss 0.0005 | ValF1(all) 0.6528 | ValF1* 0.8264 | ValAUPRC 0.8526 | ValPrecision 0.5655 | ValRecall 0.8865
+Epoch 13 | TrainLoss 0.0005 | TrainF1(all) 0.6849 | TrainF1(target) 0.6784 | TrainPrecision 0.5617 | TrainRecall 0.8772 | ValLoss 0.0006 | ValF1(all) 0.6699 | ValF1* 0.8347 | ValAUPRC 0.8583 | ValPrecision 0.5570 | ValRecall 0.8973
+Epoch 14 | TrainLoss 0.0005 | TrainF1(all) 0.6864 | TrainF1(target) 0.6713 | TrainPrecision 0.5640 | TrainRecall 0.8767 | ValLoss 0.0006 | ValF1(all) 0.7344 | ValF1* 0.8270 | ValAUPRC 0.8522 | ValPrecision 0.7302 | ValRecall 0.8486
+Epoch 15 | TrainLoss 0.0005 | TrainF1(all) 0.6848 | TrainF1(target) 0.6822 | TrainPrecision 0.5618 | TrainRecall 0.8768 | ValLoss 0.0005 | ValF1(all) 0.6658 | ValF1* 0.8320 | ValAUPRC 0.8625 | ValPrecision 0.4802 | ValRecall 0.9189
+Epoch 16 | TrainLoss 0.0005 | TrainF1(all) 0.6871 | TrainF1(target) 0.6844 | TrainPrecision 0.5646 | TrainRecall 0.8775 | ValLoss 0.0005 | ValF1(all) 0.6937 | ValF1* 0.8315 | ValAUPRC 0.8606 | ValPrecision 0.5422 | ValRecall 0.9027
+Epoch 17 | TrainLoss 0.0005 | TrainF1(all) 0.6912 | TrainF1(target) 0.6853 | TrainPrecision 0.5699 | TrainRecall 0.8780 | ValLoss 0.0005 | ValF1(all) 0.6944 | ValF1* 0.8278 | ValAUPRC 0.8622 | ValPrecision 0.5950 | ValRecall 0.8973
+Epoch 18 | TrainLoss 0.0005 | TrainF1(all) 0.6920 | TrainF1(target) 0.6885 | TrainPrecision 0.5703 | TrainRecall 0.8798 | ValLoss 0.0005 | ValF1(all) 0.6825 | ValF1* 0.8320 | ValAUPRC 0.8639 | ValPrecision 0.5335 | ValRecall 0.9027
+Epoch 19 | TrainLoss 0.0005 | TrainF1(all) 0.6896 | TrainF1(target) 0.6772 | TrainPrecision 0.5665 | TrainRecall 0.8811 | ValLoss 0.0006 | ValF1(all) 0.7134 | ValF1* 0.8343 | ValAUPRC 0.8624 | ValPrecision 0.5709 | ValRecall 0.8919
+Epoch 20 | TrainLoss 0.0005 | TrainF1(all) 0.6877 | TrainF1(target) 0.6867 | TrainPrecision 0.5638 | TrainRecall 0.8812 | ValLoss 0.0006 | ValF1(all) 0.7327 | ValF1* 0.8338 | ValAUPRC 0.8629 | ValPrecision 0.5899 | ValRecall 0.8865
+Epoch 21 | TrainLoss 0.0005 | TrainF1(all) 0.6885 | TrainF1(target) 0.6850 | TrainPrecision 0.5663 | TrainRecall 0.8779 | ValLoss 0.0006 | ValF1(all) 0.7172 | ValF1* 0.8283 | ValAUPRC 0.8645 | ValPrecision 0.5387 | ValRecall 0.9027
+Epoch 22 | TrainLoss 0.0005 | TrainF1(all) 0.6931 | TrainF1(target) 0.6819 | TrainPrecision 0.5710 | TrainRecall 0.8816 | ValLoss 0.0005 | ValF1(all) 0.7262 | ValF1* 0.8320 | ValAUPRC 0.8691 | ValPrecision 0.6097 | ValRecall 0.8865
+Epoch 23 | TrainLoss 0.0005 | TrainF1(all) 0.6921 | TrainF1(target) 0.6890 | TrainPrecision 0.5693 | TrainRecall 0.8826 | ValLoss 0.0005 | ValF1(all) 0.6915 | ValF1* 0.8320 | ValAUPRC 0.8632 | ValPrecision 0.5661 | ValRecall 0.9027
+Epoch 24 | TrainLoss 0.0005 | TrainF1(all) 0.6911 | TrainF1(target) 0.6872 | TrainPrecision 0.5681 | TrainRecall 0.8823 | ValLoss 0.0005 | ValF1(all) 0.7246 | ValF1* 0.8302 | ValAUPRC 0.8690 | ValPrecision 0.5887 | ValRecall 0.8973
+Epoch 25 | TrainLoss 0.0005 | TrainF1(all) 0.6913 | TrainF1(target) 0.6844 | TrainPrecision 0.5696 | TrainRecall 0.8790 | ValLoss 0.0005 | ValF1(all) 0.7365 | ValF1* 0.8286 | ValAUPRC 0.8703 | ValPrecision 0.6454 | ValRecall 0.8757
+Epoch 26 | TrainLoss 0.0005 | TrainF1(all) 0.6935 | TrainF1(target) 0.6859 | TrainPrecision 0.5705 | TrainRecall 0.8843 | ValLoss 0.0006 | ValF1(all) 0.7107 | ValF1* 0.8310 | ValAUPRC 0.8713 | ValPrecision 0.5887 | ValRecall 0.8973
+Epoch 27 | TrainLoss 0.0005 | TrainF1(all) 0.6965 | TrainF1(target) 0.6863 | TrainPrecision 0.5736 | TrainRecall 0.8864 | ValLoss 0.0005 | ValF1(all) 0.7073 | ValF1* 0.8278 | ValAUPRC 0.8685 | ValPrecision 0.5830 | ValRecall 0.8919
+Epoch 28 | TrainLoss 0.0005 | TrainF1(all) 0.6917 | TrainF1(target) 0.6848 | TrainPrecision 0.5688 | TrainRecall 0.8823 | ValLoss 0.0005 | ValF1(all) 0.6965 | ValF1* 0.8415 | ValAUPRC 0.8717 | ValPrecision 0.5425 | ValRecall 0.8973
+Epoch 29 | TrainLoss 0.0005 | TrainF1(all) 0.6929 | TrainF1(target) 0.6830 | TrainPrecision 0.5706 | TrainRecall 0.8819 | ValLoss 0.0006 | ValF1(all) 0.7252 | ValF1* 0.8342 | ValAUPRC 0.8726 | ValPrecision 0.6142 | ValRecall 0.8865
+Epoch 30 | TrainLoss 0.0005 | TrainF1(all) 0.6942 | TrainF1(target) 0.6795 | TrainPrecision 0.5710 | TrainRecall 0.8852 | ValLoss 0.0006 | ValF1(all) 0.7393 | ValF1* 0.8403 | ValAUPRC 0.8707 | ValPrecision 0.6318 | ValRecall 0.8811
+[2025-11-13 22:11:40] Training completed successfully!
+[2025-11-13 22:11:40] Training time: 1808.2 seconds (30.1 minutes)
+[2025-11-13 22:11:40] Best epoch: 29
+[2025-11-13 22:11:40] Best auprc: 0.8726
+[2025-11-13 22:11:40] Best F1 (target): 0.8342
+[2025-11-13 22:11:40] Final epoch metrics:
+[2025-11-13 22:11:40]   Train Loss: 0.0005
+[2025-11-13 22:11:40]   Train F1 (all): 0.6942
+[2025-11-13 22:11:40]   Train F1 (target): 0.6795
+[2025-11-13 22:11:40]   Val Loss: 0.0006
+[2025-11-13 22:11:40]   Val F1 (all): 0.7393
+[2025-11-13 22:11:40]   Val F1 (target): 0.8403
+[2025-11-13 22:11:40]   Val AUPRC: 0.8707
+[2025-11-13 22:11:40] Progress: 52/56 completed
+[2025-11-13 22:11:40] Elapsed time: 1500.4 minutes
+[2025-11-13 22:11:40] Estimated remaining time: 115.4 minutes
+[2025-11-13 22:11:40] 
+>>> EXPERIMENT 53/56 <<<
+[2025-11-13 22:11:40] 
+============================================================
+[2025-11-13 22:11:40] EXPERIMENT: alpha=0.9, gamma=2.1
+[2025-11-13 22:11:40] ============================================================
+[2025-11-13 22:11:40] Model: SmallUNet1D
+[2025-11-13 22:11:40]   Total parameters: 125,929
+[2025-11-13 22:11:40]   Trainable parameters: 125,929
+[2025-11-13 22:11:40] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 22:11:40] Loss: FocalLoss (alpha=0.9, gamma=2.1)
+[2025-11-13 22:11:40] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0010 | TrainF1(all) 0.5697 | TrainF1(target) 0.5869 | TrainPrecision 0.4742 | TrainRecall 0.7134 | ValLoss 0.0006 | ValF1(all) 0.6591 | ValF1* 0.8000 | ValAUPRC 0.8091 | ValPrecision 0.5367 | ValRecall 0.8703
+Epoch 02 | TrainLoss 0.0006 | TrainF1(all) 0.6299 | TrainF1(target) 0.6321 | TrainPrecision 0.5075 | TrainRecall 0.8300 | ValLoss 0.0006 | ValF1(all) 0.7169 | ValF1* 0.8067 | ValAUPRC 0.8309 | ValPrecision 0.5161 | ValRecall 0.8649
+Epoch 03 | TrainLoss 0.0006 | TrainF1(all) 0.6455 | TrainF1(target) 0.6506 | TrainPrecision 0.5221 | TrainRecall 0.8453 | ValLoss 0.0005 | ValF1(all) 0.6836 | ValF1* 0.8078 | ValAUPRC 0.8461 | ValPrecision 0.5340 | ValRecall 0.8919
+Epoch 04 | TrainLoss 0.0006 | TrainF1(all) 0.6533 | TrainF1(target) 0.6598 | TrainPrecision 0.5288 | TrainRecall 0.8543 | ValLoss 0.0005 | ValF1(all) 0.6239 | ValF1* 0.8122 | ValAUPRC 0.8405 | ValPrecision 0.5030 | ValRecall 0.8919
+Epoch 05 | TrainLoss 0.0005 | TrainF1(all) 0.6637 | TrainF1(target) 0.6634 | TrainPrecision 0.5406 | TrainRecall 0.8593 | ValLoss 0.0005 | ValF1(all) 0.6541 | ValF1* 0.8169 | ValAUPRC 0.8501 | ValPrecision 0.5272 | ValRecall 0.8919
+Epoch 06 | TrainLoss 0.0005 | TrainF1(all) 0.6665 | TrainF1(target) 0.6818 | TrainPrecision 0.5424 | TrainRecall 0.8643 | ValLoss 0.0005 | ValF1(all) 0.6974 | ValF1* 0.8199 | ValAUPRC 0.8549 | ValPrecision 0.5597 | ValRecall 0.8865
+Epoch 07 | TrainLoss 0.0005 | TrainF1(all) 0.6711 | TrainF1(target) 0.6703 | TrainPrecision 0.5476 | TrainRecall 0.8666 | ValLoss 0.0005 | ValF1(all) 0.7044 | ValF1* 0.8090 | ValAUPRC 0.8482 | ValPrecision 0.5485 | ValRecall 0.8865
+Epoch 08 | TrainLoss 0.0005 | TrainF1(all) 0.6694 | TrainF1(target) 0.6606 | TrainPrecision 0.5450 | TrainRecall 0.8674 | ValLoss 0.0005 | ValF1(all) 0.7230 | ValF1* 0.8219 | ValAUPRC 0.8614 | ValPrecision 0.6053 | ValRecall 0.8703
+Epoch 09 | TrainLoss 0.0005 | TrainF1(all) 0.6769 | TrainF1(target) 0.6759 | TrainPrecision 0.5545 | TrainRecall 0.8685 | ValLoss 0.0005 | ValF1(all) 0.7168 | ValF1* 0.8283 | ValAUPRC 0.8594 | ValPrecision 0.5857 | ValRecall 0.8865
+Epoch 10 | TrainLoss 0.0005 | TrainF1(all) 0.6807 | TrainF1(target) 0.6939 | TrainPrecision 0.5577 | TrainRecall 0.8734 | ValLoss 0.0005 | ValF1(all) 0.6827 | ValF1* 0.8195 | ValAUPRC 0.8527 | ValPrecision 0.5631 | ValRecall 0.8919
+Epoch 11 | TrainLoss 0.0005 | TrainF1(all) 0.6837 | TrainF1(target) 0.6902 | TrainPrecision 0.5623 | TrainRecall 0.8718 | ValLoss 0.0005 | ValF1(all) 0.6227 | ValF1* 0.8239 | ValAUPRC 0.8590 | ValPrecision 0.5304 | ValRecall 0.8973
+Epoch 12 | TrainLoss 0.0005 | TrainF1(all) 0.6830 | TrainF1(target) 0.6751 | TrainPrecision 0.5605 | TrainRecall 0.8739 | ValLoss 0.0005 | ValF1(all) 0.6847 | ValF1* 0.8199 | ValAUPRC 0.8606 | ValPrecision 0.5422 | ValRecall 0.9027
+Epoch 13 | TrainLoss 0.0005 | TrainF1(all) 0.6908 | TrainF1(target) 0.6836 | TrainPrecision 0.5689 | TrainRecall 0.8791 | ValLoss 0.0005 | ValF1(all) 0.6963 | ValF1* 0.8192 | ValAUPRC 0.8598 | ValPrecision 0.5891 | ValRecall 0.8757
+Epoch 14 | TrainLoss 0.0005 | TrainF1(all) 0.6932 | TrainF1(target) 0.6868 | TrainPrecision 0.5702 | TrainRecall 0.8838 | ValLoss 0.0005 | ValF1(all) 0.7269 | ValF1* 0.8333 | ValAUPRC 0.8650 | ValPrecision 0.6414 | ValRecall 0.8703
+Epoch 15 | TrainLoss 0.0005 | TrainF1(all) 0.6913 | TrainF1(target) 0.6939 | TrainPrecision 0.5680 | TrainRecall 0.8830 | ValLoss 0.0005 | ValF1(all) 0.7118 | ValF1* 0.8315 | ValAUPRC 0.8689 | ValPrecision 0.5927 | ValRecall 0.8811
+Epoch 16 | TrainLoss 0.0005 | TrainF1(all) 0.6914 | TrainF1(target) 0.6849 | TrainPrecision 0.5681 | TrainRecall 0.8831 | ValLoss 0.0005 | ValF1(all) 0.7307 | ValF1* 0.8352 | ValAUPRC 0.8623 | ValPrecision 0.6255 | ValRecall 0.8757
+Epoch 17 | TrainLoss 0.0005 | TrainF1(all) 0.6907 | TrainF1(target) 0.6821 | TrainPrecision 0.5672 | TrainRecall 0.8830 | ValLoss 0.0005 | ValF1(all) 0.7121 | ValF1* 0.8357 | ValAUPRC 0.8696 | ValPrecision 0.6403 | ValRecall 0.8757
+Epoch 18 | TrainLoss 0.0004 | TrainF1(all) 0.6934 | TrainF1(target) 0.6872 | TrainPrecision 0.5702 | TrainRecall 0.8843 | ValLoss 0.0005 | ValF1(all) 0.6942 | ValF1* 0.8302 | ValAUPRC 0.8628 | ValPrecision 0.5627 | ValRecall 0.8973
+Epoch 19 | TrainLoss 0.0004 | TrainF1(all) 0.6928 | TrainF1(target) 0.6875 | TrainPrecision 0.5687 | TrainRecall 0.8862 | ValLoss 0.0005 | ValF1(all) 0.6651 | ValF1* 0.8352 | ValAUPRC 0.8727 | ValPrecision 0.5431 | ValRecall 0.9189
+Epoch 20 | TrainLoss 0.0004 | TrainF1(all) 0.6967 | TrainF1(target) 0.6952 | TrainPrecision 0.5733 | TrainRecall 0.8876 | ValLoss 0.0005 | ValF1(all) 0.6837 | ValF1* 0.8401 | ValAUPRC 0.8684 | ValPrecision 0.5642 | ValRecall 0.9027
+Epoch 21 | TrainLoss 0.0004 | TrainF1(all) 0.6960 | TrainF1(target) 0.6872 | TrainPrecision 0.5731 | TrainRecall 0.8860 | ValLoss 0.0005 | ValF1(all) 0.6767 | ValF1* 0.8398 | ValAUPRC 0.8677 | ValPrecision 0.5518 | ValRecall 0.8919
+Epoch 22 | TrainLoss 0.0004 | TrainF1(all) 0.6959 | TrainF1(target) 0.6952 | TrainPrecision 0.5730 | TrainRecall 0.8859 | ValLoss 0.0005 | ValF1(all) 0.7121 | ValF1* 0.8371 | ValAUPRC 0.8691 | ValPrecision 0.5636 | ValRecall 0.8865
+Epoch 23 | TrainLoss 0.0004 | TrainF1(all) 0.6970 | TrainF1(target) 0.6969 | TrainPrecision 0.5737 | TrainRecall 0.8878 | ValLoss 0.0005 | ValF1(all) 0.6777 | ValF1* 0.8347 | ValAUPRC 0.8741 | ValPrecision 0.5719 | ValRecall 0.9027
+Epoch 24 | TrainLoss 0.0004 | TrainF1(all) 0.6937 | TrainF1(target) 0.6942 | TrainPrecision 0.5692 | TrainRecall 0.8878 | ValLoss 0.0005 | ValF1(all) 0.7029 | ValF1* 0.8319 | ValAUPRC 0.8682 | ValPrecision 0.6074 | ValRecall 0.8865
+Epoch 25 | TrainLoss 0.0004 | TrainF1(all) 0.6994 | TrainF1(target) 0.7009 | TrainPrecision 0.5757 | TrainRecall 0.8906 | ValLoss 0.0005 | ValF1(all) 0.7067 | ValF1* 0.8407 | ValAUPRC 0.8676 | ValPrecision 0.6160 | ValRecall 0.8757
+Epoch 26 | TrainLoss 0.0004 | TrainF1(all) 0.6953 | TrainF1(target) 0.6901 | TrainPrecision 0.5716 | TrainRecall 0.8875 | ValLoss 0.0005 | ValF1(all) 0.7234 | ValF1* 0.8453 | ValAUPRC 0.8712 | ValPrecision 0.6279 | ValRecall 0.8757
+Epoch 27 | TrainLoss 0.0004 | TrainF1(all) 0.6996 | TrainF1(target) 0.7074 | TrainPrecision 0.5767 | TrainRecall 0.8891 | ValLoss 0.0005 | ValF1(all) 0.7260 | ValF1* 0.8389 | ValAUPRC 0.8735 | ValPrecision 0.6414 | ValRecall 0.8703
+Epoch 28 | TrainLoss 0.0004 | TrainF1(all) 0.7004 | TrainF1(target) 0.6983 | TrainPrecision 0.5757 | TrainRecall 0.8942 | ValLoss 0.0005 | ValF1(all) 0.6796 | ValF1* 0.8432 | ValAUPRC 0.8707 | ValPrecision 0.5497 | ValRecall 0.8973
+Epoch 29 | TrainLoss 0.0004 | TrainF1(all) 0.7015 | TrainF1(target) 0.6974 | TrainPrecision 0.5770 | TrainRecall 0.8944 | ValLoss 0.0005 | ValF1(all) 0.6946 | ValF1* 0.8415 | ValAUPRC 0.8694 | ValPrecision 0.5764 | ValRecall 0.8973
+Epoch 30 | TrainLoss 0.0004 | TrainF1(all) 0.7060 | TrainF1(target) 0.7016 | TrainPrecision 0.5829 | TrainRecall 0.8951 | ValLoss 0.0005 | ValF1(all) 0.7182 | ValF1* 0.8438 | ValAUPRC 0.8738 | ValPrecision 0.6452 | ValRecall 0.8649
+[2025-11-13 22:41:10] Training completed successfully!
+[2025-11-13 22:41:10] Training time: 1770.2 seconds (29.5 minutes)
+[2025-11-13 22:41:10] Best epoch: 23
+[2025-11-13 22:41:10] Best auprc: 0.8741
+[2025-11-13 22:41:10] Best F1 (target): 0.8347
+[2025-11-13 22:41:10] Final epoch metrics:
+[2025-11-13 22:41:10]   Train Loss: 0.0004
+[2025-11-13 22:41:10]   Train F1 (all): 0.7060
+[2025-11-13 22:41:10]   Train F1 (target): 0.7016
+[2025-11-13 22:41:10]   Val Loss: 0.0005
+[2025-11-13 22:41:10]   Val F1 (all): 0.7182
+[2025-11-13 22:41:10]   Val F1 (target): 0.8438
+[2025-11-13 22:41:10]   Val AUPRC: 0.8738
+[2025-11-13 22:41:10] Progress: 53/56 completed
+[2025-11-13 22:41:10] Elapsed time: 1529.9 minutes
+[2025-11-13 22:41:10] Estimated remaining time: 86.6 minutes
+[2025-11-13 22:41:10] 
+>>> EXPERIMENT 54/56 <<<
+[2025-11-13 22:41:10] 
+============================================================
+[2025-11-13 22:41:10] EXPERIMENT: alpha=0.9, gamma=2.2
+[2025-11-13 22:41:10] ============================================================
+[2025-11-13 22:41:10] Model: SmallUNet1D
+[2025-11-13 22:41:10]   Total parameters: 125,929
+[2025-11-13 22:41:10]   Trainable parameters: 125,929
+[2025-11-13 22:41:10] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 22:41:10] Loss: FocalLoss (alpha=0.9, gamma=2.2)
+[2025-11-13 22:41:10] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0010 | TrainF1(all) 0.5245 | TrainF1(target) 0.5338 | TrainPrecision 0.4193 | TrainRecall 0.7003 | ValLoss 0.0006 | ValF1(all) 0.6449 | ValF1* 0.8011 | ValAUPRC 0.8371 | ValPrecision 0.5548 | ValRecall 0.8757
+Epoch 02 | TrainLoss 0.0006 | TrainF1(all) 0.6255 | TrainF1(target) 0.6292 | TrainPrecision 0.5021 | TrainRecall 0.8296 | ValLoss 0.0006 | ValF1(all) 0.6948 | ValF1* 0.8177 | ValAUPRC 0.8430 | ValPrecision 0.6597 | ValRecall 0.8486
+Epoch 03 | TrainLoss 0.0006 | TrainF1(all) 0.6336 | TrainF1(target) 0.6419 | TrainPrecision 0.5071 | TrainRecall 0.8441 | ValLoss 0.0006 | ValF1(all) 0.7365 | ValF1* 0.8212 | ValAUPRC 0.8457 | ValPrecision 0.5684 | ValRecall 0.8757
+Epoch 04 | TrainLoss 0.0005 | TrainF1(all) 0.6481 | TrainF1(target) 0.6519 | TrainPrecision 0.5230 | TrainRecall 0.8520 | ValLoss 0.0005 | ValF1(all) 0.7400 | ValF1* 0.8242 | ValAUPRC 0.8507 | ValPrecision 0.6226 | ValRecall 0.8649
+Epoch 05 | TrainLoss 0.0005 | TrainF1(all) 0.6584 | TrainF1(target) 0.6604 | TrainPrecision 0.5341 | TrainRecall 0.8579 | ValLoss 0.0005 | ValF1(all) 0.7176 | ValF1* 0.8287 | ValAUPRC 0.8585 | ValPrecision 0.5760 | ValRecall 0.8811
+Epoch 06 | TrainLoss 0.0005 | TrainF1(all) 0.6592 | TrainF1(target) 0.6575 | TrainPrecision 0.5342 | TrainRecall 0.8606 | ValLoss 0.0005 | ValF1(all) 0.7584 | ValF1* 0.8229 | ValAUPRC 0.8609 | ValPrecision 0.6570 | ValRecall 0.8595
+Epoch 07 | TrainLoss 0.0005 | TrainF1(all) 0.6638 | TrainF1(target) 0.6724 | TrainPrecision 0.5400 | TrainRecall 0.8613 | ValLoss 0.0005 | ValF1(all) 0.6692 | ValF1* 0.8300 | ValAUPRC 0.8569 | ValPrecision 0.4985 | ValRecall 0.9027
+Epoch 08 | TrainLoss 0.0005 | TrainF1(all) 0.6716 | TrainF1(target) 0.6740 | TrainPrecision 0.5483 | TrainRecall 0.8665 | ValLoss 0.0005 | ValF1(all) 0.6941 | ValF1* 0.8209 | ValAUPRC 0.8556 | ValPrecision 0.6260 | ValRecall 0.8595
+Epoch 09 | TrainLoss 0.0005 | TrainF1(all) 0.6747 | TrainF1(target) 0.6747 | TrainPrecision 0.5513 | TrainRecall 0.8693 | ValLoss 0.0005 | ValF1(all) 0.6909 | ValF1* 0.8380 | ValAUPRC 0.8569 | ValPrecision 0.5912 | ValRecall 0.8757
+Epoch 10 | TrainLoss 0.0005 | TrainF1(all) 0.6759 | TrainF1(target) 0.6734 | TrainPrecision 0.5532 | TrainRecall 0.8686 | ValLoss 0.0005 | ValF1(all) 0.7174 | ValF1* 0.8262 | ValAUPRC 0.8611 | ValPrecision 0.6183 | ValRecall 0.8757
+Epoch 11 | TrainLoss 0.0005 | TrainF1(all) 0.6776 | TrainF1(target) 0.6723 | TrainPrecision 0.5535 | TrainRecall 0.8735 | ValLoss 0.0005 | ValF1(all) 0.7266 | ValF1* 0.8162 | ValAUPRC 0.8566 | ValPrecision 0.6781 | ValRecall 0.8541
+Epoch 12 | TrainLoss 0.0005 | TrainF1(all) 0.6801 | TrainF1(target) 0.6784 | TrainPrecision 0.5561 | TrainRecall 0.8754 | ValLoss 0.0005 | ValF1(all) 0.7462 | ValF1* 0.8333 | ValAUPRC 0.8594 | ValPrecision 0.6853 | ValRecall 0.8595
+Epoch 13 | TrainLoss 0.0005 | TrainF1(all) 0.6779 | TrainF1(target) 0.6856 | TrainPrecision 0.5537 | TrainRecall 0.8739 | ValLoss 0.0005 | ValF1(all) 0.7122 | ValF1* 0.8291 | ValAUPRC 0.8566 | ValPrecision 0.5745 | ValRecall 0.8757
+Epoch 14 | TrainLoss 0.0005 | TrainF1(all) 0.6820 | TrainF1(target) 0.6699 | TrainPrecision 0.5582 | TrainRecall 0.8766 | ValLoss 0.0005 | ValF1(all) 0.6832 | ValF1* 0.8301 | ValAUPRC 0.8610 | ValPrecision 0.5392 | ValRecall 0.8919
+Epoch 15 | TrainLoss 0.0004 | TrainF1(all) 0.6867 | TrainF1(target) 0.6779 | TrainPrecision 0.5631 | TrainRecall 0.8798 | ValLoss 0.0005 | ValF1(all) 0.7283 | ValF1* 0.8282 | ValAUPRC 0.8589 | ValPrecision 0.6389 | ValRecall 0.8703
+Epoch 16 | TrainLoss 0.0004 | TrainF1(all) 0.6896 | TrainF1(target) 0.6823 | TrainPrecision 0.5657 | TrainRecall 0.8828 | ValLoss 0.0005 | ValF1(all) 0.6965 | ValF1* 0.8362 | ValAUPRC 0.8671 | ValPrecision 0.5789 | ValRecall 0.8919
+Epoch 17 | TrainLoss 0.0004 | TrainF1(all) 0.6928 | TrainF1(target) 0.6812 | TrainPrecision 0.5703 | TrainRecall 0.8822 | ValLoss 0.0005 | ValF1(all) 0.7061 | ValF1* 0.8357 | ValAUPRC 0.8636 | ValPrecision 0.6029 | ValRecall 0.8865
+Epoch 18 | TrainLoss 0.0004 | TrainF1(all) 0.6936 | TrainF1(target) 0.6936 | TrainPrecision 0.5705 | TrainRecall 0.8844 | ValLoss 0.0005 | ValF1(all) 0.7379 | ValF1* 0.8310 | ValAUPRC 0.8667 | ValPrecision 0.6480 | ValRecall 0.8757
+Epoch 19 | TrainLoss 0.0004 | TrainF1(all) 0.6920 | TrainF1(target) 0.6891 | TrainPrecision 0.5689 | TrainRecall 0.8831 | ValLoss 0.0005 | ValF1(all) 0.7211 | ValF1* 0.8324 | ValAUPRC 0.8647 | ValPrecision 0.6452 | ValRecall 0.8649
+Epoch 20 | TrainLoss 0.0004 | TrainF1(all) 0.6951 | TrainF1(target) 0.6952 | TrainPrecision 0.5716 | TrainRecall 0.8868 | ValLoss 0.0005 | ValF1(all) 0.6913 | ValF1* 0.8385 | ValAUPRC 0.8654 | ValPrecision 0.5845 | ValRecall 0.8973
+Epoch 21 | TrainLoss 0.0004 | TrainF1(all) 0.6959 | TrainF1(target) 0.6890 | TrainPrecision 0.5723 | TrainRecall 0.8875 | ValLoss 0.0005 | ValF1(all) 0.7271 | ValF1* 0.8357 | ValAUPRC 0.8657 | ValPrecision 0.6284 | ValRecall 0.8865
+Epoch 22 | TrainLoss 0.0004 | TrainF1(all) 0.7000 | TrainF1(target) 0.6915 | TrainPrecision 0.5784 | TrainRecall 0.8864 | ValLoss 0.0005 | ValF1(all) 0.7027 | ValF1* 0.8319 | ValAUPRC 0.8632 | ValPrecision 0.5821 | ValRecall 0.8811
+Epoch 23 | TrainLoss 0.0004 | TrainF1(all) 0.7035 | TrainF1(target) 0.6996 | TrainPrecision 0.5819 | TrainRecall 0.8892 | ValLoss 0.0005 | ValF1(all) 0.7128 | ValF1* 0.8357 | ValAUPRC 0.8643 | ValPrecision 0.6090 | ValRecall 0.8757
+Epoch 24 | TrainLoss 0.0004 | TrainF1(all) 0.7008 | TrainF1(target) 0.6981 | TrainPrecision 0.5783 | TrainRecall 0.8894 | ValLoss 0.0005 | ValF1(all) 0.6817 | ValF1* 0.8412 | ValAUPRC 0.8647 | ValPrecision 0.5458 | ValRecall 0.9027
+Epoch 25 | TrainLoss 0.0004 | TrainF1(all) 0.6987 | TrainF1(target) 0.6914 | TrainPrecision 0.5743 | TrainRecall 0.8919 | ValLoss 0.0005 | ValF1(all) 0.7070 | ValF1* 0.8459 | ValAUPRC 0.8669 | ValPrecision 0.5921 | ValRecall 0.8865
+Epoch 26 | TrainLoss 0.0004 | TrainF1(all) 0.7050 | TrainF1(target) 0.6993 | TrainPrecision 0.5827 | TrainRecall 0.8923 | ValLoss 0.0005 | ValF1(all) 0.7132 | ValF1* 0.8371 | ValAUPRC 0.8657 | ValPrecision 0.6045 | ValRecall 0.8757
+Epoch 27 | TrainLoss 0.0004 | TrainF1(all) 0.7042 | TrainF1(target) 0.6970 | TrainPrecision 0.5818 | TrainRecall 0.8918 | ValLoss 0.0005 | ValF1(all) 0.7054 | ValF1* 0.8412 | ValAUPRC 0.8663 | ValPrecision 0.5899 | ValRecall 0.8865
+Epoch 28 | TrainLoss 0.0004 | TrainF1(all) 0.7070 | TrainF1(target) 0.7010 | TrainPrecision 0.5850 | TrainRecall 0.8931 | ValLoss 0.0005 | ValF1(all) 0.7095 | ValF1* 0.8347 | ValAUPRC 0.8651 | ValPrecision 0.5857 | ValRecall 0.8865
+Epoch 29 | TrainLoss 0.0004 | TrainF1(all) 0.7044 | TrainF1(target) 0.7047 | TrainPrecision 0.5815 | TrainRecall 0.8934 | ValLoss 0.0005 | ValF1(all) 0.7134 | ValF1* 0.8305 | ValAUPRC 0.8652 | ValPrecision 0.5942 | ValRecall 0.8865
+Epoch 30 | TrainLoss 0.0004 | TrainF1(all) 0.7054 | TrainF1(target) 0.6998 | TrainPrecision 0.5830 | TrainRecall 0.8930 | ValLoss 0.0005 | ValF1(all) 0.7086 | ValF1* 0.8357 | ValAUPRC 0.8661 | ValPrecision 0.5971 | ValRecall 0.8811
+[2025-11-13 23:10:57] Training completed successfully!
+[2025-11-13 23:10:57] Training time: 1786.9 seconds (29.8 minutes)
+[2025-11-13 23:10:57] Best epoch: 16
+[2025-11-13 23:10:57] Best auprc: 0.8671
+[2025-11-13 23:10:57] Best F1 (target): 0.8362
+[2025-11-13 23:10:57] Final epoch metrics:
+[2025-11-13 23:10:57]   Train Loss: 0.0004
+[2025-11-13 23:10:57]   Train F1 (all): 0.7054
+[2025-11-13 23:10:57]   Train F1 (target): 0.6998
+[2025-11-13 23:10:57]   Val Loss: 0.0005
+[2025-11-13 23:10:57]   Val F1 (all): 0.7086
+[2025-11-13 23:10:57]   Val F1 (target): 0.8357
+[2025-11-13 23:10:57]   Val AUPRC: 0.8661
+[2025-11-13 23:10:57] Progress: 54/56 completed
+[2025-11-13 23:10:57] Elapsed time: 1559.7 minutes
+[2025-11-13 23:10:57] Estimated remaining time: 57.8 minutes
+[2025-11-13 23:10:57] 
+>>> EXPERIMENT 55/56 <<<
+[2025-11-13 23:10:57] 
+============================================================
+[2025-11-13 23:10:57] EXPERIMENT: alpha=0.9, gamma=2.5
+[2025-11-13 23:10:57] ============================================================
+[2025-11-13 23:10:57] Model: SmallUNet1D
+[2025-11-13 23:10:57]   Total parameters: 125,929
+[2025-11-13 23:10:57]   Trainable parameters: 125,929
+[2025-11-13 23:10:57] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 23:10:57] Loss: FocalLoss (alpha=0.9, gamma=2.5)
+[2025-11-13 23:10:57] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0008 | TrainF1(all) 0.5434 | TrainF1(target) 0.5720 | TrainPrecision 0.4433 | TrainRecall 0.7019 | ValLoss 0.0005 | ValF1(all) 0.7337 | ValF1* 0.7872 | ValAUPRC 0.8236 | ValPrecision 0.6196 | ValRecall 0.8541
+Epoch 02 | TrainLoss 0.0005 | TrainF1(all) 0.6261 | TrainF1(target) 0.6410 | TrainPrecision 0.5048 | TrainRecall 0.8243 | ValLoss 0.0005 | ValF1(all) 0.6938 | ValF1* 0.8011 | ValAUPRC 0.8434 | ValPrecision 0.5156 | ValRecall 0.8919
+Epoch 03 | TrainLoss 0.0005 | TrainF1(all) 0.6383 | TrainF1(target) 0.6568 | TrainPrecision 0.5161 | TrainRecall 0.8362 | ValLoss 0.0004 | ValF1(all) 0.7372 | ValF1* 0.8222 | ValAUPRC 0.8439 | ValPrecision 0.7143 | ValRecall 0.8378
+Epoch 04 | TrainLoss 0.0004 | TrainF1(all) 0.6515 | TrainF1(target) 0.6589 | TrainPrecision 0.5284 | TrainRecall 0.8494 | ValLoss 0.0004 | ValF1(all) 0.6965 | ValF1* 0.8329 | ValAUPRC 0.8566 | ValPrecision 0.4560 | ValRecall 0.9243
+Epoch 05 | TrainLoss 0.0004 | TrainF1(all) 0.6520 | TrainF1(target) 0.6574 | TrainPrecision 0.5286 | TrainRecall 0.8505 | ValLoss 0.0004 | ValF1(all) 0.7304 | ValF1* 0.8238 | ValAUPRC 0.8568 | ValPrecision 0.6105 | ValRecall 0.8811
+Epoch 06 | TrainLoss 0.0004 | TrainF1(all) 0.6595 | TrainF1(target) 0.6614 | TrainPrecision 0.5369 | TrainRecall 0.8547 | ValLoss 0.0004 | ValF1(all) 0.7218 | ValF1* 0.8315 | ValAUPRC 0.8580 | ValPrecision 0.5106 | ValRecall 0.9081
+Epoch 07 | TrainLoss 0.0004 | TrainF1(all) 0.6634 | TrainF1(target) 0.6488 | TrainPrecision 0.5401 | TrainRecall 0.8598 | ValLoss 0.0004 | ValF1(all) 0.7704 | ValF1* 0.8251 | ValAUPRC 0.8627 | ValPrecision 0.7524 | ValRecall 0.8378
+Epoch 08 | TrainLoss 0.0004 | TrainF1(all) 0.6673 | TrainF1(target) 0.6691 | TrainPrecision 0.5440 | TrainRecall 0.8626 | ValLoss 0.0004 | ValF1(all) 0.6865 | ValF1* 0.8301 | ValAUPRC 0.8565 | ValPrecision 0.6360 | ValRecall 0.8595
+Epoch 09 | TrainLoss 0.0004 | TrainF1(all) 0.6718 | TrainF1(target) 0.6705 | TrainPrecision 0.5505 | TrainRecall 0.8614 | ValLoss 0.0004 | ValF1(all) 0.6349 | ValF1* 0.8301 | ValAUPRC 0.8676 | ValPrecision 0.5581 | ValRecall 0.9081
+Epoch 10 | TrainLoss 0.0004 | TrainF1(all) 0.6751 | TrainF1(target) 0.6774 | TrainPrecision 0.5529 | TrainRecall 0.8665 | ValLoss 0.0004 | ValF1(all) 0.6966 | ValF1* 0.8315 | ValAUPRC 0.8663 | ValPrecision 0.6466 | ValRecall 0.8703
+Epoch 11 | TrainLoss 0.0004 | TrainF1(all) 0.6757 | TrainF1(target) 0.6697 | TrainPrecision 0.5523 | TrainRecall 0.8702 | ValLoss 0.0004 | ValF1(all) 0.6776 | ValF1* 0.8239 | ValAUPRC 0.8622 | ValPrecision 0.4831 | ValRecall 0.9243
+Epoch 12 | TrainLoss 0.0004 | TrainF1(all) 0.6797 | TrainF1(target) 0.6825 | TrainPrecision 0.5587 | TrainRecall 0.8675 | ValLoss 0.0004 | ValF1(all) 0.6475 | ValF1* 0.8310 | ValAUPRC 0.8632 | ValPrecision 0.5449 | ValRecall 0.8865
+Epoch 13 | TrainLoss 0.0004 | TrainF1(all) 0.6830 | TrainF1(target) 0.6818 | TrainPrecision 0.5622 | TrainRecall 0.8699 | ValLoss 0.0004 | ValF1(all) 0.7209 | ValF1* 0.8229 | ValAUPRC 0.8615 | ValPrecision 0.6478 | ValRecall 0.8649
+Epoch 14 | TrainLoss 0.0004 | TrainF1(all) 0.6883 | TrainF1(target) 0.6918 | TrainPrecision 0.5667 | TrainRecall 0.8766 | ValLoss 0.0004 | ValF1(all) 0.7470 | ValF1* 0.8310 | ValAUPRC 0.8675 | ValPrecision 0.6694 | ValRecall 0.8757
+Epoch 15 | TrainLoss 0.0004 | TrainF1(all) 0.6952 | TrainF1(target) 0.6919 | TrainPrecision 0.5749 | TrainRecall 0.8792 | ValLoss 0.0004 | ValF1(all) 0.7212 | ValF1* 0.8361 | ValAUPRC 0.8692 | ValPrecision 0.6406 | ValRecall 0.8865
+Epoch 16 | TrainLoss 0.0004 | TrainF1(all) 0.6926 | TrainF1(target) 0.7022 | TrainPrecision 0.5714 | TrainRecall 0.8790 | ValLoss 0.0004 | ValF1(all) 0.6544 | ValF1* 0.8267 | ValAUPRC 0.8722 | ValPrecision 0.5788 | ValRecall 0.9135
+Epoch 17 | TrainLoss 0.0004 | TrainF1(all) 0.6909 | TrainF1(target) 0.6906 | TrainPrecision 0.5697 | TrainRecall 0.8776 | ValLoss 0.0004 | ValF1(all) 0.6597 | ValF1* 0.8398 | ValAUPRC 0.8691 | ValPrecision 0.6169 | ValRecall 0.8703
+Epoch 18 | TrainLoss 0.0004 | TrainF1(all) 0.6921 | TrainF1(target) 0.6887 | TrainPrecision 0.5704 | TrainRecall 0.8799 | ValLoss 0.0004 | ValF1(all) 0.7204 | ValF1* 0.8310 | ValAUPRC 0.8704 | ValPrecision 0.6480 | ValRecall 0.8757
+Epoch 19 | TrainLoss 0.0004 | TrainF1(all) 0.6919 | TrainF1(target) 0.6826 | TrainPrecision 0.5702 | TrainRecall 0.8796 | ValLoss 0.0004 | ValF1(all) 0.7032 | ValF1* 0.8407 | ValAUPRC 0.8686 | ValPrecision 0.5574 | ValRecall 0.9189
+Epoch 20 | TrainLoss 0.0004 | TrainF1(all) 0.6992 | TrainF1(target) 0.6901 | TrainPrecision 0.5777 | TrainRecall 0.8855 | ValLoss 0.0004 | ValF1(all) 0.6910 | ValF1* 0.8238 | ValAUPRC 0.8731 | ValPrecision 0.5739 | ValRecall 0.9027
+Epoch 21 | TrainLoss 0.0004 | TrainF1(all) 0.6919 | TrainF1(target) 0.6780 | TrainPrecision 0.5690 | TrainRecall 0.8826 | ValLoss 0.0004 | ValF1(all) 0.7175 | ValF1* 0.8324 | ValAUPRC 0.8706 | ValPrecision 0.6044 | ValRecall 0.8919
+Epoch 22 | TrainLoss 0.0003 | TrainF1(all) 0.6915 | TrainF1(target) 0.6772 | TrainPrecision 0.5692 | TrainRecall 0.8810 | ValLoss 0.0004 | ValF1(all) 0.7133 | ValF1* 0.8338 | ValAUPRC 0.8695 | ValPrecision 0.6293 | ValRecall 0.8811
+Epoch 23 | TrainLoss 0.0003 | TrainF1(all) 0.6950 | TrainF1(target) 0.6905 | TrainPrecision 0.5743 | TrainRecall 0.8799 | ValLoss 0.0004 | ValF1(all) 0.7196 | ValF1* 0.8302 | ValAUPRC 0.8682 | ValPrecision 0.6440 | ValRecall 0.8703
+Epoch 24 | TrainLoss 0.0003 | TrainF1(all) 0.6959 | TrainF1(target) 0.6920 | TrainPrecision 0.5753 | TrainRecall 0.8803 | ValLoss 0.0004 | ValF1(all) 0.7224 | ValF1* 0.8389 | ValAUPRC 0.8746 | ValPrecision 0.6417 | ValRecall 0.8811
+Epoch 25 | TrainLoss 0.0003 | TrainF1(all) 0.6936 | TrainF1(target) 0.6908 | TrainPrecision 0.5702 | TrainRecall 0.8851 | ValLoss 0.0004 | ValF1(all) 0.7136 | ValF1* 0.8264 | ValAUPRC 0.8708 | ValPrecision 0.6073 | ValRecall 0.9027
+Epoch 26 | TrainLoss 0.0003 | TrainF1(all) 0.6991 | TrainF1(target) 0.6911 | TrainPrecision 0.5782 | TrainRecall 0.8840 | ValLoss 0.0004 | ValF1(all) 0.7063 | ValF1* 0.8375 | ValAUPRC 0.8750 | ValPrecision 0.6260 | ValRecall 0.8865
+Epoch 27 | TrainLoss 0.0003 | TrainF1(all) 0.7005 | TrainF1(target) 0.6984 | TrainPrecision 0.5795 | TrainRecall 0.8851 | ValLoss 0.0004 | ValF1(all) 0.7082 | ValF1* 0.8225 | ValAUPRC 0.8665 | ValPrecision 0.6089 | ValRecall 0.8919
+Epoch 28 | TrainLoss 0.0003 | TrainF1(all) 0.6997 | TrainF1(target) 0.6955 | TrainPrecision 0.5782 | TrainRecall 0.8856 | ValLoss 0.0004 | ValF1(all) 0.7132 | ValF1* 0.8367 | ValAUPRC 0.8701 | ValPrecision 0.6598 | ValRecall 0.8703
+Epoch 29 | TrainLoss 0.0003 | TrainF1(all) 0.7005 | TrainF1(target) 0.6909 | TrainPrecision 0.5786 | TrainRecall 0.8874 | ValLoss 0.0004 | ValF1(all) 0.6724 | ValF1* 0.8256 | ValAUPRC 0.8723 | ValPrecision 0.5263 | ValRecall 0.9189
+Epoch 30 | TrainLoss 0.0003 | TrainF1(all) 0.6998 | TrainF1(target) 0.6899 | TrainPrecision 0.5786 | TrainRecall 0.8852 | ValLoss 0.0004 | ValF1(all) 0.7004 | ValF1* 0.8333 | ValAUPRC 0.8746 | ValPrecision 0.5986 | ValRecall 0.9027
+[2025-11-13 23:40:41] Training completed successfully!
+[2025-11-13 23:40:41] Training time: 1783.7 seconds (29.7 minutes)
+[2025-11-13 23:40:41] Best epoch: 26
+[2025-11-13 23:40:41] Best auprc: 0.8750
+[2025-11-13 23:40:41] Best F1 (target): 0.8375
+[2025-11-13 23:40:41] Final epoch metrics:
+[2025-11-13 23:40:41]   Train Loss: 0.0003
+[2025-11-13 23:40:41]   Train F1 (all): 0.6998
+[2025-11-13 23:40:41]   Train F1 (target): 0.6899
+[2025-11-13 23:40:41]   Val Loss: 0.0004
+[2025-11-13 23:40:41]   Val F1 (all): 0.7004
+[2025-11-13 23:40:41]   Val F1 (target): 0.8333
+[2025-11-13 23:40:41]   Val AUPRC: 0.8746
+[2025-11-13 23:40:41] Progress: 55/56 completed
+[2025-11-13 23:40:41] Elapsed time: 1589.4 minutes
+[2025-11-13 23:40:41] Estimated remaining time: 28.9 minutes
+[2025-11-13 23:40:41] 
+>>> EXPERIMENT 56/56 <<<
+[2025-11-13 23:40:41] 
+============================================================
+[2025-11-13 23:40:41] EXPERIMENT: alpha=0.9, gamma=3.0
+[2025-11-13 23:40:41] ============================================================
+[2025-11-13 23:40:41] Model: SmallUNet1D
+[2025-11-13 23:40:41]   Total parameters: 125,929
+[2025-11-13 23:40:41]   Trainable parameters: 125,929
+[2025-11-13 23:40:41] Optimizer: AdamW (lr=0.0003, wd=0.0001)
+[2025-11-13 23:40:41] Loss: FocalLoss (alpha=0.9, gamma=3.0)
+[2025-11-13 23:40:41] Training for 30 epochs...
+/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 01 | TrainLoss 0.0005 | TrainF1(all) 0.5746 | TrainF1(target) 0.5935 | TrainPrecision 0.4762 | TrainRecall 0.7241 | ValLoss 0.0004 | ValF1(all) 0.5029 | ValF1* 0.8077 | ValAUPRC 0.8269 | ValPrecision 0.4330 | ValRecall 0.9081
+Epoch 02 | TrainLoss 0.0004 | TrainF1(all) 0.6302 | TrainF1(target) 0.6359 | TrainPrecision 0.5084 | TrainRecall 0.8289 | ValLoss 0.0003 | ValF1(all) 0.6732 | ValF1* 0.8219 | ValAUPRC 0.8402 | ValPrecision 0.5593 | ValRecall 0.8919
+Epoch 03 | TrainLoss 0.0003 | TrainF1(all) 0.6508 | TrainF1(target) 0.6492 | TrainPrecision 0.5293 | TrainRecall 0.8449 | ValLoss 0.0003 | ValF1(all) 0.7021 | ValF1* 0.8199 | ValAUPRC 0.8381 | ValPrecision 0.5827 | ValRecall 0.8757
+Epoch 04 | TrainLoss 0.0003 | TrainF1(all) 0.6566 | TrainF1(target) 0.6584 | TrainPrecision 0.5353 | TrainRecall 0.8492 | ValLoss 0.0003 | ValF1(all) 0.7408 | ValF1* 0.8229 | ValAUPRC 0.8515 | ValPrecision 0.6231 | ValRecall 0.8757
+Epoch 05 | TrainLoss 0.0003 | TrainF1(all) 0.6652 | TrainF1(target) 0.6661 | TrainPrecision 0.5431 | TrainRecall 0.8581 | ValLoss 0.0003 | ValF1(all) 0.7321 | ValF1* 0.8293 | ValAUPRC 0.8449 | ValPrecision 0.6198 | ValRecall 0.8811
+Epoch 06 | TrainLoss 0.0003 | TrainF1(all) 0.6686 | TrainF1(target) 0.6648 | TrainPrecision 0.5470 | TrainRecall 0.8598 | ValLoss 0.0003 | ValF1(all) 0.7144 | ValF1* 0.8403 | ValAUPRC 0.8608 | ValPrecision 0.5897 | ValRecall 0.8703
+Epoch 07 | TrainLoss 0.0003 | TrainF1(all) 0.6675 | TrainF1(target) 0.6619 | TrainPrecision 0.5456 | TrainRecall 0.8595 | ValLoss 0.0003 | ValF1(all) 0.7151 | ValF1* 0.8249 | ValAUPRC 0.8603 | ValPrecision 0.6180 | ValRecall 0.8919
+Epoch 08 | TrainLoss 0.0003 | TrainF1(all) 0.6728 | TrainF1(target) 0.6787 | TrainPrecision 0.5518 | TrainRecall 0.8617 | ValLoss 0.0003 | ValF1(all) 0.6848 | ValF1* 0.8222 | ValAUPRC 0.8469 | ValPrecision 0.6142 | ValRecall 0.8865
+Epoch 09 | TrainLoss 0.0003 | TrainF1(all) 0.6793 | TrainF1(target) 0.6815 | TrainPrecision 0.5588 | TrainRecall 0.8661 | ValLoss 0.0003 | ValF1(all) 0.7278 | ValF1* 0.8219 | ValAUPRC 0.8434 | ValPrecision 0.6192 | ValRecall 0.8703
+Epoch 10 | TrainLoss 0.0003 | TrainF1(all) 0.6781 | TrainF1(target) 0.6757 | TrainPrecision 0.5563 | TrainRecall 0.8682 | ValLoss 0.0003 | ValF1(all) 0.6982 | ValF1* 0.8229 | ValAUPRC 0.8612 | ValPrecision 0.5108 | ValRecall 0.8919
+Epoch 11 | TrainLoss 0.0003 | TrainF1(all) 0.6768 | TrainF1(target) 0.6710 | TrainPrecision 0.5548 | TrainRecall 0.8675 | ValLoss 0.0003 | ValF1(all) 0.7407 | ValF1* 0.8362 | ValAUPRC 0.8601 | ValPrecision 0.6597 | ValRecall 0.8486
+Epoch 12 | TrainLoss 0.0003 | TrainF1(all) 0.6728 | TrainF1(target) 0.6735 | TrainPrecision 0.5509 | TrainRecall 0.8641 | ValLoss 0.0003 | ValF1(all) 0.7386 | ValF1* 0.8235 | ValAUPRC 0.8537 | ValPrecision 0.5985 | ValRecall 0.8865
+Epoch 13 | TrainLoss 0.0003 | TrainF1(all) 0.6802 | TrainF1(target) 0.6770 | TrainPrecision 0.5603 | TrainRecall 0.8654 | ValLoss 0.0003 | ValF1(all) 0.6265 | ValF1* 0.8306 | ValAUPRC 0.8602 | ValPrecision 0.4855 | ValRecall 0.9081
+Epoch 14 | TrainLoss 0.0003 | TrainF1(all) 0.6852 | TrainF1(target) 0.6751 | TrainPrecision 0.5654 | TrainRecall 0.8694 | ValLoss 0.0003 | ValF1(all) 0.6750 | ValF1* 0.8274 | ValAUPRC 0.8622 | ValPrecision 0.5461 | ValRecall 0.8973
+Epoch 15 | TrainLoss 0.0003 | TrainF1(all) 0.6864 | TrainF1(target) 0.6881 | TrainPrecision 0.5654 | TrainRecall 0.8733 | ValLoss 0.0003 | ValF1(all) 0.7481 | ValF1* 0.8357 | ValAUPRC 0.8667 | ValPrecision 0.6597 | ValRecall 0.8486
+Epoch 16 | TrainLoss 0.0003 | TrainF1(all) 0.6867 | TrainF1(target) 0.6906 | TrainPrecision 0.5677 | TrainRecall 0.8686 | ValLoss 0.0003 | ValF1(all) 0.6690 | ValF1* 0.8235 | ValAUPRC 0.8604 | ValPrecision 0.5123 | ValRecall 0.9027
+Epoch 17 | TrainLoss 0.0003 | TrainF1(all) 0.6851 | TrainF1(target) 0.6900 | TrainPrecision 0.5647 | TrainRecall 0.8707 | ValLoss 0.0003 | ValF1(all) 0.7065 | ValF1* 0.8215 | ValAUPRC 0.8659 | ValPrecision 0.5253 | ValRecall 0.8973
+Epoch 18 | TrainLoss 0.0003 | TrainF1(all) 0.6867 | TrainF1(target) 0.6856 | TrainPrecision 0.5658 | TrainRecall 0.8734 | ValLoss 0.0003 | ValF1(all) 0.6921 | ValF1* 0.8264 | ValAUPRC 0.8689 | ValPrecision 0.6095 | ValRecall 0.9027
+Epoch 19 | TrainLoss 0.0003 | TrainF1(all) 0.6879 | TrainF1(target) 0.6848 | TrainPrecision 0.5683 | TrainRecall 0.8713 | ValLoss 0.0003 | ValF1(all) 0.7412 | ValF1* 0.8297 | ValAUPRC 0.8575 | ValPrecision 0.6751 | ValRecall 0.8649
+Epoch 20 | TrainLoss 0.0003 | TrainF1(all) 0.6898 | TrainF1(target) 0.6911 | TrainPrecision 0.5686 | TrainRecall 0.8767 | ValLoss 0.0003 | ValF1(all) 0.7561 | ValF1* 0.8235 | ValAUPRC 0.8572 | ValPrecision 0.7440 | ValRecall 0.8324
+Epoch 21 | TrainLoss 0.0003 | TrainF1(all) 0.6835 | TrainF1(target) 0.6813 | TrainPrecision 0.5614 | TrainRecall 0.8737 | ValLoss 0.0003 | ValF1(all) 0.7041 | ValF1* 0.8248 | ValAUPRC 0.8662 | ValPrecision 0.6111 | ValRecall 0.8919
+Epoch 22 | TrainLoss 0.0003 | TrainF1(all) 0.6900 | TrainF1(target) 0.6775 | TrainPrecision 0.5697 | TrainRecall 0.8747 | ValLoss 0.0003 | ValF1(all) 0.6655 | ValF1* 0.8282 | ValAUPRC 0.8720 | ValPrecision 0.6245 | ValRecall 0.8811
+Epoch 23 | TrainLoss 0.0003 | TrainF1(all) 0.6877 | TrainF1(target) 0.6789 | TrainPrecision 0.5668 | TrainRecall 0.8742 | ValLoss 0.0003 | ValF1(all) 0.6532 | ValF1* 0.8384 | ValAUPRC 0.8711 | ValPrecision 0.6142 | ValRecall 0.8865
+Epoch 24 | TrainLoss 0.0003 | TrainF1(all) 0.6928 | TrainF1(target) 0.6954 | TrainPrecision 0.5727 | TrainRecall 0.8764 | ValLoss 0.0003 | ValF1(all) 0.6054 | ValF1* 0.8333 | ValAUPRC 0.8662 | ValPrecision 0.5331 | ValRecall 0.9135
+Epoch 25 | TrainLoss 0.0003 | TrainF1(all) 0.6959 | TrainF1(target) 0.6931 | TrainPrecision 0.5755 | TrainRecall 0.8800 | ValLoss 0.0003 | ValF1(all) 0.7020 | ValF1* 0.8319 | ValAUPRC 0.8705 | ValPrecision 0.6378 | ValRecall 0.8757
+Epoch 26 | TrainLoss 0.0003 | TrainF1(all) 0.6894 | TrainF1(target) 0.6856 | TrainPrecision 0.5684 | TrainRecall 0.8759 | ValLoss 0.0003 | ValF1(all) 0.6700 | ValF1* 0.8380 | ValAUPRC 0.8676 | ValPrecision 0.5437 | ValRecall 0.9081
+Epoch 27 | TrainLoss 0.0003 | TrainF1(all) 0.6966 | TrainF1(target) 0.6876 | TrainPrecision 0.5766 | TrainRecall 0.8798 | ValLoss 0.0003 | ValF1(all) 0.7082 | ValF1* 0.8310 | ValAUPRC 0.8739 | ValPrecision 0.6298 | ValRecall 0.8919
+Epoch 28 | TrainLoss 0.0003 | TrainF1(all) 0.6990 | TrainF1(target) 0.7002 | TrainPrecision 0.5784 | TrainRecall 0.8834 | ValLoss 0.0003 | ValF1(all) 0.7142 | ValF1* 0.8333 | ValAUPRC 0.8755 | ValPrecision 0.6095 | ValRecall 0.9027
+Epoch 29 | TrainLoss 0.0003 | TrainF1(all) 0.6988 | TrainF1(target) 0.6876 | TrainPrecision 0.5791 | TrainRecall 0.8811 | ValLoss 0.0003 | ValF1(all) 0.7304 | ValF1* 0.8348 | ValAUPRC 0.8765 | ValPrecision 0.6653 | ValRecall 0.8703
+Epoch 30 | TrainLoss 0.0002 | TrainF1(all) 0.7041 | TrainF1(target) 0.7054 | TrainPrecision 0.5842 | TrainRecall 0.8858 | ValLoss 0.0003 | ValF1(all) 0.7095 | ValF1* 0.8274 | ValAUPRC 0.8722 | ValPrecision 0.6117 | ValRecall 0.9027
+[2025-11-14 00:10:28] Training completed successfully!
+[2025-11-14 00:10:28] Training time: 1787.6 seconds (29.8 minutes)
+[2025-11-14 00:10:28] Best epoch: 29
+[2025-11-14 00:10:28] Best auprc: 0.8765
+[2025-11-14 00:10:28] Best F1 (target): 0.8348
+[2025-11-14 00:10:28] Final epoch metrics:
+[2025-11-14 00:10:28]   Train Loss: 0.0002
+[2025-11-14 00:10:28]   Train F1 (all): 0.7041
+[2025-11-14 00:10:28]   Train F1 (target): 0.7054
+[2025-11-14 00:10:28]   Val Loss: 0.0003
+[2025-11-14 00:10:28]   Val F1 (all): 0.7095
+[2025-11-14 00:10:28]   Val F1 (target): 0.8274
+[2025-11-14 00:10:28]   Val AUPRC: 0.8722
+[2025-11-14 00:10:28] Progress: 56/56 completed
+[2025-11-14 00:10:28] Elapsed time: 1619.2 minutes
+[2025-11-14 00:10:28] Estimated remaining time: 0.0 minutes
+[2025-11-14 00:10:28] 
+================================================================================
+[2025-11-14 00:10:28] GRID SEARCH RESULTS SUMMARY
+[2025-11-14 00:10:28] ================================================================================
+[2025-11-14 00:10:28] Total time: 1619.2 minutes (27.0 hours)
+[2025-11-14 00:10:28] Average time per experiment: 28.9 minutes
+[2025-11-14 00:10:28] 
+Experiment outcomes:
+[2025-11-14 00:10:28]   Successful: 56/56
+[2025-11-14 00:10:28]   Failed: 0/56
+[2025-11-14 00:10:28] 
+============================================================
+[2025-11-14 00:10:28] TOP 10 RESULTS (by validation AUPRC)
+[2025-11-14 00:10:28] ============================================================
+[2025-11-14 00:10:28] Rank Alpha  Gamma  AUPRC   F1      Epoch Time(min)
+[2025-11-14 00:10:28] --------------------------------------------------
+[2025-11-14 00:10:28] 1    0.3    1.9    0.8880  0.8401  29    28.1     
+[2025-11-14 00:10:28] 2    0.3    2.0    0.8873  0.8382  27    28.1     
+[2025-11-14 00:10:28] 3    0.3    1.5    0.8859  0.8380  30    32.1     
+[2025-11-14 00:10:28] 4    0.5    2.1    0.8851  0.8444  26    28.1     
+[2025-11-14 00:10:28] 5    0.8    1.9    0.8847  0.8412  27    29.8     
+[2025-11-14 00:10:28] 6    0.4    1.5    0.8837  0.8447  25    28.0     
+[2025-11-14 00:10:28] 7    0.6    2.2    0.8833  0.8310  29    28.1     
+[2025-11-14 00:10:28] 8    0.4    2.1    0.8830  0.8424  27    28.1     
+[2025-11-14 00:10:28] 9    0.4    1.9    0.8827  0.8398  26    28.1     
+[2025-11-14 00:10:28] 10   0.3    1.7    0.8824  0.8421  28    28.1     
+[2025-11-14 00:10:28] 
+============================================================
+[2025-11-14 00:10:28] BEST CONFIGURATION DETAILS
+[2025-11-14 00:10:28] ============================================================
+[2025-11-14 00:10:28] Alpha: 0.3
+[2025-11-14 00:10:28] Gamma: 1.9
+[2025-11-14 00:10:28] Best epoch: 29
+[2025-11-14 00:10:28] Best validation AUPRC: 0.8880
+[2025-11-14 00:10:28] Best F1 (target): 0.8401
+[2025-11-14 00:10:28] Final validation AUPRC: 0.8870
+[2025-11-14 00:10:28] Final validation F1 (target): 0.8459
+[2025-11-14 00:10:28] Training time: 28.1 minutes
+[2025-11-14 00:10:28] 
+============================================================
+[2025-11-14 00:10:28] SUMMARY STATISTICS
+[2025-11-14 00:10:28] ============================================================
+[2025-11-14 00:10:28] Validation AUPRC statistics:
+[2025-11-14 00:10:28]   Mean: 0.8787
+[2025-11-14 00:10:28]   Min:  0.8655
+[2025-11-14 00:10:28]   Max:  0.8880
+[2025-11-14 00:10:28]   Std:  0.0044
+[2025-11-14 00:10:28] 
+F1 (target) statistics:
+[2025-11-14 00:10:28]   Mean: 0.8374
+[2025-11-14 00:10:28]   Min:  0.8258
+[2025-11-14 00:10:28]   Max:  0.8476
+[2025-11-14 00:10:28]   Std:  0.0048
+[2025-11-14 00:10:28] 
+Training time statistics:
+[2025-11-14 00:10:28]   Mean: 28.9 minutes
+[2025-11-14 00:10:28]   Min:  28.0 minutes
+[2025-11-14 00:10:28]   Max:  32.1 minutes
+[2025-11-14 00:10:28] 
+================================================================================
+[2025-11-14 00:10:28] GRID SEARCH COMPLETED
+[2025-11-14 00:10:28] Finished at: 2025-11-14 00:10:28
+[2025-11-14 00:10:28] Results saved to: /home/ubuntu/work/saved_data/landsat_disturbance_detection/clean_1D_U_Net/deep_disturbance/focal_loss_grid_search_results_20251112_211042.txt
+[2025-11-14 00:10:28] ================================================================================
+
+Grid search completed successfully!
+Results saved to: /home/ubuntu/work/saved_data/landsat_disturbance_detection/clean_1D_U_Net/deep_disturbance/focal_loss_grid_search_results_20251112_211042.txt
+[?2004h[01;32mubuntu@jorunn-deployment-7975584d6c-fldw2[00m:[01;34m~/work/saved_data/landsat_disturbance_detection/clean_1D_U_Net/deep_disturbance[00m$ 
+[?2004l[?2004h[01;32mubuntu@jorunn-deployment-7975584d6c-fldw2[00m:[01;34m~/work/saved_data/landsat_disturbance_detection/clean_1D_U_Net/deep_disturbance[00m$ grid_search_console_output.txtgrid_searchgrid_search_console_output.txt
