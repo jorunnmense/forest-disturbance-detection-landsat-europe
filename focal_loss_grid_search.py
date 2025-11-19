@@ -43,7 +43,7 @@ from disturbance_detection import (
     CaptumEvaluator
 )
 
-from disturbance_detection.training_full_supervision import train_full_supervision_with_selection
+from disturbance_detection.training import train_full_supervision_with_selection
 
 def setup_output_file():
     """Create timestamped output file for results"""

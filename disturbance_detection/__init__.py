@@ -52,7 +52,8 @@ from .loss_fcts import FocalLoss
 from .training import (
     train_epoch_full_supervision,
     validate_epoch_full_supervision,
-    train_full_supervision_with_selection)
+    train_full_supervision_with_selection,
+    focal_loss_grid_search)
 
 
 # ============== Evaluation ==============
@@ -121,6 +122,7 @@ __all__ = [
     # Training (full supervision)
     'train_model_full_supervision',
     'train_and_select_best_full_supervision',
+    'focal_loss_grid_search',
     
     # Evaluation
     'collect_probs',

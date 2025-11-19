@@ -213,3 +213,171 @@ def train_full_supervision_with_selection(model, train_loader, val_loader, optim
     }
             
     return history, summary
+
+
+
+def focal_loss_grid_search(
+    train_loader, 
+    val_loader, 
+    config, 
+    device,
+    alpha_values=None,
+    gamma_values=None,
+    num_epochs=10,
+    verbose=True
+):
+    """
+    Grid search for optimal focal loss hyperparameters.
+    
+    Args:
+        train_loader: Training data loader
+        val_loader: Validation data loader  
+        config: Configuration object
+        device: PyTorch device
+        alpha_values: List of alpha values to test (default: [0.3, 0.5, 0.7])
+        gamma_values: List of gamma values to test (default: [1.5, 2.0, 2.5])
+        num_epochs: Number of epochs per experiment (default: 10)
+        verbose: Whether to print progress (default: True)
+        
+    Returns:
+        dict: Results containing best parameters and all experiment results
+    """
+    import torch
+    from ..models import get_model
+    from ..loss_fcts import FocalLoss
+    
+    # Default parameter ranges
+    if alpha_values is None:
+        alpha_values = [0.3, 0.5, 0.7]
+    if gamma_values is None:
+        gamma_values = [1.5, 2.0, 2.5]
+    
+    # Store original config values
+    original_alpha = config.focal_alpha
+    original_gamma = config.focal_gamma
+    original_epochs = config.num_epochs
+    
+    # Update config for grid search
+    config.num_epochs = num_epochs
+    
+    # Track results
+    grid_results = []
+    best_result = None
+    best_metric = 0.0
+    
+    if verbose:
+        print("Starting Grid Search for Focal Loss Hyperparameters...")
+        print("-" * 80)
+        print(f"Testing {len(alpha_values)} alpha × {len(gamma_values)} gamma = {len(alpha_values) * len(gamma_values)} combinations")
+        print(f"Alpha values: {alpha_values}")
+        print(f"Gamma values: {gamma_values}")
+        print(f"Epochs per experiment: {num_epochs}")
+        print("-" * 80)
+    
+    total_experiments = len(alpha_values) * len(gamma_values)
+    experiment_count = 0
+    
+    for alpha in alpha_values:
+        for gamma in gamma_values:
+            experiment_count += 1
+            
+            if verbose:
+                print(f"\nExperiment {experiment_count}/{total_experiments}: alpha={alpha}, gamma={gamma}")
+                print("-" * 40)
+            
+            # Update config
+            config.focal_alpha = alpha
+            config.focal_gamma = gamma
+            
+            # Reinitialize model
+            model = get_model(config).to(device)
+            
+            # Reinitialize optimizer
+            optimizer = torch.optim.AdamW(
+                model.parameters(),
+                lr=config.learning_rate,
+                weight_decay=config.weight_decay,
+                betas=config.betas,
+                eps=config.eps
+            )
+            
+            # Reinitialize loss function
+            loss_fn = FocalLoss(
+                alpha=config.focal_alpha,
+                gamma=config.focal_gamma,
+                reduction=config.loss_reduction
+            )
+            
+            try:
+                # Train with best model selection
+                history, best_info = train_full_supervision_with_selection(
+                    model, train_loader, val_loader, optimizer, device, loss_fn, config
+                )
+                
+                # Store results
+                result = {
+                    'alpha': alpha,
+                    'gamma': gamma,
+                    'best_epoch': best_info['best_epoch'],
+                    'best_val_auprc': best_info['best_metric'],
+                    'best_f1_target': best_info['best_f1_target'],
+                    'history': history,
+                    'success': True
+                }
+                
+                # Check if this is the best result
+                if best_info['best_metric'] > best_metric:
+                    best_metric = best_info['best_metric']
+                    best_result = result.copy()
+                
+                if verbose:
+                    print(f"✓ Success: AUPRC={best_info['best_metric']:.4f}, F1(target)={best_info['best_f1_target']:.4f}")
+                
+            except Exception as e:
+                result = {
+                    'alpha': alpha,
+                    'gamma': gamma,
+                    'error': str(e),
+                    'success': False
+                }
+                if verbose:
+                    print(f"✗ Failed: {str(e)}")
+            
+            grid_results.append(result)
+    
+    # Restore original config values
+    config.focal_alpha = original_alpha
+    config.focal_gamma = original_gamma
+    config.num_epochs = original_epochs
+    
+    # Summary
+    if verbose:
+        print("\n" + "=" * 80)
+        print("GRID SEARCH RESULTS SUMMARY")
+        print("=" * 80)
+        
+        successful_results = [r for r in grid_results if r.get('success', False)]
+        if successful_results:
+            print(f"Successful experiments: {len(successful_results)}/{total_experiments}")
+            print(f"\nBest result:")
+            print(f"  Alpha: {best_result['alpha']}")
+            print(f"  Gamma: {best_result['gamma']}")
+            print(f"  Best AUPRC: {best_result['best_val_auprc']:.4f}")
+            print(f"  Best F1(target): {best_result['best_f1_target']:.4f}")
+            print(f"  Best epoch: {best_result['best_epoch']}")
+            
+            # Show top 3 results
+            sorted_results = sorted(successful_results, key=lambda x: x['best_val_auprc'], reverse=True)
+            print(f"\nTop 3 combinations:")
+            for i, result in enumerate(sorted_results[:3]):
+                print(f"  {i+1}. α={result['alpha']}, γ={result['gamma']} → AUPRC={result['best_val_auprc']:.4f}")
+        else:
+            print("No successful experiments!")
+    
+    return {
+        'best_result': best_result,
+        'all_results': grid_results,
+        'best_alpha': best_result['alpha'] if best_result else None,
+        'best_gamma': best_result['gamma'] if best_result else None,
+        'best_auprc': best_metric
+    }
