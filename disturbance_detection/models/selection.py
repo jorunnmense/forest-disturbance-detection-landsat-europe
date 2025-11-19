@@ -7,6 +7,7 @@ from .UNet_1D_W5to7 import UNet_1D_W5to7
 from .UNet_1D_W5to7_MultiLevel_Attention import UNet_1D_W5to7_MultiLevel_Attention
 from .UNet_1D_W30 import UNet_1D_W30
 from .components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout
+from .Hybrid_TempCNN_U_Net import TemporalMultiScaleUNet
 
 def get_model(config):
     """
@@ -65,6 +66,13 @@ def get_model(config):
             norm=config.norm_type,
             kernel_sizes_small=config.kernel_sizes_small,
             kernel_sizes_big=config.kernel_sizes_big,
+        )
+
+    elif config.model_name == "TemporalMultiScaleUNet":
+        model = TemporalMultiScaleUNet(
+            in_channels=num_features,
+            base_dim =config.base_channels,
+            dropout=config.dropout_rate,
         )
     else:
         raise ValueError(f"Unknown model: {config.model_name}. "

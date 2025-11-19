@@ -22,7 +22,7 @@ __author__ = "Jorunn Anna Mense, Alba Viana-Soto"
 from .config import Config
 
 # ============== Data Processing ==============
-from .data_preprocessing import (
+from .preprocessing import (
     prepare_data,
     make_or_load_uid_splits
 )
@@ -39,7 +39,8 @@ from .models import (
     UNet_1D_W5to7_MultiLevel_Attention,
     UNet_1D_W3,
     UNet_1D_W30,
-    get_valid_kernel_sizes
+    get_valid_kernel_sizes,
+    TemporalMultiScaleUNet	
 )
 
 # ============== Loss Functions ==============
@@ -48,7 +49,7 @@ from .loss_fcts import FocalLoss
 # ============== Training ==============
 
 # Optional: full supervision training
-from .training_full_supervision import (
+from .training import (
     train_epoch_full_supervision,
     validate_epoch_full_supervision,
     train_full_supervision_with_selection)
@@ -67,7 +68,9 @@ from .evaluations import (
     plot_f1_vs_threshold,
     plot_confusion_matrix,
     make_target_mask,
-    safe_to_device
+    safe_to_device,
+    evaluate_position_wise_metrics,
+    load_best_model_and_evaluate_position_wise_metrics
 )
 
 from .evaluations import (
@@ -75,7 +78,7 @@ from .evaluations import (
 )
 
 # ============== Utilities ==============
-from .utils import (
+from .utilities import (
     set_seed,
     print_split_balances
 )
@@ -104,6 +107,7 @@ __all__ = [
     'UNet_1D_W3',
     'UNet_1D_W5to7_MultiLevel_Attention',
     'get_valid_kernel_sizes',
+    'TemporalMultiScaleUNet',
 
     # Loss
     'FocalLoss',
@@ -134,6 +138,8 @@ __all__ = [
     'safe_to_device',
     'count_supervised_positives',
     'collect_probs',
+    'evaluate_position_wise_metrics',
+    'load_best_model_and_evaluate_position_wise_metrics',
 
     # Utils
     'set_seed',

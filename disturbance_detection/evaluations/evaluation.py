@@ -358,3 +358,69 @@ def plot_confusion_matrix(cm, labels=["Undisturbed", "Disturbed"], title="Confus
     plt.title(title)
     plt.tight_layout()
     plt.show()
+
+
+def evaluate_position_wise_metrics(model, val_loader, device, config):
+
+    ''' Evaluate F1 score for each position in the sequence'''
+    
+    eps = 1e-8
+    model.eval()
+    val_probs_all, val_labels_all = [], []
+    with torch.no_grad():
+        for x, y, _ in val_loader:
+            x,y = x.to(device), y.to(device)
+            y_hat = model(x)
+            probs = torch.sigmoid(y_hat).cpu()
+            val_probs_all.append(probs)
+            val_labels_all.append(y.cpu())
+    all_probs = torch.cat(val_probs_all).numpy()
+    all_labels = torch.cat(val_labels_all).numpy()
+
+    T = all_labels.shape[1]
+
+    # Compute metrics for each position
+    position_metrics = []
+
+    for pos in range(T):
+        y_true_pos = all_labels[:, pos]
+        y_prob_pos = all_probs[:, pos]
+        
+        # Compute best F1 (like in training validation)
+        if len(np.unique(y_true_pos)) == 2:
+            from sklearn.metrics import precision_recall_curve
+            precision, recall, thresholds = precision_recall_curve(y_true_pos, y_prob_pos)
+            f1_curve = 2 * precision * recall / (precision + recall + eps)
+            f1_pos = float(np.nanmax(f1_curve[1:])) if f1_curve.size > 1 else 0.0
+            
+            # Also compute at best threshold
+            best_idx = np.nanargmax(f1_curve[1:]) + 1
+            precision_pos = float(precision[best_idx])
+            recall_pos = float(recall[best_idx])
+        else:
+            f1_pos = 0.0
+            precision_pos = 0.0
+            recall_pos = 0.0
+        
+        position_metrics.append({
+            'position': pos,
+            'f1': f1_pos,
+            'precision': precision_pos,
+            'recall': recall_pos
+        })
+    return position_metrics
+
+def load_best_model_and_evaluate_position_wise_metrics(model, device, ckpt_path, val_loader, config):
+    '''Load the best model and evaluate position-wise metrics'''
+
+    # Load the best checkpoint
+    checkpoint = torch.load(ckpt_path, map_location=device)
+    model.load_state_dict(checkpoint['model_state_dict'])
+    print(f"Loaded best model from epoch {checkpoint['epoch']}.")
+    print(f"Evaluating position-wise metrics for the best model...")
+    position_metrics = evaluate_position_wise_metrics(model, val_loader, device, config)
+    print(f"Position-wise metrics: {position_metrics}")
+
+    for pos, metrics in position_metrics:
+        print(f"Position {pos}: F1={metrics['f1']:.3f}, Precision={metrics['precision']:.3f}, Recall={metrics['recall']:.3f}")
+    return position_metrics

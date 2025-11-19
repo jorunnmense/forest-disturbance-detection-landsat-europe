@@ -149,9 +149,9 @@ def prepare_data(df, config):
     # stack per split
     def stack_or_empty(XL, yL, mL):
         if len(XL) == 0:
-            return (np.empty((0, config.max_window, len(features)), dtype=float),
-                    np.empty((0, config.max_window), dtype=float),
-                    np.empty((0, config.max_window), dtype=float))
+            return (np.empty((0, config.window_size, len(features)), dtype=float),
+                    np.empty((0, config.window_size), dtype=float),
+                    np.empty((0, config.window_size), dtype=float))
         return np.stack(XL), np.stack(yL), np.stack(mL)
 
     X_train, y_train, m_train = stack_or_empty(X_tr_list, y_tr_list, m_tr_list)

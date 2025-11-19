@@ -19,7 +19,9 @@ from .evaluation import (
     plot_history,
     plot_precision_recall_curve,
     plot_f1_vs_threshold,
-    plot_confusion_matrix
+    plot_confusion_matrix,
+    evaluate_position_wise_metrics,
+    load_best_model_and_evaluate_position_wise_metrics
 )
 
 __all__ = [
@@ -35,5 +37,7 @@ __all__ = [
     'plot_history',
     'plot_precision_recall_curve',
     'plot_f1_vs_threshold',
-    'plot_confusion_matrix'
+    'plot_confusion_matrix',
+    'evaluate_position_wise_metrics',
+    'load_best_model_and_evaluate_position_wise_metrics'
 ]

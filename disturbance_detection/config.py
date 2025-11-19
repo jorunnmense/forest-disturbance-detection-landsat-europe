@@ -59,7 +59,7 @@ class Config:
         
         # TemporalCNN parameters
         self.base_channels = 24 # before: 16
-        self.dropout_rate = 0.3 # before: 0.3
+        self.dropout_rate = 0.4 # before: 0.3
         self.temporal_dropout_rate = 0.0
         
         # Normalization: 'bn' (BatchNorm), 'ln' (LayerNorm via GroupNorm), 'gn8' (GroupNorm)

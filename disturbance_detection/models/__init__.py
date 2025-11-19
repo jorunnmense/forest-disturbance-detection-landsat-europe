@@ -29,6 +29,8 @@ from .components import (
 # Import from models_5_7_attention_higher.py
 from .UNet_1D_W5to7_MultiLevel_Attention import UNet_1D_W5to7_MultiLevel_Attention
 
+from .Hybrid_TempCNN_U_Net import TemporalMultiScaleUNet
+
 
 __all__ = [
     'UNet_1D_W5to7',
@@ -40,5 +42,6 @@ __all__ = [
     'TemporalDropout',
     'TemporalCNN',
     'get_valid_kernel_sizes',
-    'get_model'
+    'get_model',
+    'TemporalMultiScaleUNet'
 ]
