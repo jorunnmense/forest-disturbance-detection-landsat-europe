@@ -15,14 +15,20 @@ def _ensure_pos_index(t_idx, T):
     return j
 
 @torch.no_grad()
+@torch.no_grad()
 def _stack_loader(loader):
-    Xs, ys, ms = [], [], []
-    for x, y, m in loader:
+    Xs, ys = [], []
+    for x, y in loader:  # Only expect 2 values from data loader
         Xs.append(x.cpu().numpy())
         ys.append(y.cpu().numpy())
-        ms.append(m.cpu().numpy())
-    return np.concatenate(Xs,0), np.concatenate(ys,0), np.concatenate(ms,0)  # X:(N,C,T), y/m:(N,T)
-
+    
+    X = np.concatenate(Xs, 0)  # Shape: (N, C, T)
+    y = np.concatenate(ys, 0)  # Shape: (N, T)
+    
+    # Create a mask of all ones (all timesteps are valid)
+    m = np.ones_like(y, dtype=bool)
+    
+    return X, y, m  # X:(N,C,T), y/m:(N,T)
 def _target_mask_at(m, target_index=-1):
     """one-hot at target step (supports negative index like -1, -2, etc.)."""
     T = m.shape[1]

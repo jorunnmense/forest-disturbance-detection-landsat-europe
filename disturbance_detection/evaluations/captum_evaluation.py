@@ -107,7 +107,7 @@ def quick_evaluation(model, test_loader, config, device, num_samples: int = 3):
     
     # Find positive samples
     positive_samples = []
-    for batch_x, batch_y, _ in test_loader:
+    for batch_x, batch_y in test_loader:
         for i in range(batch_x.shape[0]):
             if batch_y[i, -1] == 1:  # Disturbance at last timestep
                 positive_samples.append(batch_x[i:i+1])

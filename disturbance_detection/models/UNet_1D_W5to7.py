@@ -50,6 +50,7 @@ class UNet_1D_W5to7(nn.Module):
         # Level 2: 3*base -> 2*base*len(ks2) channels after concat
         self.enc2 = MultiKernelConv1d(3*base, 2*base, p_drop=p_drop, 
                                       kernel_sizes=kernel_sizes_small, norm=norm)  # -> (B, 6*base, T/2)
+        
         self.pool2 = nn.AvgPool1d(2, ceil_mode=True)
 
         # ---- Bottleneck ----
@@ -111,10 +112,15 @@ class UNet_1D_W5to7(nn.Module):
         
         # Encoder
         x1f = self.enc1(x)                 # (B, 3*base, T1)
+        # flip the order of the time dimension
+        #x1f = x1f.flip(dims=[2])
         x1  = self.pool1(x1f)              # (B, 3*base, T1p)
+        #x1 = x1.flip(dims=[2])
 
         x2f = self.enc2(x1)                # (B, 6*base, T2)
+        #x2f = x2f.flip(dims=[2])
         x2  = self.pool2(x2f)              # (B, 6*base, T2p)
+        #x2 = x2.flip(dims=[2])
 
         # Bottleneck
         xb = self.bn_conv(x2)              # (B, 4*base, T2p)

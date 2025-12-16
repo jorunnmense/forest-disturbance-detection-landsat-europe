@@ -10,43 +10,21 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score, f1_s
                             precision_recall_curve, average_precision_score)
 
 
-def make_target_mask(m: torch.Tensor, mode: str = "last") -> torch.Tensor:
+def get_target_position_simple(target_mode, sequence_length):
     """
-    Build a 1-hot mask over time per sample using the valid length inferred from m (1=valid, 0=pad).
-    
-    Supported modes:
-      - "center": floor(center) within the valid part
-      - "last": last valid step
-      - "second_last": second-to-last valid step (clamped to 0 if length==1)
-      - "idx:<int>": fixed index; negatives mean from the end (e.g., idx:-1 == last)
-    
-    Args:
-        m: Mask tensor (B, T) where 1=valid timestep, 0=padding
-        mode: Target position mode
-        
-    Returns:
-        Target mask (B, T) with 1 at supervised position, 0 elsewhere
+    Get the target position index for simple indexing (without masks).
+    Compatible with the training function approach.
     """
-    B, T = m.shape
-    lens = m.sum(dim=1).long().clamp(min=1)  # valid lengths per sample
-
-    if mode == "center":
-        idx = lens // 2
-    elif mode == "last":
-        idx = lens - 1
-    elif mode == "second_last":
-        idx = (lens - 2).clamp(min=0)
-    elif mode.startswith("idx:"):
-        k = int(mode.split(":", 1)[1])
-        # support negative indexing from the end
-        idx = torch.where(torch.tensor(k >= 0, device=m.device), torch.full_like(lens, k), lens + k)
-        idx = idx.clamp(min=0, max=lens - 1)
+    if target_mode == "last":
+        return -1
+    elif target_mode == "second_last":
+        return -2
+    elif target_mode == "center":
+        return sequence_length // 2
+    elif target_mode.startswith("idx:"):
+        return int(target_mode.split(":", 1)[1])
     else:
-        raise ValueError("mode must be 'center', 'last', 'second_last', or 'idx:<int>'")
-
-    tm = torch.zeros_like(m)
-    tm[torch.arange(B, device=m.device), idx] = 1.0
-    return tm
+        return -1  # default to last
 
 
 def safe_to_device(module, device):
@@ -75,7 +53,7 @@ def count_supervised_positives(loader, target_mode="last", device="cpu"):
     Useful for understanding class balance at the position you're predicting.
     
     Args:
-        loader: DataLoader
+        loader: DataLoader (expects x, y pairs)
         target_mode: Target position mode
         device: Device to use
         
@@ -84,16 +62,23 @@ def count_supervised_positives(loader, target_mode="last", device="cpu"):
     """
     pos = 0
     tot = 0
-    for x, y, m in loader:
-        m = m.to(device)
+    
+    # Get sequence length from first batch
+    first_batch = next(iter(loader))
+    sequence_length = first_batch[1].shape[1]  # y has shape (B, T)
+    target_pos = get_target_position_simple(target_mode, sequence_length)
+    
+    for x, y in loader:
         y = y.to(device)
-        tm = make_target_mask(m, mode=target_mode)
-        tgt = y[tm.bool()]
+        # Select target timestep directly
+        tgt = y[:, target_pos]  # (B,)
         pos += int(tgt.sum().item())
         tot += int(tgt.numel())
+    
     return pos, tot, (pos / max(tot, 1))
 
 
+@torch.no_grad()
 @torch.no_grad()
 def collect_probs(model, data_loader, device, target_mode="last"):
     """
@@ -101,7 +86,7 @@ def collect_probs(model, data_loader, device, target_mode="last"):
     
     Args:
         model: Trained model
-        data_loader: DataLoader
+        data_loader: DataLoader (expects x, y pairs)
         device: Device to use
         target_mode: Target position mode
         
@@ -111,15 +96,19 @@ def collect_probs(model, data_loader, device, target_mode="last"):
     model.eval()
     probs_all, labels_all = [], []
     
-    for x, y, m in data_loader:
-        x, y, m = x.to(device), y.to(device), m.to(device)
+    # Get sequence length from first batch
+    first_batch = next(iter(data_loader))
+    sequence_length = first_batch[1].shape[1]  # y has shape (B, T)
+    target_pos = get_target_position_simple(target_mode, sequence_length)
+    
+    for x, y in data_loader:
+        x, y = x.to(device), y.to(device)
         logits = model(x)                    # (B, T)
         probs  = torch.sigmoid(logits)       # (B, T)
-        tm = make_target_mask(m, mode=target_mode)  # (B, T) one-hot per window
         
-        # Pick the supervised timestep
-        probs_t = probs[tm.bool()]           # (B,)
-        labels_t = y[tm.bool()]              # (B,)
+        # Pick the supervised timestep directly
+        probs_t = probs[:, target_pos]       # (B,)
+        labels_t = y[:, target_pos]          # (B,)
         
         probs_all.append(probs_t.detach().cpu())
         labels_all.append(labels_t.detach().cpu())
@@ -368,7 +357,7 @@ def evaluate_position_wise_metrics(model, val_loader, device, config):
     model.eval()
     val_probs_all, val_labels_all = [], []
     with torch.no_grad():
-        for x, y, _ in val_loader:
+        for x, y in val_loader:
             x,y = x.to(device), y.to(device)
             y_hat = model(x)
             probs = torch.sigmoid(y_hat).cpu()

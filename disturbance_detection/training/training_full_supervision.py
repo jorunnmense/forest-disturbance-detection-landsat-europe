@@ -27,7 +27,7 @@ def train_epoch_full_supervision(model, train_loader, optimizer, device, loss_fn
     total_loss = 0.0
     all_probs, all_labels = [], []
 
-    for x, y, _ in train_loader:  # ignore mask
+    for x, y in train_loader:
         x, y = x.to(device), y.to(device)
         optimizer.zero_grad()
 
@@ -71,7 +71,7 @@ def train_epoch_full_supervision(model, train_loader, optimizer, device, loss_fn
 
 def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
     """
-    Validate one epoch.
+    Validate one epoch.c
     Computes:
         - loss at target timestep
         - F1 for all positions
@@ -90,7 +90,7 @@ def validate_epoch_full_supervision(model, val_loader, device, loss_fn, config):
     target_pos = get_target_position(config, config.window_size)
 
     with torch.no_grad():
-        for x, y, _ in val_loader:  # ignore mask
+        for x, y in val_loader: 
             x, y = x.to(device), y.to(device)
             y_hat = model(x)
             per_elem_loss = loss_fn(y_hat, y)

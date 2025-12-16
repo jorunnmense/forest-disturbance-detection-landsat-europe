@@ -8,7 +8,7 @@ from .captum_evaluation import (
 )
 
 from .evaluation import (
-    make_target_mask,
+    get_target_position_simple,
     safe_to_device,
     count_supervised_positives,
     collect_probs,
@@ -26,7 +26,7 @@ from .evaluation import (
 
 __all__ = [
     'CaptumEvaluator',
-    'make_target_mask',
+    'get_target_position_simple',
     'safe_to_device',
     'count_supervised_positives',
     'collect_probs',

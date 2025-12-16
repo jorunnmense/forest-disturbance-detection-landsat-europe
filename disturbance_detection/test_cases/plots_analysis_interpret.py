@@ -1,3 +1,44 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import torch
+import pandas as pd
+from analysis_model_interpretability_v01 import band_permutation_importance, temporal_occlusion
+from disturbance_detection import Config, get_model
+from disturbance_detection.preprocessing.data_preprocessing import prepare_data
+
+# 1. Setup device
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+# 2. Create configuration
+config = Config()
+config.target_mode = "last"
+config.features_mode = "bands_indices"  # 
+config.model_name = "UNet_1D_W5to7"  # specific model
+config.dropout_rate = 0.4
+
+# 3. Load data
+df = pd.read_csv(config.csv_path, sep=config.csv_separator)  # Replace with your actual data path
+
+# 4. Prepare data loaders
+train_loader, val_loader, test_loader, n_features, used_feats = prepare_data(df, config)
+
+# 5. Initialize and load trained model
+model = get_model(config).to(device)
+
+# 6. Load trained model weights
+checkpoint_path = "/home/ubuntu/work/saved_data/landsat_disturbance_detection/clean_1D_U_Net/deep_disturbance/best_model.pt"  # Replace with your actual checkpoint path
+checkpoint = torch.load(checkpoint_path, map_location=device)
+model.load_state_dict(checkpoint['model_state_dict'])
+model.eval()
+
+
+
+
 def plot_band_importance(table, names):
     tab = sorted(table, key=lambda r: -r["delta_auprc_mean"])
     labels = [names[r["band_index"]] for r in tab]

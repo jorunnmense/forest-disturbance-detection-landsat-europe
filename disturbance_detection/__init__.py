@@ -24,7 +24,10 @@ from .config import Config
 # ============== Data Processing ==============
 from .preprocessing import (
     prepare_data,
-    make_or_load_uid_splits
+    make_or_load_uid_splits,
+    to_nan,
+    norm_per_feature,
+    stack_or_empty
 )
 
 # ============== Models ==============
@@ -68,7 +71,7 @@ from .evaluations import (
     plot_precision_recall_curve,
     plot_f1_vs_threshold,
     plot_confusion_matrix,
-    make_target_mask,
+    get_target_position_simple,
     safe_to_device,
     evaluate_position_wise_metrics,
     load_best_model_and_evaluate_position_wise_metrics
@@ -96,6 +99,9 @@ __all__ = [
     # Data
     'prepare_data',
     'make_or_load_uid_splits',
+    'to_nan',
+    'norm_per_feature',
+    'stack_or_empty',
     
     # Models
     'UNet_1D_W5to7',
@@ -136,7 +142,7 @@ __all__ = [
     'plot_f1_vs_threshold',
     'plot_confusion_matrix',
     'CaptumEvaluator',
-    'make_target_mask',
+    'get_target_position_simple',
     'safe_to_device',
     'count_supervised_positives',
     'collect_probs',
