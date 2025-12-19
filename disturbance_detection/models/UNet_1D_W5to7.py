@@ -71,40 +71,32 @@ class UNet_1D_W5to7(nn.Module):
             nn.ReLU(inplace=True),
         )
         self.attn = TemporalSelfAttention(embed_dim=bottleneck_ch)
-
-        # ---- Decoder ----
-        # Up to enc2 feature length
-        if norm == 'ln':
-            norm_layer2 = nn.GroupNorm(1, 6*base)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer2 = nn.GroupNorm(g, 6*base)
-        else:
-            norm_layer2 = nn.BatchNorm1d(6*base)
             
         self.dec2_reduce = nn.Sequential(
             nn.Conv1d(bottleneck_ch + 6*base, 6*base, 1),
-            norm_layer2,
+            self.make_norm_layer(norm, 6*base),
             nn.ReLU(inplace=True),
         )
         
-        # Up to enc1 feature length
-        if norm == 'ln':
-            norm_layer3 = nn.GroupNorm(1, 3*base)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer3 = nn.GroupNorm(g, 3*base)
-        else:
-            norm_layer3 = nn.BatchNorm1d(3*base)
+
             
         self.dec1_reduce = nn.Sequential(
             nn.Conv1d(6*base + 3*base, 3*base, 1),
-            norm_layer3,
+            self.make_norm_layer(norm, 3*base),
             nn.ReLU(inplace=True),
         )
 
         # ---- Head ----
         self.out_conv = nn.Conv1d(3*base, 1, 1)
+    
+    def make_norm_layer(self, norm_type, channels):
+        if norm_type == 'ln':
+            return nn.GroupNorm(1, channels)
+        elif norm_type.startswith('gn'):
+            g = int(norm_type[2:]) if norm_type[2:].isdigit() else 8
+            return nn.GroupNorm(g, channels)
+        else:
+            return nn.BatchNorm1d(channels)
 
     def forward(self, x):
         # Apply temporal dropout at input
@@ -113,14 +105,14 @@ class UNet_1D_W5to7(nn.Module):
         # Encoder
         x1f = self.enc1(x)                 # (B, 3*base, T1)
         # flip the order of the time dimension
-        #x1f = x1f.flip(dims=[2])
+        x1f = x1f.flip(dimsa=[2])
         x1  = self.pool1(x1f)              # (B, 3*base, T1p)
-        #x1 = x1.flip(dims=[2])
+        x1 = x1.flip(dims=[2])
 
         x2f = self.enc2(x1)                # (B, 6*base, T2)
-        #x2f = x2f.flip(dims=[2])
+        x2f = x2f.flip(dims=[2])
         x2  = self.pool2(x2f)              # (B, 6*base, T2p)
-        #x2 = x2.flip(dims=[2])
+        x2 = x2.flip(dims=[2])
 
         # Bottleneck
         xb = self.bn_conv(x2)              # (B, 4*base, T2p)

@@ -54,8 +54,8 @@ class Config:
         
         # ============== MODEL ARCHITECTURE ==============
 
-        # Model selection: "SmallUNet1D", "TemporalCNN"
-        self.model_name = "TemporalCNN"
+        # Model selection: "UNet_1D_W5to7",...
+        self.model_name = "UNet_1D_W5to7"
         
         # TemporalCNN parameters
         self.base_channels = 24 # before: 16
@@ -64,7 +64,7 @@ class Config:
         
         # Normalization: 'bn' (BatchNorm), 'ln' (LayerNorm via GroupNorm), 'gn8' (GroupNorm)
         # Use 'ln' for small batch sizes (<16), 'bn' for larger batches
-        self.norm_type = 'ln'
+        self.norm_type = 'bn'
         
         # Kernel sizes for multi-scale convolutions
         self.kernel_sizes_small = (1, 3, 5)

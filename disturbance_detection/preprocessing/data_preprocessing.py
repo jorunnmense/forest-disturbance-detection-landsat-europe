@@ -132,10 +132,10 @@ def create_windowed_data(df, features, config, train_uids_set, val_uids_set, tes
             X_test_list.append(X); y_test_list.append(y)
 
     # --- build windows per uniqueid, routed into the right split ---
-    for uid, group in df.groupby('uniqueid'):
+    for uid, group in df.groupby('uniqueid'):     #uid is the specific unique_id, group is all the rows for the specific pixel across all years
         if uid not in train_uids_set and uid not in val_uids_set and uid not in test_uids_set:
             continue
-        group = group.sort_values('year')
+        group = group.sort_values('year') # all the rows for the certain unique_id are getting sorted by year
         if len(group) < config.window_size:
             continue
 
