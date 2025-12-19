@@ -105,7 +105,7 @@ class UNet_1D_W5to7(nn.Module):
         # Encoder
         x1f = self.enc1(x)                 # (B, 3*base, T1)
         # flip the order of the time dimension
-        x1f = x1f.flip(dimsa=[2])
+        x1f = x1f.flip(dims=[2])
         x1  = self.pool1(x1f)              # (B, 3*base, T1p)
         x1 = x1.flip(dims=[2])
 
