@@ -118,11 +118,15 @@ class UNet_1D_W5to7_MultiLevel_Attention(nn.Module):
         # Encoder
         x1f = self.enc1(x)                 # (B, 3*base, T1)
         x1f = self.attn1(x1f)
+        x1f = x1f.flip(dims=[2])
         x1  = self.pool1(x1f)              # (B, 3*base, T1p)
+        x1 = x1.flip(dims=[2])
 
         x2f = self.enc2(x1)                # (B, 6*base, T2)
         x2f = self.attn2(x2f)
+        x2f = x2f.flip(dims=[2])
         x2  = self.pool2(x2f)              # (B, 6*base, T2p)
+        x2 = x2.flip(dims=[2])
 
         # Bottleneck
         xb = self.bn_conv(x2)              # (B, 4*base, T2p)

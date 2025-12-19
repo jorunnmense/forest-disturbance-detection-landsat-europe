@@ -105,10 +105,14 @@ class UNet_1D_W30(nn.Module):
     def forward(self, x):
         # Encoder
         x1f = self.enc1(x)
+        x1f = x1f.flip(dims=[2])
         x1  = self.pool1(x1f)
+        x1 = x1.flip(dims=[2])
 
         x2f = self.enc2(x1)
+        x2f = x2f.flip(dims=[2])
         x2  = self.pool2(x2f)
+        x2 = x2.flip(dims=[2])
 
         x3f = self.enc3(x2)
         x3  = self.pool3(x3f)

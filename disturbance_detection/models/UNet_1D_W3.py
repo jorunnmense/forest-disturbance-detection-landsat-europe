@@ -56,7 +56,9 @@ class UNet_1D_W3(nn.Module):
 
     def forward(self, x):
         x1f = self.enc1(x)
+        x1f = x1f.flip(dims=[2])
         x1 = self.pool1(x1f)
+        x1 = x1.flip(dims=[2])
 
         xb = self.bn_conv(x1)
         xb = self.attn(xb)
