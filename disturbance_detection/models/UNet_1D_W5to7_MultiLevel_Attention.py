@@ -79,32 +79,19 @@ class UNet_1D_W5to7_MultiLevel_Attention(nn.Module):
 
         # ---- Decoder ----
         # Up to enc2 feature length
-        if norm == 'ln':
-            norm_layer2 = nn.GroupNorm(1, 6*base)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer2 = nn.GroupNorm(g, 6*base)
-        else:
-            norm_layer2 = nn.BatchNorm1d(6*base)
+
             
         self.dec2_reduce = nn.Sequential(
             nn.Conv1d(bottleneck_ch + 6*base, 6*base, 1),
-            norm_layer2,
+            make_norm_layer(norm, 6*base),
             nn.ReLU(inplace=True),
         )
         
         # Up to enc1 feature length
-        if norm == 'ln':
-            norm_layer3 = nn.GroupNorm(1, 3*base)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer3 = nn.GroupNorm(g, 3*base)
-        else:
-            norm_layer3 = nn.BatchNorm1d(3*base)
             
         self.dec1_reduce = nn.Sequential(
             nn.Conv1d(6*base + 3*base, 3*base, 1),
-            norm_layer3,
+            make_norm_layer(norm, 3*base),
             nn.ReLU(inplace=True),
         )
 

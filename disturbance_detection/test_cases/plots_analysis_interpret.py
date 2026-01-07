@@ -48,7 +48,10 @@ def plot_band_importance(table, names):
     plt.bar(labels, vals, yerr=errs)
     plt.ylabel("ΔAUPRC (permute band)")
     plt.title("Band permutation importance")
-    plt.xticks(rotation=30, ha="right"); plt.tight_layout(); plt.show()
+    plt.xticks(rotation=30, ha="right") 
+    plt.tight_layout()
+    plt.show()
+    return 0
 
 def plot_temporal_occlusion(rel, d_all, d_bands=None, band_names=None):
     plt.figure(figsize=(4,3.5))
@@ -71,6 +74,7 @@ def plot_temporal_occlusion(rel, d_all, d_bands=None, band_names=None):
         plt.xlabel("Relative time (target=0)")
         plt.title("Per-band temporal sensitivity (Δ logit)")
         plt.tight_layout(); plt.show()
+    return 0
 
 ''' note: Window size = 5 → timesteps [0,1,2,3,4]
 Target =  last → target_index = 4 (or -1)

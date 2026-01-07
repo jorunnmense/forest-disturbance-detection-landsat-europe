@@ -5,7 +5,7 @@ Contains U-Net model, multi-kernel convolutions, attention, and focal loss.
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from .components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout
+from .components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout, make_norm_layer
 
 
 class UNet_1D_W3(nn.Module):
@@ -20,34 +20,22 @@ class UNet_1D_W3(nn.Module):
 
         # Bottleneck - FIX: Calculate based on actual kernel count
         bottleneck_ch = len(kernel_sizes_small) * base  # <-- CHANGED from 3 * base
-        if norm == 'ln':
-            norm_layer = nn.GroupNorm(1, bottleneck_ch)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer = nn.GroupNorm(g, bottleneck_ch)
-        else:
-            norm_layer = nn.BatchNorm1d(bottleneck_ch)
+
 
         self.bn_conv = nn.Sequential(
             nn.Conv1d(bottleneck_ch, bottleneck_ch, 1),
-            norm_layer,
+            make_norm_layer(norm, bottleneck_ch),
             nn.ReLU(inplace=True),
         )
         self.attn = TemporalSelfAttention(embed_dim=bottleneck_ch)
 
         # Decoder (only one level) - FIX: Update channel count here too
         decoder_in_ch = 2 * bottleneck_ch  # concat of bottleneck and encoder features
-        if norm == 'ln':
-            norm_layer2 = nn.GroupNorm(1, bottleneck_ch)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer2 = nn.GroupNorm(g, bottleneck_ch)
-        else:
-            norm_layer2 = nn.BatchNorm1d(bottleneck_ch)
+
 
         self.dec1_reduce = nn.Sequential(
             nn.Conv1d(decoder_in_ch, bottleneck_ch, 1),  # <-- CHANGED from 2*3*base to decoder_in_ch
-            norm_layer2,
+            make_norm_layer(norm, bottleneck_ch),
             nn.ReLU(inplace=True),
         )
 

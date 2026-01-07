@@ -5,7 +5,7 @@ Contains U-Net model, multi-kernel convolutions, attention, and focal loss.
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from . components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout
+from . components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout, make_norm_layer
 
 
 class UNet_1D_W5to7(nn.Module):
@@ -57,13 +57,7 @@ class UNet_1D_W5to7(nn.Module):
         bottleneck_ch = 4*base
         
         # Build normalization layer based on norm type
-        if norm == 'ln':
-            norm_layer = nn.GroupNorm(1, bottleneck_ch)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer = nn.GroupNorm(g, bottleneck_ch)
-        else:  # 'bn'
-            norm_layer = nn.BatchNorm1d(bottleneck_ch)
+        norm_layer = make_norm_layer(norm, bottleneck_ch)
         
         self.bn_conv = nn.Sequential(
             nn.Conv1d(6*base, bottleneck_ch, 1),
@@ -74,7 +68,7 @@ class UNet_1D_W5to7(nn.Module):
             
         self.dec2_reduce = nn.Sequential(
             nn.Conv1d(bottleneck_ch + 6*base, 6*base, 1),
-            self.make_norm_layer(norm, 6*base),
+            make_norm_layer(norm, 6*base),
             nn.ReLU(inplace=True),
         )
         
@@ -82,21 +76,14 @@ class UNet_1D_W5to7(nn.Module):
             
         self.dec1_reduce = nn.Sequential(
             nn.Conv1d(6*base + 3*base, 3*base, 1),
-            self.make_norm_layer(norm, 3*base),
+            make_norm_layer(norm, 3*base),
             nn.ReLU(inplace=True),
         )
 
         # ---- Head ----
         self.out_conv = nn.Conv1d(3*base, 1, 1)
     
-    def make_norm_layer(self, norm_type, channels):
-        if norm_type == 'ln':
-            return nn.GroupNorm(1, channels)
-        elif norm_type.startswith('gn'):
-            g = int(norm_type[2:]) if norm_type[2:].isdigit() else 8
-            return nn.GroupNorm(g, channels)
-        else:
-            return nn.BatchNorm1d(channels)
+
 
     def forward(self, x):
         # Apply temporal dropout at input

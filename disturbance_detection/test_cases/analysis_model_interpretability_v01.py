@@ -29,6 +29,8 @@ def _stack_loader(loader):
     m = np.ones_like(y, dtype=bool)
     
     return X, y, m  # X:(N,C,T), y/m:(N,T)
+
+    
 def _target_mask_at(m, target_index=-1):
     """one-hot at target step (supports negative index like -1, -2, etc.)."""
     T = m.shape[1]

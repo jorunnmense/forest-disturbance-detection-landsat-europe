@@ -10,6 +10,27 @@ from sklearn.model_selection import train_test_split
 import os
 
 
+# class balance statistics for a subset of uniqueids (for train, val, test)
+
+def count_pos_neg(df, uids_subset):
+    sub = df[df["uniqueid"].isin(uids_subset)]
+    total = len(sub)
+    pos = int(sub["new_class2_v5"].sum())
+    neg = total - pos
+    return total, pos, neg, pos / max(total, 1)
+
+
+
+# Compute class balance statistics for a subset of uniqueids (for train, val, test)
+# pos_map is a dictionary of uniqueids and their corresponding labels
+# uids_subset is a list of uniqueids
+# returns the number of positive uniqueids, the number of negative uniqueids, and the ratio of positive uniqueids
+
+def uid_pos_ratio(pos_map, uids_subset):
+    labels = np.array([pos_map[u] for u in uids_subset])
+    return labels.sum(), len(labels) - labels.sum(), labels.mean()
+
+
 def make_or_load_uid_splits(df, split_path, seed=42):
     """
     Returns (train_uids, val_uids, test_uids) as np arrays.
@@ -48,16 +69,10 @@ def make_or_load_uid_splits(df, split_path, seed=42):
     np.savez(split_path, train_uids=train_u, val_uids=val_u, test_uids=test_u, seed=seed)
     print(f"[INFO] Saved new split file: {split_path}")
 
-    def count_pos_neg(uids_subset):
-        sub = df[df["uniqueid"].isin(uids_subset)]
-        total = len(sub)
-        pos = int(sub["new_class2_v5"].sum())
-        neg = total - pos
-        return total, pos, neg, pos / max(total, 1)
 
-    train_total, train_pos, train_neg, train_ratio = count_pos_neg(train_u)
-    val_total, val_pos, val_neg, val_ratio = count_pos_neg(val_u)
-    test_total, test_pos, test_neg, test_ratio = count_pos_neg(test_u)
+    train_total, train_pos, train_neg, train_ratio = count_pos_neg(df, train_u)
+    val_total, val_pos, val_neg, val_ratio = count_pos_neg(df,val_u)
+    test_total, test_pos, test_neg, test_ratio = count_pos_neg(df,test_u)
 
     print("\n[Split summary by pixel-level samples]")
     print(f"Train: total={train_total:,} | pos={train_pos:,} | neg={train_neg:,} | pos%={100*train_ratio:.3f}")
@@ -65,13 +80,10 @@ def make_or_load_uid_splits(df, split_path, seed=42):
     print(f"Test:  total={test_total:,} | pos={test_pos:,} | neg={test_neg:,} | pos%={100*test_ratio:.3f}")
     print("-----------------------------------------------------------")
 
-    def uid_pos_ratio(uids_subset):
-        labels = np.array([pos_map[u] for u in uids_subset])
-        return labels.sum(), len(labels) - labels.sum(), labels.mean()
 
-    tr_uid_pos, tr_uid_neg, tr_uid_ratio = uid_pos_ratio(train_u)
-    va_uid_pos, va_uid_neg, va_uid_ratio = uid_pos_ratio(val_u)
-    te_uid_pos, te_uid_neg, te_uid_ratio = uid_pos_ratio(test_u)
+    tr_uid_pos, tr_uid_neg, tr_uid_ratio = uid_pos_ratio(pos_map, train_u)
+    va_uid_pos, va_uid_neg, va_uid_ratio = uid_pos_ratio(pos_map, val_u)
+    te_uid_pos, te_uid_neg, te_uid_ratio = uid_pos_ratio(pos_map, test_u)
 
     print("[Split summary by uniqueid]")
     print(f"Train: total={len(train_u):,} | disturbed_uids={tr_uid_pos:,} | pos%={100*tr_uid_ratio:.3f}")
@@ -133,20 +145,18 @@ def create_windowed_data(df, features, config, train_uids_set, val_uids_set, tes
 
     # --- build windows per uniqueid, routed into the right split ---
     for uid, group in df.groupby('uniqueid'):     #uid is the specific unique_id, group is all the rows for the specific pixel across all years
-        if uid not in train_uids_set and uid not in val_uids_set and uid not in test_uids_set:
-            continue
-        group = group.sort_values('year') # all the rows for the certain unique_id are getting sorted by year
-        if len(group) < config.window_size:
-            continue
+        if (uid in train_uids_set or uid in val_uids_set or uid in test_uids_set) and len(group) >= config.window_size:
+        
+            group = group.sort_values('year') # all the rows for the certain unique_id are getting sorted by year
 
-        # keep true missing values; DO NOT fill here
-        data  = group[features].to_numpy(dtype=float)          # shape [T_uid, F]; may contain NaN or -9999
-        label = group['new_class2_v5'].to_numpy(dtype=float)   # shape [T_uid]
+            # keep true missing values; DO NOT fill here
+            data  = group[features].to_numpy(dtype=float)          # shape [T_uid, F]; may contain NaN or -9999
+            label = group['new_class2_v5'].to_numpy(dtype=float)   # shape [T_uid]
 
-        for i in range(len(data) - config.window_size + 1):
-            seq_x = data[i:i+config.window_size]                      # [W, F]
-            seq_y = label[i:i+config.window_size]                     # [W]
-            add_sample(uid, seq_x, seq_y)
+            for i in range(len(data) - config.window_size + 1):
+                seq_x = data[i:i+config.window_size]                      # [W, F]
+                seq_y = label[i:i+config.window_size]                     # [W]
+                add_sample(uid, seq_x, seq_y)
 
     return X_train_list, y_train_list, X_val_list, y_val_list, X_test_list, y_test_list
 

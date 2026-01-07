@@ -24,7 +24,7 @@ class Config:
         self.window_size = 7
         #self.max_window = 5
         self.batch_size = 64
-        self.seed = 1
+        self.seed = 0 #1
         
         # Feature selection: "bands", "indices", "bands_indices", "prev8"
         self.features_mode = "bands_indices"

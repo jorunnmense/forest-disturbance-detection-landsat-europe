@@ -5,7 +5,7 @@ Contains U-Net model, multi-kernel convolutions, attention, and focal loss.
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from .components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout
+from .components import TemporalSelfAttention, MultiKernelConv1d, TemporalDropout, make_norm_layer
 
 
 class UNet_1D_W30(nn.Module):
@@ -38,64 +38,38 @@ class UNet_1D_W30(nn.Module):
         bottleneck_in = 12*base
         bottleneck_ch = 8*base
 
-        if norm == 'ln':
-            norm_layer = nn.GroupNorm(1, bottleneck_ch)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm_layer = nn.GroupNorm(g, bottleneck_ch)
-        else:
-            norm_layer = nn.BatchNorm1d(bottleneck_ch)
 
         self.bn_conv = nn.Sequential(
             nn.Conv1d(bottleneck_in, bottleneck_ch, 1),
-            norm_layer,
+            make_norm_layer(norm, bottleneck_ch),
             nn.ReLU(inplace=True),
         )
         self.attn = TemporalSelfAttention(embed_dim=bottleneck_ch)
 
         # ---- Decoder ----
         # Decoder 3 (up to enc3 feature length)
-        if norm == 'ln':
-            norm3 = nn.GroupNorm(1, 12*base)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm3 = nn.GroupNorm(g, 12*base)
-        else:
-            norm3 = nn.BatchNorm1d(12*base)
+
 
         self.dec3_reduce = nn.Sequential(
             nn.Conv1d(bottleneck_ch + 12*base, 12*base, 1),
-            norm3,
+            make_norm_layer(norm, 12*base),
             nn.ReLU(inplace=True),
         )
 
         # Decoder 2 (up to enc2 feature length)
-        if norm == 'ln':
-            norm2 = nn.GroupNorm(1, 6*base)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm2 = nn.GroupNorm(g, 6*base)
-        else:
-            norm2 = nn.BatchNorm1d(6*base)
 
         self.dec2_reduce = nn.Sequential(
             nn.Conv1d(12*base + 6*base, 6*base, 1),
-            norm2,
+            make_norm_layer(norm, 6*base),
             nn.ReLU(inplace=True),
         )
 
         # Decoder 1 (up to enc1 feature length)
-        if norm == 'ln':
-            norm1 = nn.GroupNorm(1, 3*base)
-        elif norm.startswith('gn'):
-            g = int(norm[2:]) if norm[2:].isdigit() else 8
-            norm1 = nn.GroupNorm(g, 3*base)
-        else:
-            norm1 = nn.BatchNorm1d(3*base)
+
 
         self.dec1_reduce = nn.Sequential(
             nn.Conv1d(6*base + 3*base, 3*base, 1),
-            norm1,
+            make_norm_layer(norm, 3*base),
             nn.ReLU(inplace=True),
         )
 

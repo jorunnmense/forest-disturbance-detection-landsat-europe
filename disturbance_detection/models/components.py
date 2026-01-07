@@ -10,6 +10,14 @@ def get_valid_kernel_sizes(kernel_sizes, input_length):
     """
     return tuple(k for k in kernel_sizes if k <= input_length)
 
+def make_norm_layer(norm_type, channels):
+    if norm_type == 'ln':
+        return nn.GroupNorm(1, channels)
+    elif norm_type.startswith('gn'):
+        g = int(norm_type[2:]) if norm_type[2:].isdigit() else 8
+        return nn.GroupNorm(g, channels)
+    else:
+        return nn.BatchNorm1d(channels)
 
 
 class TemporalDropout(nn.Module):
@@ -49,21 +57,12 @@ class MultiKernelConv1d(nn.Module):
         self.branches = nn.ModuleList()
         
         for k in kernel_sizes:
-            layers = [nn.Conv1d(in_channels, out_channels, kernel_size=k, padding=k//2)]
-            
-            # Add normalization layer
-            if norm == 'bn':
-                layers += [nn.BatchNorm1d(out_channels)]
-            elif norm == 'ln':
-                layers += [nn.GroupNorm(1, out_channels)]     # LayerNorm-like
-            elif norm.startswith('gn'):
-                g = int(norm[2:]) if norm[2:].isdigit() else 8
-                layers += [nn.GroupNorm(g, out_channels)]
-            else:
-                raise ValueError("norm must be 'bn', 'ln', or 'gnK'")
-            
-            layers += [nn.ReLU(inplace=True)]
-            self.branches.append(nn.Sequential(*layers))
+            layers = [
+                nn.Conv1d(in_channels, out_channels, kernel_size=k, padding=k//2),
+                make_norm_layer(norm, out_channels),
+                nn.ReLU(inplace=True)
+            ]
+            self.branches.append(nn.Sequential(*layers))  # * layers unpacks the list into individual arguments
         
         self.dropout = nn.Dropout1d(p_drop)
 

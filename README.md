@@ -2,58 +2,42 @@
 
 Python Version: 3.12.3
 
+
+PyTorch implementation for detecting forest disturbances from Landsat time series data using 1D U-Net architectures.
+
 ## Overview
-Detection of Disturbances in around 34 (?) years of Landsat Data with a 1D U-Net for continental Europe. Different Tests for different window sizes, tested against the TempCNN by Perbet et al. We further test the performance of different landsat bands as well as computed vegetational indices.
+
+This codebase implements 1D U-Net models for forest disturbance detection on Landsat time series spanning approximately 34 years across continental Europe. The framework supports different window sizes and feature combinations (Landsat spectral bands and vegetation indices), with comparisons against a modified TemporalCNN (Perbet et al., Pelletier et al.).
 
 ## Installation
-```bash
-pip install -r requirements.txt
-```
 
-## Quick Start
-```python
-# Example usage code
-```
+pip install -r requirements.txt## Usage
+
+from disturbance_detection import Config, prepare_data, get_model, train_full_supervision_with_selection
+
+config = Config()
+config.window_size = 7
+config.features_mode = "bands_indices"
+
+train_loader, val_loader, test_loader = prepare_data(config)
+model = get_model(config)
+train_full_supervision_with_selection(config, model, train_loader, val_loader)
 
 ## Project Structure
 
-deep_disturbance/
-│
-├── README.md
-├── changes_not_tested.md
-├── best_model.pt
-├── data_splits.npz
-├── test_modular_training.ipynb
-├── Train_multikernel_5_smallUnet_last.ipynb
-│
-├── disturbance_detection/                          # Main Python package
-│   ├── __init__.py                                 # Package initialization & 
-│   ├── config.py                                   # Configuration management
-│   ├── data_preprocessing.py                       # Data loading & windowing
-│   ├── evaluation.py                               # Metrics & visualization
-│   ├── training_full_supervision.py                # Training loops
-│   ├── utils.py                                    # Helper functions (seed, etc.)
-│   │
-│   ├── min_train_w5_back_bands_indices_v5_results.npy
-│   ├── max_train_w5_back_bands_indices_v5_results.npy
-│   │
-│   ├── models/                                     # Neural network architectures
-│   │   ├── __init__.py
-│   │   ├── models.py                               # SmallUNet1D, MultiKernel, 
-│   │   ├── model_30.py                             # MediumUNet1D
-│   │   ├── model_3.py                              # Additional model variants
-│   │   ├── TempCNN.py                              # TemporalCNN architecture
-│   │   └── selection.py                            # get_model() factory function
-│   │
-│   └── loss_fcts/                                  # Loss functions
-│       ├── __init__.py
-│       └── losses.py                               # FocalLoss implementation
-│
-└── Data/                                           # Dataset directory
-    ├── new_class2_v5_seed42_uids_w5_v5_results.npz
-    │
-    ├── Training/                                   # Training datasets (CSV files)
-    ├── Validation/
-    ├── Test/
-    └── Final/
+- `disturbance_detection/`: Main package
+  - `config.py`: Configuration management
+  - `preprocessing.py`: Data loading and preprocessing
+  - `models/`: Neural network architectures
+  - `loss_fcts/`: Loss functions
+  - `training.py`: Training loops
+  - `evaluations.py`: Evaluation metrics
+
+## Configuration
+
+Model and training parameters are configured through the `Config` class, including data paths, model architecture, window size, feature selection, and training hyperparameters.
+
+## Authors
+
+Jorunn Anna Mense, Alba Viana-Soto
 
