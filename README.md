@@ -11,7 +11,9 @@ This codebase implements 1D U-Net models for forest disturbance detection on Lan
 
 ## Installation
 
-pip install -r requirements.txt## Usage
+pip install -r requirements.txt
+
+## Usage
 
 from disturbance_detection import Config, prepare_data, get_model, train_full_supervision_with_selection
 

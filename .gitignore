@@ -10,3 +10,4 @@ Data/
 *.joblib
 *.pth
 *.pyc
+*.0
