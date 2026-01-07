@@ -235,6 +235,10 @@ def prepare_data(df, config):
     Returns:
         tuple: (train_loader, val_loader, test_loader, n_features, used_features)
     """
+    # sort dataframe by uniqueid first and then by year
+
+    df = df.sort_values(['uniqueid', 'year']).reset_index(drop=True)
+
     # Step 1: Get features and splits
     features, n_features, train_uids_set, val_uids_set, test_uids_set = get_features_and_splits(df, config)
     
