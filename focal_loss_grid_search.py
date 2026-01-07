@@ -3,7 +3,7 @@
 Focal Loss Grid Search - Background Runner
 ==========================================
 
-Converts the test_modular_training.ipynb notebook into a grid search script
+Converts the train_and_evaluate.ipynb notebook into a grid search script
 for focal loss hyperparameters (alpha and gamma values).
 
 Results are saved to a comprehensive text file with all metrics and configurations.

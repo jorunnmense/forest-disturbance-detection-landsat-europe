@@ -18,11 +18,15 @@ pip install -r requirements.txt
 from disturbance_detection import Config, prepare_data, get_model, train_full_supervision_with_selection
 
 config = Config()
+
 config.window_size = 7
+
 config.features_mode = "bands_indices"
 
 train_loader, val_loader, test_loader = prepare_data(config)
+
 model = get_model(config)
+
 train_full_supervision_with_selection(config, model, train_loader, val_loader)
 
 ## Project Structure
