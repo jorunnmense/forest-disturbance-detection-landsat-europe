@@ -1,4 +1,4 @@
-# Forest Disturbance Detection with 1D U-Net
+# Deep Learning-Based Forest Disturbance Detection in Europe Using Landsat Time Series
 
 Python Version: 3.12.3
 
@@ -7,13 +7,13 @@ PyTorch implementation for detecting forest disturbances from Landsat time serie
 
 ## Overview
 
-This codebase implements 1D U-Net models for forest disturbance detection on Landsat time series spanning approximately 34 years across continental Europe. The framework supports different window sizes and feature combinations (Landsat spectral bands and vegetation indices), with comparisons against a modified TemporalCNN (Perbet et al., Pelletier et al.).
+This repository contains the PyTorch code used for forest disturbance detection from Landsat time series in continental Europe. The main models are 1D U-Net variants, and we also include a modified TempCNN baseline following Perbet et al. and Pelletier et al. The code supports different temporal window sizes and feature sets (spectral bands and vegetation indices) to compare model settings in a consistent way. It also includes data preprocessing, training, and evaluation utilities.
 
 ## Relation to Paper
-This repository contains the code accompanying the paper **"Deep learning-based forest disturbance detection for Europe using Landsat time series"** by Alba Viana-Soto, Jorunn Anna Mense, Katja Kowalski, Jan Pauls, Fabian Gieseke, Cornelius Senf, Remote Sensing of Environment, Volume 347, 2026.  
+This repository provides the implementation used in the study “Deep learning-based forest disturbance detection for Europe using Landsat time series” (Viana-Soto et al., 2026, Remote Sensing of Environment). It includes the 1D U-Net and modified TempCNN models used in the experiments, together with the corresponding preprocessing, training, and evaluation components required to reproduce the reported analyses.
+
 [DOI](https://doi.org/10.1016/j.rse.2026.115670) / [sciencedirekt](https://www.sciencedirect.com/science/article/pii/S0034425726004402)
 
-This repo contains the implementation of the 1D U-Net as well as the TempCNN used for the experiments reported in the paper, with scripts for mainly training, and some evaluation.
 
 ## Installation
 
@@ -48,6 +48,16 @@ train_full_supervision_with_selection(config, model, train_loader, val_loader)
 ## Configuration
 
 Model and training parameters are configured through the `Config` class, including data paths, model architecture, window size, feature selection, and training hyperparameters.
+
+## Citation
+@article{viana-soto2026deep,
+  title   = {Deep learning-based forest disturbance detection for Europe using Landsat time series},
+  author  = {Viana-Soto, Alba and Mense, Jorunn Anna and Kowalski, Katja and Pauls, Jan and Gieseke, Fabian and Senf, Cornelius},
+  journal = {Remote Sensing of Environment},
+  volume  = {347},
+  year    = {2026},
+  doi     = {10.1016/j.rse.2026.115670}
+}
 
 ## Authors
 
