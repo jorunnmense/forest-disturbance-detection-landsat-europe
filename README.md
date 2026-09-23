@@ -9,6 +9,14 @@ PyTorch implementation for detecting forest disturbances from Landsat time serie
 
 This codebase implements 1D U-Net models for forest disturbance detection on Landsat time series spanning approximately 34 years across continental Europe. The framework supports different window sizes and feature combinations (Landsat spectral bands and vegetation indices), with comparisons against a modified TemporalCNN (Perbet et al., Pelletier et al.).
 
+## Relation to Paper
+This repository contains the code accompanying the paper:
+
+**"Deep learning-based forest disturbance detection for Europe using Landsat time series"**, Alba Viana-Soto, Jorunn Anna Mense, Katja Kowalski, Jan Pauls, Fabian Gieseke, Cornelius Senf, Remote Sensing of Environment, Volume 347, 2026.  
+DOI: [doi-lin](https://doi.org/10.1016/j.rse.2026.115670) / sciencedirect: (https://www.sciencedirect.com/science/article/pii/S0034425726004402)
+
+This repo contains the implementation used for the experiments reported in the paper, with scripts for training, inference, and evaluation.
+
 ## Installation
 
 pip install -r requirements.txt
