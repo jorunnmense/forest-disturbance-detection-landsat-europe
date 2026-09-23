@@ -12,7 +12,7 @@ This repository contains the PyTorch code used for forest disturbance detection 
 ## Relation to Paper
 This repository provides the implementation used in the study “Deep learning-based forest disturbance detection for Europe using Landsat time series” (Viana-Soto et al., 2026, Remote Sensing of Environment). It includes the 1D U-Net and modified TempCNN models used in the experiments, together with the corresponding preprocessing, training, and evaluation components required to reproduce the reported analyses.
 
-[DOI](https://doi.org/10.1016/j.rse.2026.115670) / [sciencedirekt](https://www.sciencedirect.com/science/article/pii/S0034425726004402)
+[DOI](https://doi.org/10.1016/j.rse.2026.115670) / [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0034425726004402)
 
 
 ## Installation
@@ -50,11 +50,21 @@ train_full_supervision_with_selection(config, model, train_loader, val_loader)
 Model and training parameters are configured through the `Config` class, including data paths, model architecture, window size, feature selection, and training hyperparameters.
 
 ## Citation
+
+If you use this repository, please cite:
+
+Viana-Soto, A., Mense, J. A., Kowalski, K., Pauls, J., Gieseke, F., & Senf, C. (2026).  
+*Deep learning-based forest disturbance detection for Europe using Landsat time series*.  
+Remote Sensing of Environment, 347, 115670.  
+https://doi.org/10.1016/j.rse.2026.115670
+
+```bibtex
 @article{viana-soto2026deep,
   title   = {Deep learning-based forest disturbance detection for Europe using Landsat time series},
   author  = {Viana-Soto, Alba and Mense, Jorunn Anna and Kowalski, Katja and Pauls, Jan and Gieseke, Fabian and Senf, Cornelius},
   journal = {Remote Sensing of Environment},
   volume  = {347},
+  pages   = {115670},
   year    = {2026},
   doi     = {10.1016/j.rse.2026.115670}
 }
